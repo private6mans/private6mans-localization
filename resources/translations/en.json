@@ -1,0 +1,61 @@
+{
+  "main": {
+    "CRON_QUEUE_INACTIVITY_REMOVE": "Players removed from the queue after inactivity",
+    "CRON_QUEUE_INACTIVITY_WARNING_TITLE": "Players to be removed from queue in under 5 minutes!",
+    "CRON_QUEUE_INACTIVITY_WARNING_DESCRIPTION": "Click below to extend the time you have in Queue!",
+    "CRON_QUEUE_INACTIVITY_WARNING_BUTTON": "Extend Queue Time"
+  },
+  "utils": {
+    "confirm_button": {
+      "POSITIVE": "Confirm",
+      "NEGATIVE": "Cancel"
+    },
+
+
+
+
+
+
+    "create_match": {
+      "MATCH_ID": "Match ID (use this when reporting the score)",
+      "TEAM": "Team",
+      "NO_DM": "I wasn't able to DM {{user}}",
+      "vote_type": {
+        "RANDOM": "Random Teams",
+        "CAPTAINS": "Captains",
+        "BALANCED": "Balanced Teams",
+
+        "STARTER_TITLE": "You have 2 minutes to vote. Vote by clicking the buttons below.",
+        "STARTER_DESCRIPTION": "This message needs to have **{{count}}** player interactions to proceed!",
+        "RETURN_TITLE": "Voting complete!",
+        "RETURN_DESCRIPTION": "The vote has been completed. The results are:",
+        "VOTE_CAST": "Vote Cast! {{type}} Chosen."
+      },
+      "pick_players": {
+        "USER_STRING": "{{index}}. {{user}} ({nickname}) (Rating: {{rating}})",
+        "NOW_PICKING": "{{captain}} is now picking",
+        "EMBED_TITLE": "Team Selection",
+        "EMBED_AUTHOR": "This will time out in 2 minutes.",
+        "EMBED_DESCRIPTION": "Click below to pick players for your team.",
+        "EMBED_PICK_FIELD_SINGLE": "Pick 1 player:",
+        "EMBED_PICK_FIELD_MULTIPLE": "Pick {{count}} players:",
+        "COMPONENT_LABEL": "Pick {{player}}",
+
+        "CAPTAIN_DM_ERROR": "I can't send a DM to {{captain}}, are you allowing DMs? (Team Picking Cancelled)",
+        "CAPTAIN_TIME_ERROR": "{{captain}} out of time to choose players. (Team Picking Cancelled)",
+
+        "PLAYER_CHOSEN_COMPLETE": "{{user}} Chosen! Team Selection Complete.",
+        "PLAYER_CHOSEN_ONGOING": "{{user}} Chosen! ({{count}}/{{total}})",
+        "INVALID_SELECTION": "Invalid Selection, Please pick again."
+      },
+      "make_teams": {
+        "RANDOM_MODE": "Random mode was selected!",
+        "BALANCED_MODE": "Balanced mode was selected!",
+        "CAPTAINS_MODE": "Captains mode was selected!",
+        "CAPTAIN": "Captain",
+        "EMBED_FIELD_NAME": "Picking Teams.",
+        "EMBED_FIELD_VALUE": "Captains will now pick their team members!"
+      }
+    }
+  }
+}
