@@ -5,17 +5,75 @@
     "CRON_QUEUE_INACTIVITY_WARNING_DESCRIPTION": "Click below to extend the time you have in Queue!",
     "CRON_QUEUE_INACTIVITY_WARNING_BUTTON": "Extend Queue Time"
   },
+
+  "client": {
+    "menu_collector": {
+      "ACTIVE_MATCHES_TITLE": "Active Matches",
+      "ACTIVE_MATCHES_DESCRIPTION": "Click on a button to view the related match.",
+      "ACTIVE_MATCHES_INVALID": "Invalid Match selected, please try again.",
+
+      "MATCH": "Match {{id}}",
+      "TEAM": "Team {{number}}",
+      "TIME": "Time",
+      "REPORT": "Report Match",
+      "HOME": "Return Home",
+      "STOP": "Stop This Menu",
+      "WIN": "Win",
+      "LOSE": "Lose",
+
+      "CANCEL_MATCH": "Cancel Match",
+      "CANCEL_MATCH_DESCRIPTION": "Click below to cancel match {{id}}",
+      "CANCEL_REPORTING": "Cancel Reporting",
+      "CANCEL_CONFIRM": "Confirm Cancellation",
+      "CANCEL_DENY": "Don't Cancel",
+      "CANCEL_MODERATOR": "Ask a mod to cancel this game for you!",
+
+      "UNKNOWN_USER": "{{id}} (Unknown User)",
+      "UNKNOWN_CHANGE": "Unknown Change",
+
+      "PLAYER_DESCRIPTION": "Did you win or lose this match?",
+      "MOD_DESCRIPTION": "Which team won this match?",
+
+      "SELECTION_STOPPED": "Match Selection Stopped",
+
+      "MATCH_REPORTED": "Match Reported.",
+      "MATCH_SUMMARY": "Team {{teamId}} won, the scores have been reported. Happy Playing! \n\nRating breakdown for match given below.",
+      "MATCH_CANCELLED_TITLE": "Match {{id}} was cancelled.",
+      "MATCH_CANCELLED_DESCRIPTION": "Any future attempts to report this score will not work.",
+
+      "ERROR_CHANNEL": "Channel Deleted",
+      "ERROR_GUILD": "Guild Deleted.",
+      "COLLECTOR_STOPPED": "Active Command Cancelled."
+    }
+  },
+  "commands": {
+
+  },
+  "events": {
+    "interaction_create": {
+      "NO_PERMISSION": "You don't have permission to use this command",
+      "NO_PREMIUM": "You need to be a premium user to use this feature.",
+      "RE-QUEUED": "You have been re-queued.",
+
+      "MISSING_PERMISSIONS_CONTENT": "Missing bot permissions",
+      "MISSING_PERMISSIONS_TITLE": "Missing Permissions:",
+      "MISSING_PERMISSIONS_FOOTER": "I need the permissions listed above to allow me to run smoothly!",
+
+      "ERROR_TIME": "You ran out of time!",
+      "ERROR_USER": "Something went wrong!",
+      "ERROR_CANCELLED": "You cancelled the operation!",
+      "ERROR_PERMISSIONS": "I am missing Permissions!",
+      "ERROR_UNKNOWN_NAME": "Something went wrong!",
+      "ERROR_UNKNOWN_ID": "ERROR ID: {{error}}",
+      "ERROR_UNKNOWN_DESCRIPTION": "Post this code in the #error-report channel in the Private 6 Mans Support Server so that we can look into it.",
+      "ERROR_NO_EMBED": "I can't create an embed, please fix that!"
+    }
+  },
   "utils": {
     "confirm_button": {
       "POSITIVE": "Confirm",
       "NEGATIVE": "Cancel"
     },
-
-
-
-
-
-
     "create_match": {
       "MATCH_ID": "Match ID (use this when reporting the score)",
       "TEAM": "Team",
@@ -32,7 +90,7 @@
         "VOTE_CAST": "Vote Cast! {{type}} Chosen."
       },
       "pick_players": {
-        "USER_STRING": "{{index}}. {{user}} ({nickname}) (Rating: {{rating}})",
+        "USER_STRING": "\n{{index}}. {{user}} ({nickname}) (Rating: {{rating}})",
         "NOW_PICKING": "{{captain}} is now picking",
         "EMBED_TITLE": "Team Selection",
         "EMBED_AUTHOR": "This will time out in 2 minutes.",
