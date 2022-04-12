@@ -1,119 +1,101 @@
 {
-  "main": {
-    "CRON_QUEUE_INACTIVITY_REMOVE": "Players removed from the queue after inactivity",
-    "CRON_QUEUE_INACTIVITY_WARNING_TITLE": "Players to be removed from queue in under 5 minutes!",
-    "CRON_QUEUE_INACTIVITY_WARNING_DESCRIPTION": "Click below to extend the time you have in Queue!",
-    "CRON_QUEUE_INACTIVITY_WARNING_BUTTON": "Extend Queue Time"
-  },
+  "ACTIVE_COLLECTOR_STOPPED": "Active Command Cancelled.",
+  "ACTIVE_MATCHES_TITLE": "Active Matches",
+  "ACTIVE_MATCHES_DESCRIPTION": "Click on a button to view the related match.",
+  "ACTIVE_MATCHES_INVALID": "Invalid Match selected, please try again.",
 
-  "client": {
-    "menu_collector": {
-      "ACTIVE_MATCHES_TITLE": "Active Matches",
-      "ACTIVE_MATCHES_DESCRIPTION": "Click on a button to view the related match.",
-      "ACTIVE_MATCHES_INVALID": "Invalid Match selected, please try again.",
+  "CANCEL_CONFIRM": "Confirm Cancellation",
+  "CANCEL_DENY": "Don't Cancel",
+  "CANCEL_MODERATOR": "Ask a mod to cancel this game for you!",
 
-      "MATCH": "Match {{id}}",
-      "TEAM": "Team {{number}}",
-      "TIME": "Time",
-      "REPORT": "Report Match",
-      "HOME": "Return Home",
-      "STOP": "Stop This Menu",
-      "WIN": "Win",
-      "LOSE": "Lose",
+  "CANCEL_MATCH": "Cancel Match",
+  "CANCEL_MATCH_DESCRIPTION": "Click below to cancel match {{id}}",
+  "CANCEL_REPORTING": "Cancel Reporting",
 
-      "CANCEL_MATCH": "Cancel Match",
-      "CANCEL_MATCH_DESCRIPTION": "Click below to cancel match {{id}}",
-      "CANCEL_REPORTING": "Cancel Reporting",
-      "CANCEL_CONFIRM": "Confirm Cancellation",
-      "CANCEL_DENY": "Don't Cancel",
-      "CANCEL_MODERATOR": "Ask a mod to cancel this game for you!",
+  "CRON_REMOVE": "Players removed from the queue after inactivity",
+  "CRON_WARNING_TITLE": "Players to be removed from queue in under 5 minutes!",
+  "CRON_WARNING_DESCRIPTION": "Click below to extend the time you have in Queue!",
+  "CRON_WARNING_BUTTON": "Extend Queue Time",
 
-      "UNKNOWN_USER": "{{id}} (Unknown User)",
-      "UNKNOWN_CHANGE": "Unknown Change",
+  "GENERIC_CAPTAIN": "Captain {{number}}",
+  "GENERIC_MATCH": "Match {{id}}",
+  "GENERIC_TEAM": "Team {{number}}",
+  "GENERIC_TIME": "Time",
 
-      "PLAYER_DESCRIPTION": "Did you win or lose this match?",
-      "MOD_DESCRIPTION": "Which team won this match?",
+  "GENERIC_REPORT": "Report Match",
+  "GENERIC_HOME": "Return Home",
+  "GENERIC_STOP": "Stop This Menu",
 
-      "SELECTION_STOPPED": "Match Selection Stopped",
+  "GENERIC_LOSE": "Lose",
+  "GENERIC_WIN": "Win",
 
-      "MATCH_REPORTED": "Match Reported.",
-      "MATCH_SUMMARY": "Team {{teamId}} won, the scores have been reported. Happy Playing! \n\nRating breakdown for match given below.",
-      "MATCH_CANCELLED_TITLE": "Match {{id}} was cancelled.",
-      "MATCH_CANCELLED_DESCRIPTION": "Any future attempts to report this score will not work.",
+  "UNKNOWN_USER": "{{id}} (Unknown User)",
+  "UNKNOWN_CHANGE": "Unknown Change",
 
-      "ERROR_CHANNEL": "Channel Deleted",
-      "ERROR_GUILD": "Guild Deleted.",
-      "COLLECTOR_STOPPED": "Active Command Cancelled."
-    }
-  },
-  "commands": {
+  "REPORT_PLAYER_DESCRIPTION": "Did you win or lose this match?",
+  "REPORT_MOD_DESCRIPTION": "Which team won this match?",
 
-  },
-  "events": {
-    "interaction_create": {
-      "NO_PERMISSION": "You don't have permission to use this command",
-      "NO_PREMIUM": "You need to be a premium user to use this feature.",
-      "RE-QUEUED": "You have been re-queued.",
+  "MATCH_SELECTION_STOPPED": "Match Selection Stopped",
 
-      "MISSING_PERMISSIONS_CONTENT": "Missing bot permissions",
-      "MISSING_PERMISSIONS_TITLE": "Missing Permissions:",
-      "MISSING_PERMISSIONS_FOOTER": "I need the permissions listed above to allow me to run smoothly!",
+  "MATCH_REPORTED": "Match Reported.",
+  "MATCH_SUMMARY": "Team {{teamId}} won, the scores have been reported. Happy Playing! \n\nRating breakdown for match given below.",
+  "MATCH_CANCELLED_TITLE": "Match {{id}} was cancelled.",
+  "MATCH_CANCELLED_DESCRIPTION": "Any future attempts to report this score will not work.",
 
-      "ERROR_TIME": "You ran out of time!",
-      "ERROR_USER": "Something went wrong!",
-      "ERROR_CANCELLED": "You cancelled the operation!",
-      "ERROR_PERMISSIONS": "I am missing Permissions!",
-      "ERROR_UNKNOWN_NAME": "Something went wrong!",
-      "ERROR_UNKNOWN_ID": "ERROR ID: {{error}}",
-      "ERROR_UNKNOWN_DESCRIPTION": "Post this code in the #error-report channel in the Private 6 Mans Support Server so that we can look into it.",
-      "ERROR_NO_EMBED": "I can't create an embed, please fix that!"
-    }
-  },
-  "utils": {
-    "confirm_button": {
-      "POSITIVE": "Confirm",
-      "NEGATIVE": "Cancel"
-    },
-    "create_match": {
-      "MATCH_ID": "Match ID (use this when reporting the score)",
-      "TEAM": "Team",
-      "NO_DM": "I wasn't able to DM {{user}}",
-      "vote_type": {
-        "RANDOM": "Random Teams",
-        "CAPTAINS": "Captains",
-        "BALANCED": "Balanced Teams",
+  "ERROR_CHANNEL": "Channel Deleted",
+  "ERROR_GUILD": "Guild Deleted.",
 
-        "STARTER_TITLE": "You have 2 minutes to vote. Vote by clicking the buttons below.",
-        "STARTER_DESCRIPTION": "This message needs to have **{{count}}** player interactions to proceed!",
-        "RETURN_TITLE": "Voting complete!",
-        "RETURN_DESCRIPTION": "The vote has been completed. The results are:",
-        "VOTE_CAST": "Vote Cast! {{type}} Chosen."
-      },
-      "pick_players": {
-        "USER_STRING": "\n{{index}}. {{user}} ({nickname}) (Rating: {{rating}})",
-        "NOW_PICKING": "{{captain}} is now picking",
-        "EMBED_TITLE": "Team Selection",
-        "EMBED_AUTHOR": "This will time out in 2 minutes.",
-        "EMBED_DESCRIPTION": "Click below to pick players for your team.",
-        "EMBED_PICK_FIELD_SINGLE": "Pick 1 player:",
-        "EMBED_PICK_FIELD_MULTIPLE": "Pick {{count}} players:",
-        "COMPONENT_LABEL": "Pick {{player}}",
+  "NO_PERMISSION": "You don't have permission to use this command",
+  "NO_PREMIUM": "You need to be a premium user to use this feature.",
+  "RE_QUEUED": "You have been re-queued.",
 
-        "CAPTAIN_DM_ERROR": "I can't send a DM to {{captain}}, are you allowing DMs? (Team Picking Cancelled)",
-        "CAPTAIN_TIME_ERROR": "{{captain}} out of time to choose players. (Team Picking Cancelled)",
+  "MISSING_PERMISSIONS_CONTENT": "Missing bot permissions",
+  "MISSING_PERMISSIONS_FOOTER": "I need the permissions listed above to allow me to run smoothly!",
+  "MISSING_PERMISSIONS_TITLE": "Missing Permissions:",
 
-        "PLAYER_CHOSEN_COMPLETE": "{{user}} Chosen! Team Selection Complete.",
-        "PLAYER_CHOSEN_ONGOING": "{{user}} Chosen! ({{count}}/{{total}})",
-        "INVALID_SELECTION": "Invalid Selection, Please pick again."
-      },
-      "make_teams": {
-        "RANDOM_MODE": "Random mode was selected!",
-        "BALANCED_MODE": "Balanced mode was selected!",
-        "CAPTAINS_MODE": "Captains mode was selected!",
-        "CAPTAIN": "Captain",
-        "EMBED_FIELD_NAME": "Picking Teams.",
-        "EMBED_FIELD_VALUE": "Captains will now pick their team members!"
-      }
-    }
-  }
+  "ERROR_CAPTAIN_DM": "I can't send a DM to {{captain}}, are you allowing DMs? (Team Picking Cancelled)",
+  "ERROR_CAPTAIN_TIME": "{{captain}} out of time to choose players. (Team Picking Cancelled)",
+  "ERROR_CANCELLED": "You cancelled the operation!",
+  "ERROR_NO_EMBED": "I can't create an embed, please fix that!",
+  "ERROR_PERMISSIONS": "I am missing Permissions!",
+  "ERROR_TIME": "You ran out of time!",
+  "ERROR_USER": "Something went wrong!",
+  "ERROR_USER_DM": "I wasn't able to DM {{user}}",
+  "ERROR_UNKNOWN_NAME": "Something went wrong!",
+  "ERROR_UNKNOWN_ID": "ERROR ID: {{error}}",
+  "ERROR_UNKNOWN_DESCRIPTION": "Post this code in the #error-report channel in the Private 6 Mans Support Server so that we can look into it.",
+
+  "GENERIC_POSITIVE": "Confirm",
+  "GENERIC_NEGATIVE": "Cancel",
+
+  "CREATE_MATCH_ID": "Match ID (use this when reporting the score)",
+
+  "CREATE_MATCH_BALANCED": "Balanced Teams",
+  "CREATE_MATCH_CAPTAINS": "Captains",
+  "CREATE_MATCH_RANDOM": "Random Teams",
+
+  "CREATE_MATCH_STARTER_TITLE": "You have 2 minutes to vote. Vote by clicking the buttons below.",
+  "CREATE_MATCH_STARTER_DESCRIPTION": "This message needs to have **{{count}}** player interactions to proceed!",
+  "CREATE_MATCH_RETURN_TITLE": "Voting complete!",
+  "CREATE_MATCH_RETURN_DESCRIPTION": "The vote has been completed. The results are:",
+  "CREATE_MATCH_VOTE_CAST": "Vote Cast! {{type}} Chosen.",
+
+  "CREATE_MATCH_USER_STRING": "\n{{index}}. {{user}} ({nickname}) (Rating: {{rating}})",
+  "CREATE_MATCH_NOW_PICKING": "{{captain}} is now picking",
+  "CREATE_MATCH_EMBED_TITLE": "Team Selection",
+  "CREATE_MATCH_EMBED_AUTHOR": "This will time out in 2 minutes.",
+  "CREATE_MATCH_EMBED_DESCRIPTION": "Click below to pick players for your team.",
+  "CREATE_MATCH_EMBED_PICK_FIELD_SINGLE": "Pick 1 player:",
+  "CREATE_MATCH_EMBED_PICK_FIELD_MULTIPLE": "Pick {{count}} players:",
+  "CREATE_MATCH_COMPONENT_LABEL": "Pick {{player}}",
+
+  "CREATE_MATCH_PLAYER_CHOSEN_COMPLETE": "{{user}} Chosen! Team Selection Complete.",
+  "CREATE_MATCH_PLAYER_CHOSEN_ONGOING": "{{user}} Chosen! ({{count}}/{{total}})",
+  "CREATE_MATCH_INVALID_SELECTION": "Invalid Selection, Please pick again.",
+
+  "MODE_SELECTED_RANDOM": "Random mode was selected!",
+  "MODE_SELECTED_BALANCED": "Balanced mode was selected!",
+  "MODE_SELECTED_CAPTAINS": "Captains mode was selected!",
+  "EMBED_CAPTAINS_FIELD_NAME": "Picking Teams.",
+  "EMBED_CAPTAINS_FIELD_VALUE": "Captains will now pick their team members!"
 }
