@@ -3,7 +3,7 @@
   "ACTIVE_MATCHES_TITLE": "Active Matches",
   "ACTIVE_MATCHES_DESCRIPTION": "Click on a button to view the related match.",
   "ACTIVE_MATCHES_INVALID": "Invalid Match selected, please try again.",
-
+  "ACTIVE_MATCHES_NONE": "No Active Matches that you can manage.",
   "CANCEL_CONFIRM": "Confirm Cancellation",
   "CANCEL_DENY": "Don't Cancel",
   "CANCEL_MODERATOR": "Ask a mod to cancel this game for you!",
@@ -38,7 +38,7 @@
   "MATCH_SELECTION_STOPPED": "Match Selection Stopped",
 
   "MATCH_REPORTED": "Match Reported.",
-  "MATCH_SUMMARY": "Team {{teamId}} won, the scores have been reported. Happy Playing! \n\nRating breakdown for match given below.",
+  "MATCH_SUMMARY": "Match {{matchId}} has been reported!\nTeam {{teamId}} won, the scores have been reported. Happy Playing! \n\nRating breakdown for match given below.",
   "MATCH_CANCELLED_TITLE": "Match {{id}} was cancelled.",
   "MATCH_CANCELLED_DESCRIPTION": "Any future attempts to report this score will not work.",
 
@@ -97,5 +97,29 @@
   "MODE_SELECTED_BALANCED": "Balanced mode was selected!",
   "MODE_SELECTED_CAPTAINS": "Captains mode was selected!",
   "EMBED_CAPTAINS_FIELD_NAME": "Picking Teams.",
-  "EMBED_CAPTAINS_FIELD_VALUE": "Captains will now pick their team members!"
+  "EMBED_CAPTAINS_FIELD_VALUE": "Captains will now pick their team members!",
+
+  "INVALID_PLAYER": "Valid user not provided! Are they a bot account?",
+  "INVALID_PLAYER_LONG": "Valid user not provided! Are they blacklisted or a bot account?",
+
+  "NOT_ALLOWED_QUEUE": "User not able to join Queue",
+  "NOT_ALLOWED_QUEUE_DETAIL": "The Selected user is not allowed to join the current queue.",
+  "ALREADY_IN_QUEUE": "User already in Queue",
+  "ALREADY_IN_QUEUE_DETAIL": "The selected user is already in the current queue.",
+  "NOT_IN_QUEUE": "Player not in queue.",
+  "NOT_IN_QUEUE_DETAIL": "{{player}} is not present in the current queue.",
+  "PLAYER_ADDED_TO_QUEUE": "Player added to queue.",
+  "PLAYER_ADDED_TO_QUEUE_DETAIL": "{{player}} added to queue.",
+  "PLAYER_REMOVED_FROM_QUEUE": "Player removed from queue.",
+  "PLAYER_REMOVED_FROM_QUEUE_DETAIL": "{{player}} removed from queue.",
+  "CURRENT_QUEUE": "Current Queue Members: {{size}}",
+
+  "ALREADY_BLACKLISTED": "User already blacklisted",
+  "NOT_BLACKLISTED": "User not on blacklist",
+  "SUCCESSFUL_ADD_BLACKLIST": "Successfully added to blacklist:",
+  "SUCCESSFUL_REMOVE_BLACKLIST": "Successfully removed from blacklist:",
+  "BLACKLIST_STATUS": "❯ {{player}}\nAdded: {{time}}\n",
+  "BLACKLIST_LIMIT": "Limited to 4096 characters",
+  "CURRENT_BLACKLIST": "Current Blacklist:",
+  "EMPTY_BLACKLIST": "No Users Blacklisted"
 }
