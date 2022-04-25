@@ -225,7 +225,7 @@
   "UNKNOWN_CHANGE": "Unknown Change",
   "UNKNOWN_STATUS": "Unknown Status",
   "UNKNOWN_USER": "{{id}} (Unknown User)",
-  "USERS_COUNT": "Cached User Count",
+  "USER_COUNT": "Cached User Count",
   "WINS": "Wins",
   "WS_LATENCY": "WS Latency"
 }
