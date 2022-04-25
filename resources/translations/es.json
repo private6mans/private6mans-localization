@@ -114,7 +114,7 @@
   "ERROR_TIME": "Se te acabó el tiempo!",
   "ERROR_UNDO": "Sólo puedes deshacer una artida que ha sido reportada o cancelada",
   "ERROR_UNKNOWN_DESCRIPTION": "Escribe este código en el canal #error-report en el servidor de 6 Mans para que podamos examinarlo.", 
-  "ERROR_UNKNOWN_ID": " ID del error: {{error}}"
+  "ERROR_UNKNOWN_ID": "ID del error: {{error}}",
   "ERROR_UNKNOWN_NAME": "Algo salió mal!",
   "ERROR_USER": "Algo salió mal!",
   "ERROR_USER_DM": "{{user}} no pude enviarte un mensaje privado",
