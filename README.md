@@ -2,12 +2,13 @@
 Public translation files for the [Private 6 Mans](https://beta.private6mans.xyz/discord) discord bot.
 
 ## Community Contributions
- - English - [Coolcal](https://github.com/coolcalcacol)
+ - English - [Coolcal](https://github.com/coolcalcacol) [Coolcal#8459]
+ - Spanish - [Blacki](https://github.com/Blacker2911) [Blacki#6844]
 
 ## Contributing your translations
-1. Fork this repository
-2. create a new file named as the two-letter country code you are translating for. (e.g. "en" for english, "de" for german) in the `/resources/translations` folder.
-3. leaving the general formatting and variable injection in place (`{{key}}`), translate each of the entries in `en.json` to your translation language.
+1. Fork this repository.
+2. Create a new file named as the two-letter country code you are translating for. (e.g. "en" for english, "de" for german) in the `/resources/translations` folder.
+3. Leaving the general formatting and variable injection in place (`{{key}}`), translate each of the entries in `en.json` to your translation language.
 4. Submit a PR for review.
 
 ## Need help?
