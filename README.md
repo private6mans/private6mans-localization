@@ -13,8 +13,8 @@ Public translation files for the [Private 6 Mans](https://beta.private6mans.xyz/
 
 ## Basic Instructions
 * When translating messages please maintain basic formatting and leave variables for injection in place (`{{key}}`).
-* Some special formatting such as '\*\*BoldText\*\*', '\_ItalicText\_' may exist in text and is markdown formatting for discord, please translate phrases inside the formatting as if they are independent of the rest of the message.
-* Ensure that each line ends with a comma ',' outside of the closing quotes for the translated string.
+* Some special formatting such as `**BoldText**`, or `_ItalicText_` may exist in text and is markdown formatting for discord, please translate phrases inside the formatting as if they are independent of the rest of the message.
+* Ensure that each line ends with a comma `,` outside of the closing quotes for the translated string.
 * Ensure that no extra whitespace exists at the end of the line.
 
 ### Definitions
