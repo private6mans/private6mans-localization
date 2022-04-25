@@ -144,7 +144,7 @@
   "HELP_DEVELOPER": "Este es un comando para **desarrollador**",
   "HELP_DEVELOPER_DETAIL": "Sólo los desarrolladores del bot pueden usar este comando.",
   "HELP_INVITE": "¿Quieres usar el bot en tu servidor?",
-  "HELP_INVITE_LINK": "[Invitación al servidor Private6Mans({{link}})]",
+  "HELP_INVITE_LINK": "[Invitación al servidor Private6Mans]({{link}})",
   "HELP_ISSUES": "¿Tienes problema?",
   "HELP_ISSUES_LONG": "Asegúrate de que el bot tenga permisos de leer y enviar mensajes, enviar links y agregar reacciones. Además, asegúrate de que todos en la sala puedan recibir mensajes privados del bot.",
   "HELP_LIST_DEVELOPER": "Lista de comandos del desarrollador",
