@@ -151,7 +151,7 @@
   "HELP_LIST_MODERATOR": "Lista de comandos del moderador",
   "HELP_LIST_PUBLIC": "Lista de comandos públicos",
   "HELP_MODERATOR": "Este es un comando de **moderador**",
-  "HELP_MODERATOR_DETAIL": "Sólo usuarios con el rol de moderador designado por Private 6 Mans (/config modrole), o usuarios con los permisos de creador y administrador del servidor pueden usar este comando.",
+  "HELP_MODERATOR_DETAIL": "Sólo usuarios con el rol de moderador designado por Private 6 Mans (/config guild mod-role), o usuarios con los permisos de creador y administrador del servidor pueden usar este comando.",
   "HELP_PUBLIC": "Este es un comando **público**",
   "HELP_PUBLIC_DETAIL": "Todos los usuarios pueden usar este comando, excepto los usuarios en la lista de bloqueados.",
   "HELP_SUPPORT": "¿Sigues teniendo problemas?",
