@@ -18,7 +18,11 @@ Public translation files for the [Private 6 Mans](https://beta.private6mans.xyz/
 * Ensure that no extra whitespace exists at the end of the line.
 
 ### Definitions
-* Guild - this is a discord server, and can be translated as such.
+* Guild - This is a discord server, and can be translated as such.
+* Room - This is a discord channel, also equivalent to a queue in most cases with respect to this bot.
+* REST/WS - These are acronyms related to web developement, when fully capitalized they don't need to be translated.
+  * REST = **RE**presational **S**tate **T**ransfer
+  * WS = **W**eb **S**ocket(s)
 
 ## Need help?
 ### If you need help with translating, or have any questions feel free to reach out in our **[support discord](https://beta.private6mans.xyz/discord)**!
