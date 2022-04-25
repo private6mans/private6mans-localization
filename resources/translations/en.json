@@ -151,7 +151,7 @@
   "HELP_LIST_MODERATOR": "List of moderator commands",
   "HELP_LIST_PUBLIC": "List of public commands",
   "HELP_MODERATOR": "This is a **moderator** command",
-  "HELP_MODERATOR_DETAIL": "Only users with the designated Private 6 Mans Moderator role (/config modrole), or users with Administrator or Manage Server permissions can run this command.",
+  "HELP_MODERATOR_DETAIL": "Only users with the designated Private 6 Mans Moderator role (/config guild mod-role), users with Administrator, or Manage Server permissions can run this command.",
   "HELP_PUBLIC": "This is a **public** command",
   "HELP_PUBLIC_DETAIL": "All users can run this command, unless they are blacklisted.",
   "HELP_SUPPORT": "Still having issues?",
