@@ -76,7 +76,7 @@
   "CREATE_MATCH_RETURN_TITLE": "Votación completa!",
   "CREATE_MATCH_STARTER_DESCRIPTION": "Este mensaje necesita tener **{{count}}** interacciones de jugadores para continuar!",
   "CREATE_MATCH_STARTER_TITLE": "Tienes 2 minutos para votar. Elige dando click en los botones inferiores",
-  "CREATE_MATCH_USER_STRING": "\n{{index}}. {{user}} ({nickname}) (Rating: {{rating}})",
+  "CREATE_MATCH_USER_STRING": "\n{{index}}. {{user}} ({{nickname}}) (Rating: {{rating}})",
   "CREATE_MATCH_VOTE_CAST": "Votación finalizada! {{type}} Elegido.",
   "CRON_REMOVE": "Jugadores expulsados de la lista de espera por inactividad",
   "CRON_WARNING_BUTTON": "Extender tiempo en lista de espera",

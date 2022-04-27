@@ -76,7 +76,7 @@
   "CREATE_MATCH_RETURN_TITLE": "Voting complete!",
   "CREATE_MATCH_STARTER_DESCRIPTION": "This message needs to have **{{count}}** player interactions to proceed!",
   "CREATE_MATCH_STARTER_TITLE": "You have 2 minutes to vote. Vote by clicking the buttons below.",
-  "CREATE_MATCH_USER_STRING": "\n{{index}}. {{user}} ({nickname}) (Rating: {{rating}})",
+  "CREATE_MATCH_USER_STRING": "\n{{index}}. {{user}} ({{nickname}}) (Rating: {{rating}})",
   "CREATE_MATCH_VOTE_CAST": "Vote Cast! {{type}} Chosen.",
   "CRON_REMOVE": "Players removed from the queue after inactivity",
   "CRON_WARNING_BUTTON": "Extend Queue Time",
