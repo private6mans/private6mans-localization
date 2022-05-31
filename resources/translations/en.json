@@ -141,6 +141,9 @@
             "dm": "I can't send a DM to {{captain}}, are you allowing DMs? (Team Picking Cancelled)",
             "time": "{{captain}} out of time to choose players. (Team Picking Cancelled)"
         },
+        "config": {
+            "player": "You can't interact with this!"
+        },
         "interactionCreate": {
             "embed": "I can't create an embed, please fix that!",
             "time": "You ran out of time!",
@@ -208,19 +211,38 @@
                 "setting": {
                     "description": "Select a new **Mod Role** for the server or select reset to remove.",
                     "reset": "Reset"
+                },
+                "updated": {
+                    "title": "Mod Role Updated",
+                    "new": "Mod role was set to **{{role}}**",
+                    "reset": "Mod role was **reset**"
                 }
             },
             "singleQueue": {
                 "title": "Single Queue",
-                "description": "on: The server will share one common queue. off: each channel will be counted as it's own queue"
+                "description": "On: The server will share one common queue. Off: Each channel will be counted as it's own queue",
+                "updated": {
+                    "title": "Single Queue Updated",
+                    "enabled": "Single Queue was **Enabled**",
+                    "reset": "Mod role was **reset**"
+                }
             },
             "matchTimeout": {
                 "title": "Match Timeout",
-                "description": "How long in hours until matches Auto-Cancel themselves"
+                "description": "How long in hours until matches Auto-Cancel themselves",
+                "updated": {
+                    "fail": "Invalid timeout supplied"
+                }
             },
             "bestOf": {
                 "title": "Best Of Size",
-                "description": "How many games should be played per series?"
+                "description": "How many games should be played per series?",
+                "options": {
+                    "disabled": "Disabled",
+                    "pick": "Pick on match create",
+                    "random": "Random",
+                    "bo_count": "Best of {{size}}"
+                }
             },
             "vcCategory": {
                 "title": "VC Category",
