@@ -220,11 +220,15 @@
             },
             "singleQueue": {
                 "title": "Single Queue",
-                "description": "On: The server will share one common queue. Off: Each channel will be counted as it's own queue",
+                "description": "When enabled, the server will share one common queue, else each channel will be it's own queue",
+                "setting": {
+                    "enabled": "Enabled",
+                    "disabled": "Single Queue was **Disabled**"
+                },
                 "updated": {
                     "title": "Single Queue Updated",
                     "enabled": "Single Queue was **Enabled**",
-                    "reset": "Mod role was **reset**"
+                    "disabled": "Single Queue was **Disabled**"
                 }
             },
             "matchTimeout": {
@@ -271,20 +275,87 @@
             },
             "mentionRole": {
                 "title": "Mention Role",
-                "description": "What mention role should the server use? This is used in queues that don't have a Mention Role set",
+                "description": "What role should be mentioned on queue start? This is used in queues that don't have a Mention Role set",
                 "setting": {
-                    "description": "Select a new **Mention Role** for the server or select reset to remove.",
+                    "description": "Select a new **Guild Mention Role** for the server or select reset to remove.",
                     "reset": "Reset"
                 },
                 "updated": {
-                    "title": "Mention Role Updated",
-                    "new": "Mention role was set to **{{role}}**",
-                    "reset": "Mention role was **reset**"
+                    "title": "Guild Mention Role Updated",
+                    "new": "Guild Mention role was set to **{{role}}**",
+                    "reset": "Guild Mention role was **reset**"
                 }
             },
             "requiredRole": {
                 "title": "Required Role",
                 "description": "What role is required to join the queue? This is used in queues that don't have a Required Role set",
+                "setting": {
+                    "description": "Select a new **Guild Required Role** for the server or select reset to remove.",
+                    "reset": "Reset"
+                },
+                "updated": {
+                    "title": "Guild Required Role Updated",
+                    "new": "Guild Required role was set to **{{role}}**",
+                    "reset": "Guild Required role was **reset**"
+                }
+            }
+        },
+        "queue": {
+            "title": "Queue Settings",
+            "description": "Select the element from the dropdown below that you want to update.",
+            "teamSize": {
+                "title": "Team Size",
+                "description": "How many people should be on each team?"
+            },
+            "randomCaptains": {
+                "title": "Random Captains",
+                "description": "Should captains be random, or the top rated in the lobby?",
+                "setting": {
+                    "enabled": "Enabled",
+                    "disabled": "Disabled"
+                },
+                "updated": {
+                    "title": "Random Captains Updated",
+                    "enabled": "Random Captains was **Enabled**",
+                    "disabled": "Random Captains was **Disabled**"
+                }
+            },
+            "queueTimeout": {
+                "title": "Queue Timeout",
+                "description": "How long until a player is removed from the queue for inactivity.",
+                "setting": {
+                    "minutes": "{{size}} Minutes"
+                }
+            },
+            "showRoom": {
+                "title": "Show Room",
+                "description": "Should this room be shown on the leaderboard?",
+                "setting": {
+                    "enabled": "Public",
+                    "disable": "Private"
+                },
+                "updated": {
+                    "title": "Show Room Updated",
+                    "enabled": "Show Room set to **Public**",
+                    "disabled": "Show Room set to **Private**"
+                }
+            },
+            "mentionRole": {
+                "title": "Mention Role",
+                "description": "What role should be mentioned on queue start?",
+                "setting": {
+                    "description": "Select a new **Guild Mention Role** for the server or select reset to remove.",
+                    "reset": "Reset"
+                },
+                "updated": {
+                    "title": "Guild Mention Role Updated",
+                    "new": "Guild Mention role was set to **{{role}}**",
+                    "reset": "Guild Mention role was **reset**"
+                }
+            },
+            "requiredRole": {
+                "title": "Required Role",
+                "description": "What role is required to join the queue?",
                 "setting": {
                     "description": "Select a new **Required Role** for the server or select reset to remove.",
                     "reset": "Reset"
@@ -294,38 +365,6 @@
                     "new": "Required role was set to **{{role}}**",
                     "reset": "Required role was **reset**"
                 }
-            }
-        },
-        "queue": {
-            "title": "Queue Settings",
-            "description": "",
-            "teamSize": {
-                "title": "",
-                "description": ""
-            },
-            "randomCaptains": {
-                "title": "",
-                "description": ""
-            },
-            "queueName": {
-                "title": "",
-                "description": ""
-            },
-            "queueTimeout": {
-                "title": "",
-                "description": ""
-            },
-            "showRoom": {
-                "title": "",
-                "description": ""
-            },
-            "mentionRole": {
-                "title": "",
-                "description": ""
-            },
-            "requiredRole": {
-                "title": "",
-                "description": ""
             }
         },
         "common": {
@@ -363,72 +402,52 @@
         },
         "current": "Current Setting: {{setting}}",
         "update": "Update to: {{setting}}",
-        "toggle": "Toggle to: {{setting}}",
-        "GUILD_MENTION_ROLE_RESET": "Guild mention role was reset.",
-        "GUILD_MENTION_ROLE_SET": "Guild mention role was set to **{{role}}**.",
-        "GUILD_REQUIRED_ROLE_RESET": "Guild required role was reset.",
-        "GUILD_REQUIRED_ROLE_SET": "Guild required role was set to **{{role}}**.",
-        "MATCH_TIMEOUT_SET": "Match timeout has been set to **{{timeout}}** hours.",
-        "MOD_ROLE_RESET": "Mod role was reset.",
-        "MOD_ROLE_SET": "Mod role was set to **{{role}}**.",
-        "QUEUE_MENTION_ROLE_RESET": "Queue mention role was reset.",
-        "QUEUE_MENTION_ROLE_SET": "Queue mention role was set to **{{role}}**.",
-        "QUEUE_NAME_RESET": "Queue name has been reset.",
-        "QUEUE_NAME_SET": "Queue name set as **{{name}}**.",
-        "QUEUE_REQUIRED_ROLE_RESET": "Queue required role was reset.",
-        "QUEUE_REQUIRED_ROLE_SET": "Queue required role was set to **{{role}}**.",
-        "QUEUE_TIMEOUT_SET": "Queue timeout has been set to **{{timeout}}** minutes.",
-        "RANDOM_CAPTAINS_RANDOM": "Captions mode set to **random**",
-        "RANDOM_CAPTAINS_RATED": "Captions mode set to **rating based**",
-        "SETTINGS_CAPTAINS_MODE": "Captains Mode",
-        "SETTINGS_CAPTAINS_MODE_RANDOM": "Random",
-        "SETTINGS_CAPTAINS_MODE_RATED": "Rated",
-        "SETTINGS_GUILD": "Current settings for the guild:",
-        "SETTINGS_GUILD_SETTING": "(Guild Setting) {{value}}",
-        "SETTINGS_MATCH_TIMEOUT": "Match Timeout",
-        "SETTINGS_MATCH_TIMEOUT_VALUE": "{{value}} hours",
-        "SETTINGS_MENTION_ROLE": "Mention Role",
-        "SETTINGS_MOD_ROLE": "Mod Role",
-        "SETTINGS_QUEUE": "Current settings for the queue:",
-        "SETTINGS_QUEUE_NAME": "Queue Name",
-        "SETTINGS_QUEUE_TIMEOUT": "Queue Timeout",
-        "SETTINGS_QUEUE_TIMEOUT_VALUE": "{{value}} minutes",
-        "SETTINGS_REQUIRED_ROLE": "Required Role",
-        "SETTINGS_SINGLE_QUEUE": "Single Queue",
-        "SETTINGS_SINGLE_QUEUE_DISABLED": "Disabled",
-        "SETTINGS_SINGLE_QUEUE_ENABLED": "Enabled",
-        "SETTINGS_TEAM_SIZE": "Team Size",
-        "SINGLE_QUEUE_DISABLE": "Single Queue **Disabled**",
-        "SINGLE_QUEUE_ENABLE": "Single Queue **Enabled**",
-        "TEAM_SIZE_SET": "Team size has been set to **{{size}}**.",
-        "ERROR_RESPONSE": "Invalid response given",
-        "ERROR_ROLE": "Invalid Role Provided",
-        "ERROR_SET": "Not Set"
+        "toggle": "Toggle to: {{setting}}"
     },
     "help": {
         "word": "Help",
-        "COMMAND_INFO": "For more information about a command, run `/help command [command name]`",
-        "COMMAND_INFO_LONG": "For more information about a command, run `/help command [command name]`. \nRun `/help all` to see a list of all commands.",
-        "COMMAND_NAME_FIND": "Cannot find command with name `{{name}}`",
-        "COMMAND_NAME_INVALID": "Invalid Command name given",
-        "COMMAND_NAME_TITLE": "Help for {{name}}:",
-        "DELETE_DATA": "Want to make a request to delete your match and player data?",
-        "DELETE_DATA_DETAIL": "In the Support server linked, go to the #data-deletion-request channel. In that channel, type /deletedata.",
-        "DEVELOPER": "This is a **developer** command",
-        "DEVELOPER_DETAIL": "Only the bot developers can run this command.",
-        "INVITE": "Want to use the bot in your own server?",
-        "INVITE_LINK": "[Private6Mans Invite]({{link}})",
-        "ISSUES": "Having issues?",
-        "ISSUES_LONG": "Make sure the bot has Read Messages, Send Messages, Embed Links and Add Reactions permissions. Also make sure everyone in the lobby can receive DMs from the bot.",
-        "LIST_DEVELOPER": "List of developer commands",
-        "LIST_MODERATOR": "List of moderator commands",
-        "LIST_PUBLIC": "List of public commands",
-        "MODERATOR": "This is a **moderator** command",
-        "MODERATOR_DETAIL": "Only users with the designated Private 6 Mans Moderator role (/config guild mod-role), users with Administrator, or Manage Server permissions can run this command.",
-        "PUBLIC": "This is a **public** command",
-        "PUBLIC_DETAIL": "All users can run this command, unless they are blacklisted.",
-        "SUPPORT": "Still having issues?",
-        "SUPPORT_LINK": "[Private6Mans Support Server]({{link}})"
+        "command": {
+            "short": "For more information about a command, run `/help command [command name]`",
+            "long": "For more information about a command, run `/help command [command name]`. \nRun `/help all` to see a list of all commands.",
+            "name": {
+                "error": "Cannot find command with name `{{name}}`",
+                "invalid": "Invalid Command name given",
+                "title": "Help for {{name}}:"
+            }
+        },
+        "data": {
+            "title": "Want to make a request to delete your match and player data?",
+            "description": "In the Support server linked, go to the #data-deletion-request channel. In that channel, type /deletedata."
+        },
+        "types": {
+            "developer": {
+                "title": "This is a **developer** command",
+                "description": "Only the bot developers can run this command.",
+                "list": "List of developer commands"
+            },
+            "moderator": {
+                "title": "This is a **moderator** command",
+                "description": "Only users with the designated Private 6 Mans Moderator role, users with Administrator, or Manage Server permissions can run this command.",
+                "list": "List of moderator commands"
+            },
+            "public": {
+                "title": "This is a **public** command",
+                "description": "All users can run this command, unless they are blacklisted.",
+                "list": "List of public commands"
+            }
+        },
+        "issues": {
+            "title": "Having issues?",
+            "description": "Make sure the bot has Read Messages, Send Messages, Embed Links and Add Reactions permissions. Also make sure everyone in the lobby can receive DMs from the bot."
+        },
+        "invite": {
+            "title": "Want to use the bot in your own server?",
+            "description": "[Private6Mans Invite]({{link}})"
+        },
+        "support": {
+            "title": "Still having issues?",
+            "description": "[Private6Mans Support Server]({{link}})"
+        }
     },
     "interactionCreate": {
         "queued": "You have been re-queued."
