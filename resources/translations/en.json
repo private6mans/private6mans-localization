@@ -263,15 +263,37 @@
             },
             "language": {
                 "title": "Language",
-                "description": "Which language should the bot speak in your server?"
+                "description": "Which language should the bot speak in your server?",
+                "updated": {
+                    "title": "Language Updated",
+                    "description": "Language was set to **{{language}}**"
+                }
             },
             "mentionRole": {
                 "title": "Mention Role",
-                "description": "What mention role should the server use? This is used in queues that don't have a Mention Role set"
+                "description": "What mention role should the server use? This is used in queues that don't have a Mention Role set",
+                "setting": {
+                    "description": "Select a new **Mention Role** for the server or select reset to remove.",
+                    "reset": "Reset"
+                },
+                "updated": {
+                    "title": "Mention Role Updated",
+                    "new": "Mention role was set to **{{role}}**",
+                    "reset": "Mention role was **reset**"
+                }
             },
             "requiredRole": {
                 "title": "Required Role",
-                "description": "What role is required to join the queue? This is used in queues that don't have a Required Role set"
+                "description": "What role is required to join the queue? This is used in queues that don't have a Required Role set",
+                "setting": {
+                    "description": "Select a new **Required Role** for the server or select reset to remove.",
+                    "reset": "Reset"
+                },
+                "updated": {
+                    "title": "Required Role Updated",
+                    "new": "Required role was set to **{{role}}**",
+                    "reset": "Required role was **reset**"
+                }
             }
         },
         "queue": {
@@ -307,6 +329,37 @@
             }
         },
         "common": {
+            "languages": {
+                "guildLanguage": "Guild Language Setting",
+                "en": "English",
+                "es": "Spanish",
+                "fr": "French",
+                "de": "German",
+                "bg": "Bulgarian",
+                "hr": "Croatian",
+                "da": "Danish",
+                "cs": "Czech",
+                "zh-CN": "Chinese (Simplified)",
+                "zh-TW": "Taiwanese",
+                "nl": "Dutch",
+                "fi": "Finnish",
+                "el": "Greek",
+                "hi": "Hindi",
+                "hu": "Hungarian",
+                "it": "Italian",
+                "ja": "Japanese",
+                "ko": "Korean",
+                "lt": "Latvian",
+                "no": "Norwegian",
+                "pl": "Polish",
+                "pt-BR": "Portuguese (Brazil)",
+                "ro": "Romanian",
+                "ru": "Russian",
+                "th": "Thai",
+                "tr": "Turkish",
+                "uk": "Ukrainian",
+                "vi": "Vietnamese"
+            }
         },
         "current": "Current Setting: {{setting}}",
         "update": "Update to: {{setting}}",
@@ -460,5 +513,3 @@
         "error": "You can only undo a match that has been reported or cancelled."
     }
 }
-
-
