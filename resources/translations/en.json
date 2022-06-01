@@ -230,8 +230,12 @@
             "matchTimeout": {
                 "title": "Match Timeout",
                 "description": "How long in hours until matches Auto-Cancel themselves",
+                "setting": {
+                    "days": "{{size}} Days"
+                },
                 "updated": {
-                    "fail": "Invalid timeout supplied"
+                    "title": "Match Timeout Updated",
+                    "description": "Match Timeout was set to **{{size}}** days"
                 }
             },
             "bestOf": {
@@ -246,7 +250,16 @@
             },
             "vcCategory": {
                 "title": "VC Category",
-                "description": "Which category should the bot create voice channels in for the match? This can be disabled"
+                "description": "Which category should the bot create voice channels in for the match? This can be Disabled",
+                "setting": {
+                    "description": "Select a new **VC Category** or select reset to remove.",
+                    "reset": "Don't create VCs on match creation."
+                },
+                "updated": {
+                    "title": "VC Category Updated",
+                    "new": "VC Category was set to **{{category}}**",
+                    "reset": "VC Category was **reset**"
+                }
             },
             "language": {
                 "title": "Language",
