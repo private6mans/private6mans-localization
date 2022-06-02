@@ -1,231 +1,538 @@
 {
-  "ACTIVE_COLLECTOR_STOPPED": "Comando activo cancelado.",
-  "ACTIVE_MATCHES_DESCRIPTION": "Click en el botón para ver la partida relacionada.",
-  "ACTIVE_MATCHES_INVALID": "Partida seleccionada inválida, por favor vuelve a intentarlo.",
-  "ACTIVE_MATCHES_NONE": "Ninguna partida activa que puedas gestionar.",
-  "ACTIVE_MATCHES_TITLE": "Partidas Activas",
-  "ALREADY_BLACKLISTED": "Este usuario ya ha sido agregado a la lista de bloqueados",
-  "ALREADY_CANCELLED": "La partida {{id}} ha sido cancelada!",
-  "ALREADY_IN_QUEUE": "Usuario actualmente en cola",
-  "ALREADY_IN_QUEUE_DETAIL": "El usuario seleccionado se encuentra en la cola actual.",
-  "ALREADY_REPORTED": "¡La partida {{id}} ya ha sido reportada!",
-  "BLACKLIST_LIMIT": "Limitado a 4096 caracteres",
-  "BLACKLIST_STATUS": "❯ {{player}}\nAdded: {{time}}\n",
-  "BOT_STATS": "Estadísticas del bot",
-  "BOT_UPTIME": "Tiempo activo del bot",
-  "BOT_UPTIME_EXTENDED": "El bot ha estado activo por {{uptime}}",
-  "CANCEL_CONFIRM": "Confirmar cancelación",
-  "CANCEL_DENY": "No cancelar",
-  "CANCEL_MATCH": "Cancelar partida",
-  "CANCEL_MATCH_DESCRIPTION": "Click debajo para cancelar la partida {{id}}",
-  "CANCEL_MODERATOR": "¡Solicita a un moderador cancelar este juego!",
-  "CANCEL_REPORTING": "Cancelar reporte",
-  "CONFIG_GUILD_MENTION_ROLE_RESET": "Rol de mención del servidor restablecido.",
-  "CONFIG_GUILD_MENTION_ROLE_SET": "Rol de mención del servidor configurado a **{{role}}**.",
-  "CONFIG_GUILD_REQUIRED_ROLE_RESET": "Rol requerido del servidor restablecido.",
-  "CONFIG_GUILD_REQUIRED_ROLE_SET": "Rol requerido del servidor configurado a **{{role}}**.",
-  "CONFIG_MATCH_TIMEOUT_SET": "Tiempo de espera de partida configurado en **{{timeout}}** horas.",
-  "CONFIG_MOD_ROLE_RESET": "El rol de moderador fue restablecido.",
-  "CONFIG_MOD_ROLE_SET": "El rol de moderador fue configurado a **{{role}}**.",
-  "CONFIG_QUEUE_MENTION_ROLE_RESET": "El rol de mención de lista de espera fue restablecido.",
-  "CONFIG_QUEUE_MENTION_ROLE_SET": "El rol de mención de lista de espera fue configurado a **{{role}}**.",
-  "CONFIG_QUEUE_NAME_RESET": "Nombre de lista de espera restablecido",
-  "CONFIG_QUEUE_NAME_SET": "Nombre de lista de espera configurado a **{{name}}**.",
-  "CONFIG_QUEUE_REQUIRED_ROLE_RESET": "El rol de lista de espera requerido fue restablecido",
-  "CONFIG_QUEUE_REQUIRED_ROLE_SET": "El rol de lista de espera requerido fue configurado a **{{role}}**.",
-  "CONFIG_QUEUE_TIMEOUT_SET": "El tiempo límite de la lista de espera ha sido configurado en **{{timeout}}** minutes.",
-  "CONFIG_RANDOM_CAPTAINS_RANDOM": "Modo capitanes configurado en **aleatorio**",
-  "CONFIG_RANDOM_CAPTAINS_RATED": "Modo capitanes configurado en **basado en la clasificación**",
-  "CONFIG_SETTINGS_CAPTAINS_MODE": "Modo de elección de capitanes",
-  "CONFIG_SETTINGS_CAPTAINS_MODE_RANDOM": "Aleatorio",
-  "CONFIG_SETTINGS_CAPTAINS_MODE_RATED": "Por posición en la clasificación",
-  "CONFIG_SETTINGS_GUILD": "Configuraciones actuales para el servidor:",
-  "CONFIG_SETTINGS_GUILD_SETTING": "(Ajuste del servidor) {{value}}",
-  "CONFIG_SETTINGS_MATCH_TIMEOUT": "Tiempo de espera de la partida",
-  "CONFIG_SETTINGS_MATCH_TIMEOUT_VALUE": "{{value}} horas",
-  "CONFIG_SETTINGS_MENTION_ROLE": "Rol de mención",
-  "CONFIG_SETTINGS_MOD_ROLE": "Rol de moderador",
-  "CONFIG_SETTINGS_QUEUE": "Configuraciones actuales para la lista de espera",
-  "CONFIG_SETTINGS_QUEUE_NAME": "Nombre de la sala",
-  "CONFIG_SETTINGS_QUEUE_TIMEOUT": "Tiempo límite de la lista de espera",
-  "CONFIG_SETTINGS_QUEUE_TIMEOUT_VALUE": "{{value}} minutos",
-  "CONFIG_SETTINGS_REQUIRED_ROLE": "Rol requerido",
-  "CONFIG_SETTINGS_SINGLE_QUEUE": "Lista de espera individual",
-  "CONFIG_SETTINGS_SINGLE_QUEUE_DISABLED": "Desactivado",
-  "CONFIG_SETTINGS_SINGLE_QUEUE_ENABLED": "Activado",
-  "CONFIG_SETTINGS_TEAM_SIZE": "Tamaño del equipo",
-  "CONFIG_SINGLE_QUEUE_DISABLE": "Lista de espera individual **Desactivado**",
-  "CONFIG_SINGLE_QUEUE_ENABLE": "Lista de espera individual **Activado**",
-  "CONFIG_TEAM_SIZE_SET": "El tamaño del equipo ha sido configurado a **{{size}}**.",
-  "CPU_USAGE": "Uso del CPU",
-  "CREATE_MATCH_BALANCED": "Equipos balanceados",
-  "CREATE_MATCH_CAPTAINS": "Capitanes",
-  "CREATE_MATCH_COMPONENT_LABEL": "Escoger {{player}}",
-  "CREATE_MATCH_EMBED_AUTHOR": "El tiempo límite es de 2 minutos.",
-  "CREATE_MATCH_EMBED_DESCRIPTION": "Click debajo para elegir jugadores para tu equipo.",
-  "CREATE_MATCH_EMBED_PICK_FIELD_MULTIPLE": "Elegir {{count}} jugadores:",
-  "CREATE_MATCH_EMBED_PICK_FIELD_SINGLE": "Elegir 1 jugador:",
-  "CREATE_MATCH_EMBED_TITLE": "Elección de Equipo",
-  "CREATE_MATCH_ID": "ID de la partida (Usa esto para reportar el marcador)",
-  "CREATE_MATCH_INVALID_SELECTION": "Selección inválida, por favor elige nuevamente",
-  "CREATE_MATCH_NOW_PICKING": "{{captain}} está eligiendo",
-  "CREATE_MATCH_PLAYER_CHOSEN_COMPLETE": "{{user}} elegido! Selección de Equipos Completa.",
-  "CREATE_MATCH_PLAYER_CHOSEN_ONGOING": "{{user}} elegido! ({{count}}/{{total}})",
-  "CREATE_MATCH_RANDOM": "Equipos aleatorios",
-  "CREATE_MATCH_RETURN_DESCRIPTION": "La votación ha finalizado. Los resultados son:",
-  "CREATE_MATCH_RETURN_TITLE": "Votación completa!",
-  "CREATE_MATCH_STARTER_DESCRIPTION": "Este mensaje necesita tener **{{count}}** interacciones de jugadores para continuar!",
-  "CREATE_MATCH_STARTER_TITLE": "Tienes 2 minutos para votar. Elige dando click en los botones inferiores",
-  "CREATE_MATCH_USER_STRING": "\n{{index}}. {{user}} ({nickname}) (Rating: {{rating}})",
-  "CREATE_MATCH_VOTE_CAST": "Votación finalizada! {{type}} Elegido.",
-  "CRON_REMOVE": "Jugadores expulsados de la lista de espera por inactividad",
-  "CRON_WARNING_BUTTON": "Extender tiempo en lista de espera",
-  "CRON_WARNING_DESCRIPTION": "¡Click debajo para extender tu tiempo en la lista de espera!",
-  "CRON_WARNING_TITLE": "¡Los jugadores serán eliminados de lista en menos de 5 minutos!",
-  "CURRENT_BLACKLIST": "Lista de jugadores bloqueados:",
-  "CURRENT_QUEUE": "Miembros en lista de espera: {{size}}",
-  "DELETE_DATA_CONFIRMATION": "¿Estás seguro que quieres eliminar tu información? Esta acción no se puede deshacer posteriormente.",
-  "DELETE_DATA_DETAIL": "Tu información fue eliminada de nuestra base de datos.",
-  "DELETE_DATA_SUCCESS": "Información eliminada",
-  "DELETE_DATA_TITLE": "Eliminar información",
-  "EMBED_CAPTAINS_FIELD_NAME": "Elección de equipos.",
-  "EMBED_CAPTAINS_FIELD_VALUE": "¡Ahora los capitanes elegirán los miembros de su equipo!",
-  "EMPTY_BLACKLIST": "Ningún jugador en la lista de bloqueados",
-  "ERROR_ALREADY_QUEUED": "¡Ya estás en la lista de espera!",
-  "ERROR_CANCELLED": "¡Operación cancelada!",
-  "ERROR_CAPTAIN_DM": "No puedo enviar mensaje privado a {{captain}}, ¿tienes activada esta opción? (Elección de equipos cancelada)",
-  "ERROR_CAPTAIN_TIME": "{{captain}} excedió el límite de tiempo para elegir miembros. (Elección de equipos cancelada)",
-  "ERROR_CHANNEL": "Canal eliminado",
-  "ERROR_DELETE_DATA": "Este comando sólo está disponible en el canal #data-deletion-request dentro del servidor Private 6 Mans.\nEscribe /invite para la invitación al servidor.",
-  "ERROR_GUILD": "Servidor eliminado.",
-  "ERROR_MEMBER": "Miembro no encontrado",
-  "ERROR_NOT_QUEUED": "¡No estás en lista de espera!",
-  "ERROR_NO_CANCEL": "No puedes cancelar una partida que ya ha sido reportada.",
-  "ERROR_NO_EMBED": "¡No puedo insertar nada, por favor arregla eso!",
-  "ERROR_NO_MATCH_FOUND": "Ninguna partida encontrada con el ID",
-  "ERROR_NO_MATCH_ID": "Ningún número de ID ingresado, por favor digita alguno.",
-  "ERROR_NO_MATCH_RESULT": "Ningún resultado ingresado, por favor digita alguno.",
-  "ERROR_NO_REPORT": "No puedes reportar una partida a la que no perteneces.",
-  "ERROR_PERMISSIONS": "¡Me faltan permisos!",
-  "ERROR_REQUIRED_ROLE": "¡No tienes el rol requerido para ingresar a la lista de espera!",
-  "ERROR_RESPONSE": "Respuesta inválida",
-  "ERROR_ROLE": "Rol inválido",
-  "ERROR_SET": "No configurado",
-  "ERROR_TIME": "¡Se te acabó el tiempo!",
-  "ERROR_UNDO": "Sólo puedes deshacer una artida que ha sido reportada o cancelada",
-  "ERROR_UNKNOWN_DESCRIPTION": "Escribe este código en el canal #error-report en el servidor de 6 Mans para que podamos examinarlo.",
-  "ERROR_UNKNOWN_ID": "ID del error: {{error}}",
-  "ERROR_UNKNOWN_NAME": "¡Algo salió mal!",
-  "ERROR_USER": "¡Algo salió mal!",
-  "ERROR_USER_DM": "{{user}} no pude enviarte un mensaje privado",
-  "FREE_MEMORY": "Memoria vacía",
-  "GENERIC_CAPTAIN": "Capitán {{number}}",
-  "GENERIC_HOME": "Volver al inicio",
-  "GENERIC_LOSE": "Derrota",
-  "GENERIC_MATCH": "Partida {{id}}",
-  "GENERIC_NEGATIVE": "Cancelar",
-  "GENERIC_POSITIVE": "Confirmar",
-  "GENERIC_REPORT": "Reportar partida",
-  "GENERIC_STOP": "Detener este menú",
-  "GENERIC_TEAM": "Equipo {{number}}",
-  "GENERIC_TIME": "Hora",
-  "GENERIC_WIN": "Victoria",
-  "GENERIC_WINNER": "Ganador",
-  "GETTING_PING": "¡Obteniendo Ping!",
-  "GUILD_COUNT": "Conteo de servidores actuales",
-  "HELP_COMMAND": "Ayuda",
-  "HELP_COMMAND_INFO": "Para más información acerca del comando escribe `/help command [nombre del comando]`",
-  "HELP_COMMAND_INFO_LONG": "Para más información acerca del comando escribe `/help command [nombre del comando]`. \nEscribe `/help all` para ver la lista de comandos.",
-  "HELP_COMMAND_NAME_FIND": "Comando con el nombre `{{name}}` no encontrado",
-  "HELP_COMMAND_NAME_INVALID": "Nombre de comando inválido",
-  "HELP_COMMAND_NAME_TITLE": "Ayuda por {{name}}:",
-  "HELP_DELETE_DATA": "¿Quieres realizar una solicitud para eliminar tu información de usuario?",
-  "HELP_DELETE_DATA_DETAIL": "En el servidor anexado, ve al canal #data-deletion-request. Dentro del canal, escribe /deletedata.",
-  "HELP_DEVELOPER": "Este es un comando para **desarrollador**",
-  "HELP_DEVELOPER_DETAIL": "Sólo los desarrolladores del bot pueden usar este comando.",
-  "HELP_INVITE": "¿Quieres usar el bot en tu servidor?",
-  "HELP_INVITE_LINK": "[Invitación al servidor Private6Mans]({{link}})",
-  "HELP_ISSUES": "¿Tienes problemas?",
-  "HELP_ISSUES_LONG": "Asegúrate de que el bot tenga permisos de leer y enviar mensajes, enviar links y agregar reacciones. Además, asegúrate de que todos en la sala puedan recibir mensajes privados del bot.",
-  "HELP_LIST_DEVELOPER": "Lista de comandos del desarrollador",
-  "HELP_LIST_MODERATOR": "Lista de comandos del moderador",
-  "HELP_LIST_PUBLIC": "Lista de comandos públicos",
-  "HELP_MODERATOR": "Este es un comando de **moderador**",
-  "HELP_MODERATOR_DETAIL": "Sólo usuarios con el rol de moderador designado por Private 6 Mans (/config guild mod-role), o usuarios con los permisos de creador y administrador del servidor pueden usar este comando.",
-  "HELP_PUBLIC": "Este es un comando **público**",
-  "HELP_PUBLIC_DETAIL": "Todos los usuarios pueden usar este comando, excepto los usuarios en la lista de bloqueados.",
-  "HELP_SUPPORT": "¿Sigues teniendo problemas?",
-  "HELP_SUPPORT_LINK": "[Servidor Private6Mans]({{link}})",
-  "INVALID_PLAYER": "Usuario no válido, ¿Es la cuenta de un bot?",
-  "INVALID_PLAYER_LONG": "Usuario no válido ¿está en la lista de bloqueos o es una cuenta de un bot?",
-  "INVALID_PLAYER_SUB": "Usuario inválido, ¿es miembro de una partida?",
-  "INVALID_PLAYER_SUB_LONG": "Usuario inválido, ¿es parte de una partida, un bot o un usuario bloqueado?",
-  "INVITE_BOT": "Private6Mans link de invitación:",
-  "INVITE_SERVER": "Private6Mans link de invitación al servidor:",
-  "LEADERBOARD": "Tabla de posiciones del servidor",
-  "LOSSES": "Derrotas",
-  "MATCH_CANCELLED": "Partida cancelada",
-  "MATCH_CANCELLED_DESCRIPTION": "Cualquier intento de reportar este marcador será inválido.",
-  "MATCH_CANCELLED_TITLE": "Partida {{id}} cancelada.",
-  "MATCH_IN_PROGRESS": "Partida en progreso",
-  "MATCH_RATING_CHANGE": "{{team}} Cambio de calificación",
-  "MATCH_REPORTED": "Partida reportada.",
-  "MATCH_SELECTION_STOPPED": "Selección de partida detenida.",
-  "MATCH_STATUS": "Estado",
-  "MATCH_SUBSTITUTED_DESCRIPTION": "{{player}} sustituyó a {{replacement}} en la partida {{id}}!",
-  "MATCH_SUMMARY": "La partida {{matchId}} ha sido reportada!\nEquipo {{teamId}} ganó, los resultados han sido reportados. ¡Que disfrutes tus partidas! \n\nRepartición de puntos mostrados debajo.",
-  "MATCH_UNDONE_DESCRIPTION": "Ahora puedes reportar el marcador de manera correcta.",
-  "MATCH_UNDONE_TITLE": "Partida {{id}} eliminada.",
-  "MEMBERS_COUNT": "Conteo de miembros totales",
-  "MISSING_PERMISSIONS_CONTENT": "Permisos del bot insuficientes",
-  "MISSING_PERMISSIONS_FOOTER": "¡Necesito los permisos enlistados debajo para funcionar de manera correcta!",
-  "MISSING_PERMISSIONS_TITLE": "Permisos faltantes:",
-  "MODE_SELECTED_BALANCED": "¡Modo balanceado elegido!",
-  "MODE_SELECTED_CAPTAINS": "¡Modo capitanes elegido!",
-  "MODE_SELECTED_RANDOM": "¡Modo aleatorio elegido!",
-  "NOT_ALLOWED_QUEUE": "El usuario no puede unirse a la lista de espera",
-  "NOT_ALLOWED_QUEUE_DETAIL": "El usuario seleccionado no tiene permitido unirse a la lista de espera actual.",
-  "NOT_BLACKLISTED": "El usuario no se encuentra en la lista de bloqueados",
-  "NOT_IN_QUEUE": "El usuario no está en la lista de espera.",
-  "NOT_IN_QUEUE_DETAIL": "{{player}} no está presente en la lista de espera actual.",
-  "NO_PERMISSION": "No tienes permiso para usar este comando",
-  "NO_PREMIUM": "Característica disponible sólo para usuarios premium",
-  "PLAYER_ADDED_TO_QUEUE": "Jugador agregado a la lista de espera.",
-  "PLAYER_ADDED_TO_QUEUE_DETAIL": "{{player}} agregado a la lista de espera.",
-  "PLAYER_REMOVED_FROM_QUEUE": "Jugador eliminado de la lista de espera.",
-  "PLAYER_REMOVED_FROM_QUEUE_DETAIL": "{{player}} eliminado de la lista de espera.",
-  "PROCESS_MEMORY_USAGE": "Uso de memoria",
-  "QUEUE_CLEARED": "¡Lista de espera limpia!",
-  "QUEUE_EMPTY": "La lista de espera está vacía",
-  "QUEUE_JOIN": "¡{{player}} se ha unido a la lista de espera!",
-  "QUEUE_LEAVE": "¡{{player}} ha dejado la lista de espera!",
-  "QUEUE_START": "¡{{player}} ha iniciado una lista de espera!",
-  "RATING": "Clasificar",
-  "REPORT_MOD_DESCRIPTION": "¿Qué equipo ganó esta partida?",
-  "REPORT_PLAYER_DESCRIPTION": "¿Ganaste o perdiste esta partida?",
-  "RESET_CONFIRMATION": "¿Estás seguro que quieres eliminar tu información? Esta acción no se puede deshacer posteriormente",
-  "RESET_MATCHES": "Partidas restablecidas",
-  "RESET_MATCH_RESULTS": "Restablecer resultados de la partida",
-  "RESET_MODE": "Por favor especifica un modo",
-  "RESET_PLAYERS": "Jugadores restablecidos",
-  "RESET_QUEUES": "Lista de espera restablecids",
-  "RESET_ROOMS": "Por favor especifica las salas a reiniciar",
-  "RESET_STATS": "Reiniciar estadísticas",
-  "RESET_SUCCESS": "Reinicio del servidor",
-  "REST_LATENCY": "Latencia",
-  "RE_QUEUED": "Has reingresado a la lista de espera.",
-  "SERVER_UPTIME": "Tiempo de actividad del servidor",
-  "SERVER_UPTIME_EXTENDED": "El servidor ha estado en línea por {{uptime}}",
-  "STATS_TITLE": "Estadístcas de {{player}}",
-  "SUCCESSFUL_ADD_BLACKLIST": "Agregado a la lista de bloqueados:",
-  "SUCCESSFUL_REMOVE_BLACKLIST": "Eliminado de la lista de bloqueados:",
-  "TOTAL_MEMORY": "Memoria total",
-  "TOTAL_MEMORY_USAGE": "Memoria total usada",
-  "UNKNOWN": "Desconocido",
-  "UNKNOWN_CHANGE": "Cambio desconocido",
-  "UNKNOWN_STATUS": "Estado desconocido",
-  "UNKNOWN_USER": "{{id}} (Usuario desconocido)",
-  "USER_COUNT": "Conteo de usuarios en el servidor",
-  "WINS": "Victorias",
-  "WS_LATENCY": "Latencia de WS"
+    "active": {
+        "cancelled": "Comando activo cancelado.",
+        "description": "Click en el botón para ver la partida relacionada.",
+        "home": "Volver al inicio",
+        "invalid": "Partida seleccionada inválida, por favor vuelve a intentarlo.",
+        "lose": "Derrota",
+        "none": "Ninguna partida activa que puedas gestionar.",
+        "report": {
+            "mod": "¿Qué equipo ganó esta partida?",
+            "player": "¿Ganaste o perdiste esta partida?",
+            "text": "Reportar partida"
+        },
+        "reported": "Partida reportada.",
+        "stop": "Detener este menú",
+        "title": "Partidas Activas",
+        "win": "Victoria"
+    },
+    "blacklist": {
+        "add": "Agregado a la lista de bloqueados:",
+        "current": "Lista de jugadores bloqueados:",
+        "empty": "Ningún jugador en la lista de bloqueados",
+        "invalid": "Usuario no válido, ¿Es la cuenta de un bot?",
+        "limit": "Limitado a 4096 caracteres",
+        "notFound": "El usuario no se encuentra en la lista de bloqueados",
+        "remove": "Eliminado de la lista de bloqueados:",
+        "status": "❯ {{player}}\nAdded: {{time}}\n"
+    },
+    "botStats": {
+        "cpu": "Uso del CPU",
+        "guild": "Conteo de servidores actuales",
+        "latency": {
+            "rest": "Latencia de REST",
+            "ws": "Latencia de WS"
+        },
+        "member": "Conteo de miembros totales",
+        "memory": {
+            "free": "Memoria vacía",
+            "process": "Uso de memoria",
+            "system": "Memoria total",
+            "used": "Memoria total usada"
+        },
+        "ping": "¡Obteniendo Ping!",
+        "title": "Estadísticas del bot",
+        "uptime": {
+            "bot": {
+                "description": "El bot ha estado activo por {{uptime}}",
+                "title": "Tiempo activo del bot"
+            },
+            "server": {
+                "description": "El servidor ha estado en línea por {{uptime}}",
+                "title": "Tiempo de actividad del servidor"
+            }
+        },
+        "user": "Conteo de usuarios en el servidor"
+    },
+    "cancel": {
+        "confirm": "Confirmar cancelación",
+        "deny": "No cancelar",
+        "description": "Cualquier intento de reportar este marcador será inválido.",
+        "error": "No puedes cancelar una partida que ya ha sido reportada.",
+        "match": {
+            "description": "Click debajo para cancelar la partida {{id}}",
+            "success": "Partida cancelada",
+            "title": "Cancelar partida"
+        },
+        "moderator": "¡Solicita a un moderador cancelar este juego!",
+        "reporting": "Cancelar reporte",
+        "title": "Partida {{id}} cancelada."
+    },
+    "clear": {
+        "description": "La lista de espera está vacía",
+        "title": "¡Lista de espera limpia!"
+    },
+    "config": {
+        "base": {
+            "description": "Select from the dropdown below, if you want to view settings, or update the queue/server settings",
+            "guild": {
+                "description": "Update the server wide settings",
+                "title": "Server Settings"
+            },
+            "queue": {
+                "description": "Update this queue's settings",
+                "title": "Queue Settings"
+            },
+            "settings": {
+                "description": "View the settings for the server and the current queue.",
+                "title": "View Settings"
+            },
+            "title": "Configure the Bot"
+        },
+        "common": {
+            "languages": {
+                "bg": "Bulgarian",
+                "cs": "Czech",
+                "da": "Danish",
+                "de": "German",
+                "el": "Greek",
+                "en": "English",
+                "es": "Spanish",
+                "fi": "Finnish",
+                "fr": "French",
+                "guildLanguage": "Guild Language Setting",
+                "hi": "Hindi",
+                "hr": "Croatian",
+                "hu": "Hungarian",
+                "it": "Italian",
+                "ja": "Japanese",
+                "ko": "Korean",
+                "lt": "Latvian",
+                "nl": "Dutch",
+                "no": "Norwegian",
+                "pl": "Polish",
+                "pt-BR": "Portuguese (Brazil)",
+                "ro": "Romanian",
+                "ru": "Russian",
+                "th": "Thai",
+                "tr": "Turkish",
+                "uk": "Ukrainian",
+                "vi": "Vietnamese",
+                "zh-CN": "Chinese (Simplified)",
+                "zh-TW": "Taiwanese"
+            }
+        },
+        "current": "Current Setting: {{setting}}",
+        "guild": {
+            "bestOf": {
+                "description": "How many games should be played per series?",
+                "options": {
+                    "bo_count": "Best of {{size}}",
+                    "disabled": "Disabled",
+                    "pick": "Pick on match create",
+                    "random": "Random"
+                },
+                "title": "Best Of Size"
+            },
+            "description": "Select the element from the dropdown below that you want to update.",
+            "language": {
+                "description": "Which language should the bot speak in your server?",
+                "title": "Language",
+                "updated": {
+                    "description": "Language was set to **{{language}}**",
+                    "title": "Language Updated"
+                }
+            },
+            "matchTimeout": {
+                "description": "How long in hours until matches Auto-Cancel themselves",
+                "setting": {
+                    "days": "{{size}} Days"
+                },
+                "title": "Match Timeout",
+                "updated": {
+                    "description": "Match Timeout was set to **{{size}}** days",
+                    "title": "Match Timeout Updated"
+                }
+            },
+            "mentionRole": {
+                "description": "What role should be mentioned on queue start? This is used in queues that don't have a Mention Role set",
+                "setting": {
+                    "description": "Select a new **Guild Mention Role** for the server or select reset to remove.",
+                    "reset": "Reset"
+                },
+                "title": "Mention Role",
+                "updated": {
+                    "new": "Guild Mention role was set to **{{role}}**",
+                    "reset": "Guild Mention role was **reset**",
+                    "title": "Guild Mention Role Updated"
+                }
+            },
+            "modRole": {
+                "description": "Users with this role will be allowed to use the moderator commands for the bot",
+                "setting": {
+                    "description": "Select a new **Mod Role** for the server or select reset to remove.",
+                    "reset": "Reset"
+                },
+                "title": "Mod Role",
+                "updated": {
+                    "new": "Mod role was set to **{{role}}**",
+                    "reset": "Mod role was **reset**",
+                    "title": "Mod Role Updated"
+                }
+            },
+            "requiredRole": {
+                "description": "What role is required to join the queue? This is used in queues that don't have a Required Role set",
+                "setting": {
+                    "description": "Select a new **Guild Required Role** for the server or select reset to remove.",
+                    "reset": "Reset"
+                },
+                "title": "Required Role",
+                "updated": {
+                    "new": "Guild Required role was set to **{{role}}**",
+                    "reset": "Guild Required role was **reset**",
+                    "title": "Guild Required Role Updated"
+                }
+            },
+            "singleQueue": {
+                "description": "When enabled, the server will share one common queue, else each channel will be it's own queue",
+                "setting": {
+                    "disabled": "Single Queue was **Disabled**",
+                    "enabled": "Enabled"
+                },
+                "title": "Single Queue",
+                "updated": {
+                    "disabled": "Single Queue was **Disabled**",
+                    "enabled": "Single Queue was **Enabled**",
+                    "title": "Single Queue Updated"
+                }
+            },
+            "title": "Server Settings",
+            "vcCategory": {
+                "description": "Which category should the bot create voice channels in for the match? This can be Disabled",
+                "setting": {
+                    "description": "Select a new **VC Category** or select reset to remove.",
+                    "reset": "Don't create VCs on match creation."
+                },
+                "title": "VC Category",
+                "updated": {
+                    "new": "VC Category was set to **{{category}}**",
+                    "reset": "VC Category was **reset**",
+                    "title": "VC Category Updated"
+                }
+            }
+        },
+        "queue": {
+            "description": "Select the element from the dropdown below that you want to update.",
+            "mentionRole": {
+                "description": "What role should be mentioned on queue start?",
+                "setting": {
+                    "description": "Select a new **Guild Mention Role** for the server or select reset to remove.",
+                    "reset": "Reset"
+                },
+                "title": "Mention Role",
+                "updated": {
+                    "new": "Guild Mention role was set to **{{role}}**",
+                    "reset": "Guild Mention role was **reset**",
+                    "title": "Guild Mention Role Updated"
+                }
+            },
+            "queueTimeout": {
+                "description": "How long until a player is removed from the queue for inactivity.",
+                "setting": {
+                    "minutes": "{{size}} Minutes"
+                },
+                "title": "Queue Timeout"
+            },
+            "randomCaptains": {
+                "description": "Should captains be random, or the top rated in the lobby?",
+                "setting": {
+                    "disabled": "Disabled",
+                    "enabled": "Enabled"
+                },
+                "title": "Random Captains",
+                "updated": {
+                    "disabled": "Random Captains was **Disabled**",
+                    "enabled": "Random Captains was **Enabled**",
+                    "title": "Random Captains Updated"
+                }
+            },
+            "requiredRole": {
+                "description": "What role is required to join the queue?",
+                "setting": {
+                    "description": "Select a new **Required Role** for the server or select reset to remove.",
+                    "reset": "Reset"
+                },
+                "title": "Required Role",
+                "updated": {
+                    "new": "Required role was set to **{{role}}**",
+                    "reset": "Required role was **reset**",
+                    "title": "Required Role Updated"
+                }
+            },
+            "showRoom": {
+                "description": "Should this room be shown on the leaderboard?",
+                "setting": {
+                    "disable": "Private",
+                    "enabled": "Public"
+                },
+                "title": "Show Room",
+                "updated": {
+                    "disabled": "Show Room set to **Private**",
+                    "enabled": "Show Room set to **Public**",
+                    "title": "Show Room Updated"
+                }
+            },
+            "teamSize": {
+                "description": "How many people should be on each team?",
+                "title": "Team Size"
+            },
+            "title": "Queue Settings"
+        },
+        "toggle": "Toggle to: {{setting}}",
+        "update": "Update to: {{setting}}"
+    },
+
+    "createMatch": {
+        "balanced": "Equipos balanceados",
+        "captain": {
+            "plural": "Capitanes",
+            "singular": "Capitán {{number}}"
+        },
+        "embed": {
+            "author": "El tiempo límite es de 2 minutos.",
+            "description": "Click debajo para elegir jugadores para tu equipo.",
+            "id": "ID de la partida (Usa esto para reportar el marcador)",
+            "pick_multiple": "Elegir {{count}} jugadores:",
+            "pick_one": "Elegir {{count}} jugador:",
+            "title": "Elección de Equipo"
+        },
+        "mode": {
+            "balanced": "¡Modo balanceado elegido!",
+            "captains": {
+                "picking": {
+                    "description": "¡Ahora los capitanes elegirán los miembros de su equipo!",
+                    "title": "Elección de equipos."
+                },
+                "title": "¡Modo capitanes elegido!"
+            },
+            "random": "¡Modo aleatorio elegido!"
+        },
+        "pick": {
+            "button": "Escoger {{player}}",
+            "captain": "{{captain}} está eligiendo",
+            "complete": "{{player}} elegido! Selección de Equipos Completa.",
+            "invalid": "Selección inválida, por favor elige nuevamente",
+            "ongoing": "{{player}} elegido! ({{count}}/{{total}})",
+            "player": "\n{{index}}. {{player}} ({nickname}) (Clasificar: {{rating}})"
+        },
+        "random": "Equipos aleatorios",
+        "vote": {
+            "cast": "Votación finalizada! {{type}} Elegido.",
+            "return": {
+                "description": "La votación ha finalizado. Los resultados son:",
+                "title": "Votación completa!"
+            },
+            "starter": {
+                "description": "Este mensaje necesita tener **{{count}}** interacciones de jugadores para continuar!",
+                "title": "Tienes 2 minutos para votar. Elige dando click en los botones inferiores"
+            }
+        }
+    },
+    "cron": {
+        "remove": "Jugadores expulsados de la lista de espera por inactividad",
+        "warning": {
+            "button": "Extender tiempo en lista de espera",
+            "description": "¡Click debajo para extender tu tiempo en la lista de espera!",
+            "title": "¡Los jugadores serán eliminados de lista en menos de 5 minutos!"
+        }
+    },
+    "deleteData": {
+        "error": "Este comando sólo está disponible en el canal #data-deletion-request dentro del servidor Private 6 Mans.\nEscribe /invite para la invitación al servidor.",
+        "prompt": {
+            "description": "¿Estás seguro que quieres eliminar tu información? Esta acción no se puede deshacer posteriormente.",
+            "title": "Eliminar información"
+        },
+        "success": {
+            "description": "Tu información fue eliminada de nuestra base de datos.",
+            "title": "Información eliminada"
+        }
+    },
+    "error": {
+        "blacklisted": "Este usuario ya ha sido agregado a la lista de bloqueados",
+        "cancelled": "¡Operación cancelada!",
+        "captain": {
+            "dm": "No puedo enviar mensaje privado a {{captain}}, ¿tienes activada esta opción? (Elección de equipos cancelada)",
+            "time": "{{captain}} excedió el límite de tiempo para elegir miembros. (Elección de equipos cancelada)"
+        },
+        "config": {
+            "player": ""
+        },
+        "interactionCreate": {
+            "embed": "¡No puedo insertar nada, por favor arregla eso!",
+            "generic": "¡Algo salió mal!",
+            "permissions": {
+                "bot": "¡Me faltan permisos!",
+                "content": "Permisos del bot insuficientes",
+                "footer": "¡Necesito los permisos enlistados debajo para funcionar de manera correcta!",
+                "premium": "Característica disponible solo para jugadores premium",
+                "title": "Permisos faltantes:",
+                "user": "No tienes permiso para usar este comando"
+            },
+            "time": "¡Se te acabó el tiempo!",
+            "unknown": {
+                "description": "Escribe este código en el canal #error-report en el servidor de 6 Mans para que podamos examinarlo.",
+                "id": "ID del error: {{error}}"
+            }
+        },
+        "match": {
+            "cancelled": "La partida {{id}} ha sido cancelada!",
+            "found": "Ninguna partida encontrada con el ID",
+            "id": "Ningún número de ID ingresado, por favor digita alguno.",
+            "reported": "¡La partida {{id}} ya ha sido reportada!"
+        },
+        "queued": {
+            "description": "El usuario seleccionado se encuentra en la cola actual.",
+            "title": "Usuario actualmente en cola"
+        },
+        "unknown": {
+            "change": "Cambio desconocido",
+            "player": "{{id}} (jugador desconocido)"
+        }
+    },
+    "generic": {
+        "match": "Partida {{id}}",
+        "negative": "Cancelar",
+        "positive": "Confirmar",
+        "queue": "Miembros en lista de espera: {{size}}",
+        "team": "Equipo {{number}}",
+        "time": "Hora"
+    },
+    "help": {
+        "command": {
+            "long": "Para más información acerca del comando escribe `/help command [nombre del comando]`. \nEscribe `/help all` para ver la lista de comandos.",
+            "name": {
+                "error": "Comando con el nombre `{{name}}` no encontrado",
+                "invalid": "Nombre de comando inválido",
+                "title": "Ayuda por {{name}}:"
+            },
+            "short": "Para más información acerca del comando escribe `/help command [nombre del comando]`"
+        },
+        "data": {
+            "description": "En el servidor anexado, ve al canal #data-deletion-request. Dentro del canal, escribe /deletedata.",
+            "title": "¿Quieres realizar una solicitud para eliminar tu información de usuario?"
+        },
+        "invite": {
+            "description": "[Invitación al servidor Private6Mans]({{link}})",
+            "title": "¿Quieres usar el bot en tu servidor?"
+        },
+        "issues": {
+            "description": "Asegúrate de que el bot tenga permisos de leer y enviar mensajes, enviar links y agregar reacciones. Además, asegúrate de que todos en la sala puedan recibir mensajes privados del bot.",
+            "title": "¿Tienes problemas?"
+        },
+        "support": {
+            "description": "[Servidor Private6Mans]({{link}})",
+            "title": "¿Sigues teniendo problemas?"
+        },
+        "types": {
+            "developer": {
+                "description": "Sólo los desarrolladores del bot pueden usar este comando.",
+                "list": "Lista de comandos del desarrollador",
+                "title": "Este es un comando para **desarrollador**"
+            },
+            "moderator": {
+                "description": "Sólo usuarios con el rol de moderador designado por Private 6 Mans, o usuarios con los permisos de creador y administrador del servidor pueden usar este comando.",
+                "list": "Lista de comandos del moderador",
+                "title": "Este es un comando de **moderador**"
+            },
+            "public": {
+                "description": "Todos los usuarios pueden usar este comando, excepto los usuarios en la lista de bloqueados.",
+                "list": "Lista de comandos públicos",
+                "title": "Este es un comando **público**"
+            }
+        },
+        "word": "Ayuda"
+    },
+    "interactionCreate": {
+        "queued": "Has reingresado a la lista de espera."
+    },
+    "invite": {
+        "bot": "Private6Mans link de invitación:",
+        "server": "Private6Mans link de invitación al servidor:"
+    },
+    "leaderboard": {
+        "title": "Tabla de posiciones del servidor"
+    },
+    "match": {
+        "progress": "Partida en progreso",
+        "rating": "{{team}} Cambio de calificación",
+        "status": "Estado",
+        "stopped": "Selección de partida detenida.",
+        "summary": "La partida {{matchId}} ha sido reportada!\nEquipo {{teamId}} ganó, los resultados han sido reportados. ¡Que disfrutes tus partidas! \n\nRepartición de puntos mostrados debajo.",
+        "winner": "Ganador"
+    },
+    "queue": {
+        "added": {
+            "description": "{{player}} agregado a la lista de espera.",
+            "title": "Jugador agregado a la lista de espera."
+        },
+        "empty": "Lista de espera está vacía",
+        "error": {
+            "join": "¡Ya estás en la lista de espera!",
+            "leave": "¡No estás en lista de espera!",
+            "role": "¡No tienes el rol requerido para ingresar a la lista de espera!"
+        },
+        "invalid": "Usuario no válido ¿está en la lista de bloqueos o es una cuenta de un bot?",
+        "join": "¡{{player}} se ha unido a la lista de espera!",
+        "leave": "¡{{player}} ha dejado la lista de espera!",
+        "notFound": {
+            "description": "{{player}} no está presente en la lista de espera actual.",
+            "title": "El usuario no está en la lista de espera."
+        },
+        "notPermitted": {
+            "description": "El usuario seleccionado no tiene permitido unirse a la lista de espera actual.",
+            "title": "El usuario no puede unirse a la lista de espera"
+        },
+        "removed": {
+            "description": "{{player}} eliminado de la lista de espera.",
+            "title": "Jugador eliminado de la lista de espera."
+        },
+        "start": "¡{{player}} ha iniciado una lista de espera!"
+    },
+    "report": {
+        "error": {
+            "matchResult": "Ningún resultado ingresado, por favor digita alguno.",
+            "report": "No puedes reportar una partida a la que no perteneces."
+        }
+    },
+    "reset": {
+        "confirm": "¿Estás seguro que quieres eliminar tu información? Esta acción no se puede deshacer posteriormente",
+        "matches": "Partidas restablecidas",
+        "matchResults": "Restablecer resultados de la partida",
+        "mode": "Por favor especifica un modo",
+        "players": "Jugadores restablecidos",
+        "queues": "Lista de espera restablecids",
+        "rooms": "Por favor especifica las salas a reiniciar",
+        "stats": "Reiniciar estadísticas",
+        "success": "Reinicio del servidor"
+    },
+    "stats": {
+        "error": "Miembro no encontrado",
+        "losses": "Derrotas",
+        "rating": "Clasificar",
+        "title": "Estadístcas de {{player}}",
+        "unknown": "Desconocido",
+        "wins": "Victorias"
+    },
+    "substitute": {
+        "description": "{{player}} sustituyó a {{replacement}} en la partida {{id}}!",
+        "invalid": {
+            "queued": "Usuario inválido, ¿es miembro de una partida?",
+            "replacement": "Usuario inválido, ¿es parte de una partida, un bot o un usuario bloqueado?"
+        }
+    },
+    "undo": {
+        "description": "Ahora puedes reportar el marcador de manera correcta.",
+        "error": "Sólo puedes deshacer una artida que ha sido reportada o cancelada",
+        "title": "Partida {{id}} eliminada."
+    }
 }

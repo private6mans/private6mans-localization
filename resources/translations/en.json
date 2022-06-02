@@ -474,6 +474,7 @@
             "description": "{{player}} added to queue.",
             "title": "Player added to queue."
         },
+        "empty": "Queue is empty.",
         "error": {
             "join": "You're already queued!",
             "leave": "You're not currently queued!",
