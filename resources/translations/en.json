@@ -29,6 +29,7 @@
     "botStats": {
         "ping": "Getting Ping!",
         "cpu": "CPU Usage",
+        "title": "Bot Stats",
         "memory": {
             "free": "Free Memory",
             "process": "Process Memory Usage",
@@ -39,8 +40,14 @@
         "member": "Member Count",
         "user": "Cached User Count",
         "uptime": {
-            "title": "Server Uptime",
-            "description": "Server has been online for {{uptime}}"
+            "server": {
+                "title": "Server Uptime",
+                "description": "Server has been online for {{uptime}}"
+            },
+            "bot": {
+                "title": "Bot Uptime",
+                "description": "Bot has been online for {{uptime}}"
+            }
         },
         "latency": {
             "rest": "REST Latency",
@@ -64,126 +71,6 @@
     "clear": {
         "title": "Queue Cleared!",
         "description": "The Queue is now empty"
-    },
-    "createMatch": {
-        "captain": {
-            "singular": "Captain {{number}}",
-            "plural": "Captains"
-        },
-        "balanced": "Balanced Teams",
-        "random": "Random Teams",
-        "pick": {
-            "button": "Pick {{player}}",
-            "player": "\n{{index}}. {{player}} ({{nickname}}) (Rating: {{rating}})",
-            "invalid": "Invalid Selection, Please pick again.",
-            "captain": "{{captain}} is now picking",
-            "complete": "{{player}} Chosen! Team Selection Complete.",
-            "ongoing": "{{player}} Chosen! ({{count}}/{{total}})"
-        },
-        "embed": {
-            "author": "This will time out in 2 minutes.",
-            "description": "Click below to pick players for your team.",
-            "pick_one": "Pick {{count}} player:",
-            "pick_multiple": "Pick {{count}} players:",
-            "title": "Team Selection",
-            "id": "Match ID (use this when reporting the score)"
-        },
-        "vote": {
-            "cast": "Vote Cast! {{type}} Chosen.",
-            "starter": {
-                "title": "You have 2 minutes to vote. Vote by clicking the buttons below.",
-                "description": "This message needs to have **{{count}}** player interactions to proceed!"
-            },
-            "return": {
-                "title": "Voting complete!",
-                "description": "The vote has been completed. The results are:"
-            }
-        },
-        "mode": {
-            "balanced": "Balanced mode was selected!",
-            "captains": {
-                "title": "captains mode was selected!",
-                "picking": {
-                    "title": "Picking Teams",
-                    "description": "Captains will now pick their team members!"
-                }
-            },
-            "random": "Random mode was selected!"
-        }
-    },
-    "cron": {
-        "remove": "Players removed from the queue after inactivity",
-        "warning": {
-            "button": "Extend Queue Time",
-            "description": "Click below to extend the time you have in Queue!",
-            "title": "Players to be removed from queue in under 5 minutes!"
-        }
-    },
-    "deleteData": {
-        "prompt": {
-            "description": "Are you sure you want to delete your data? This cannot be undone.",
-            "title": "Delete Data"
-        },
-        "success": {
-            "description": "Your data has been removed from our databases.",
-            "title": "Data Deleted"
-        },
-        "error": "This command can only be run in the #data-deletion-request channel in the Private 6 Mans support server.\nType /invite for an invite link to that server."
-    },
-    "error": {
-        "blacklisted": "Player already blacklisted",
-        "queued": {
-            "title": "Player Already Queued",
-            "description": "The Selected player is already in the current queue."
-        },
-        "cancelled": "You cancelled the operation!",
-        "captain": {
-            "dm": "I can't send a DM to {{captain}}, are you allowing DMs? (Team Picking Cancelled)",
-            "time": "{{captain}} out of time to choose players. (Team Picking Cancelled)"
-        },
-        "config": {
-            "player": "You can't interact with this!"
-        },
-        "interactionCreate": {
-            "embed": "I can't create an embed, please fix that!",
-            "time": "You ran out of time!",
-            "generic": "Something went wrong!",
-            "unknown": {
-                "description": "Post this code in the #error-report channel in the Private 6 Mans Support Server so that we can look into it.",
-                "id": "ERROR ID: {{error}}"
-            },
-            "permissions": {
-                "content": "Missing bot permissions",
-                "footer": "I need the permissions listed above to allow me to run smoothly!",
-                "title": "Missing Permissions:",
-                "bot": "I am missing Permissions!",
-                "user": "You don't have permission to use this command",
-                "premium": "You need to be a premium player to use this feature."
-            }
-        },
-        "match": {
-            "found": "No match found with that ID.",
-            "id": "No ID provided, please provide a match ID.",
-            "cancelled": "Match {{id}} has been cancelled!",
-            "reported": "Match {{id}} has already been reported!"
-        },
-        "unknown": {
-            "change": "Unknown Change",
-            "player": "{{id}} (Unknown Player)"
-        }
-    },
-    "generic": {
-        "queue": "Current Queue Members: {{size}}",
-        "stats": "Bot Stats",
-        "uptime": {
-            "title": "Bot Uptime",
-            "description": "Bot has been online for {{uptime}}"
-        },
-        "match": "Match {{id}}",
-        "negative": "Cancel",
-        "positive": "Confirm",
-        "team": "Team {{number}}",
-        "time": "Time"
     },
     "config": {
         "base": {
@@ -403,6 +290,121 @@
         "current": "Current Setting: {{setting}}",
         "update": "Update to: {{setting}}",
         "toggle": "Toggle to: {{setting}}"
+    },
+    "createMatch": {
+        "captain": {
+            "singular": "Captain {{number}}",
+            "plural": "Captains"
+        },
+        "balanced": "Balanced Teams",
+        "random": "Random Teams",
+        "pick": {
+            "button": "Pick {{player}}",
+            "player": "\n{{index}}. {{player}} ({{nickname}}) (Rating: {{rating}})",
+            "invalid": "Invalid Selection, Please pick again.",
+            "captain": "{{captain}} is now picking",
+            "complete": "{{player}} Chosen! Team Selection Complete.",
+            "ongoing": "{{player}} Chosen! ({{count}}/{{total}})"
+        },
+        "embed": {
+            "author": "This will time out in 2 minutes.",
+            "description": "Click below to pick players for your team.",
+            "pick_one": "Pick {{count}} player:",
+            "pick_multiple": "Pick {{count}} players:",
+            "title": "Team Selection",
+            "id": "Match ID (use this when reporting the score)"
+        },
+        "vote": {
+            "cast": "Vote Cast! {{type}} Chosen.",
+            "starter": {
+                "title": "You have 2 minutes to vote. Vote by clicking the buttons below.",
+                "description": "This message needs to have **{{count}}** player interactions to proceed!"
+            },
+            "return": {
+                "title": "Voting complete!",
+                "description": "The vote has been completed. The results are:"
+            }
+        },
+        "mode": {
+            "balanced": "Balanced mode was selected!",
+            "captains": {
+                "title": "captains mode was selected!",
+                "picking": {
+                    "title": "Picking Teams",
+                    "description": "Captains will now pick their team members!"
+                }
+            },
+            "random": "Random mode was selected!"
+        }
+    },
+    "cron": {
+        "remove": "Players removed from the queue after inactivity",
+        "warning": {
+            "button": "Extend Queue Time",
+            "description": "Click below to extend the time you have in Queue!",
+            "title": "Players to be removed from queue in under 5 minutes!"
+        }
+    },
+    "deleteData": {
+        "prompt": {
+            "description": "Are you sure you want to delete your data? This cannot be undone.",
+            "title": "Delete Data"
+        },
+        "success": {
+            "description": "Your data has been removed from our databases.",
+            "title": "Data Deleted"
+        },
+        "error": "This command can only be run in the #data-deletion-request channel in the Private 6 Mans support server.\nType /invite for an invite link to that server."
+    },
+    "error": {
+        "blacklisted": "Player already blacklisted",
+        "queued": {
+            "title": "Player Already Queued",
+            "description": "The Selected player is already in the current queue."
+        },
+        "cancelled": "You cancelled the operation!",
+        "captain": {
+            "dm": "I can't send a DM to {{captain}}, are you allowing DMs? (Team Picking Cancelled)",
+            "time": "{{captain}} out of time to choose players. (Team Picking Cancelled)"
+        },
+        "config": {
+            "player": "You can't interact with this!"
+        },
+        "interactionCreate": {
+            "embed": "I can't create an embed, please fix that!",
+            "time": "You ran out of time!",
+            "generic": "Something went wrong!",
+            "unknown": {
+                "description": "Post this code in the #error-report channel in the Private 6 Mans Support Server so that we can look into it.",
+                "id": "ERROR ID: {{error}}"
+            },
+            "permissions": {
+                "content": "Missing bot permissions",
+                "footer": "I need the permissions listed above to allow me to run smoothly!",
+                "title": "Missing Permissions:",
+                "bot": "I am missing Permissions!",
+                "user": "You don't have permission to use this command",
+                "premium": "You need to be a premium player to use this feature."
+            }
+        },
+        "match": {
+            "found": "No match found with that ID.",
+            "id": "No ID provided, please provide a match ID.",
+            "cancelled": "Match {{id}} has been cancelled!",
+            "reported": "Match {{id}} has already been reported!"
+        },
+        "unknown": {
+            "change": "Unknown Change",
+            "player": "{{id}} (Unknown Player)"
+        }
+    },
+    "generic": {
+        "queue": "Current Queue Members: {{size}}",
+        "match": "Match {{id}}",
+        "negative": "Cancel",
+        "positive": "Confirm",
+        "team": "Team {{number}}",
+        "time": "Time"
     },
     "help": {
         "word": "Help",
