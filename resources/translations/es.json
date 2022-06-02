@@ -77,11 +77,9 @@
             "description": "Select from the dropdown below, if you want to view settings, or update the queue/server settings",
             "guild": {
                 "description": "Update the server wide settings",
-                "title": "Server Settings"
             },
             "queue": {
                 "description": "Update this queue's settings",
-                "title": "Queue Settings"
             },
             "settings": {
                 "description": "View the settings for the server and the current queue.",
@@ -120,7 +118,9 @@
                 "vi": "Vietnamese",
                 "zh-CN": "Chinese (Simplified)",
                 "zh-TW": "Taiwanese"
-            }
+            },
+            "role": "Role not set"
+
         },
         "current": "Current Setting: {{setting}}",
         "guild": {
@@ -196,7 +196,7 @@
             "singleQueue": {
                 "description": "When enabled, the server will share one common queue, else each channel will be it's own queue",
                 "setting": {
-                    "disabled": "Single Queue was **Disabled**",
+                    "disabled": "Disabled",
                     "enabled": "Enabled"
                 },
                 "title": "Single Queue",
