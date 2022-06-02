@@ -2,280 +2,113 @@
     "active": {
         "cancelled": "Active Command Cancelled",
         "description": "Click on a button to view the related match.",
+        "home": "Return Home",
         "invalid": "Invalid match selected, please try again.",
+        "lose": "Lose",
         "none": "No Active Matches that you can manage.",
-        "reported": "Match Reported.",
-        "title": "Active Matches",
         "report": {
             "mod": "Which team won this match?",
             "player": "Did you win or lose this match?",
             "text": "Report Match"
         },
-        "home": "Return Home",
-        "lose": "Lose",
-        "win": "Win",
-        "stop": "Stop This Menu"
+        "reported": "Match Reported.",
+        "stop": "Stop This Menu",
+        "title": "Active Matches",
+        "win": "Win"
     },
     "blacklist": {
+        "add": "Successfully added to blacklist:",
         "current": "Current Blacklist",
         "empty": "No Players Blacklisted",
         "invalid": "Valid Player not provided! Are they a bot account?",
         "limit": "Limited to 4096 characters",
-        "status": "❯ {{player}}\nAdded: {{time}}\n",
         "notFound": "Player not on blacklist",
-        "add": "Successfully added to blacklist:",
-        "remove": "Successfully removed from blacklist:"
+        "remove": "Successfully removed from blacklist:",
+        "status": "❯ {{player}}\nAdded: {{time}}\n"
     },
     "botStats": {
-        "ping": "Getting Ping!",
         "cpu": "CPU Usage",
-        "title": "Bot Stats",
+        "guild": "Server Count",
+        "latency": {
+            "rest": "REST Latency",
+            "ws": "WS Latency"
+        },
+        "member": "Member Count",
         "memory": {
             "free": "Free Memory",
             "process": "Process Memory Usage",
             "system": "Total Memory",
             "used": "Total system memory used"
         },
-        "guild": "Server Count",
-        "member": "Member Count",
-        "user": "Cached User Count",
+        "ping": "Getting Ping!",
+        "title": "Bot Stats",
         "uptime": {
-            "server": {
-                "title": "Server Uptime",
-                "description": "Server has been online for {{uptime}}"
-            },
             "bot": {
-                "title": "Bot Uptime",
-                "description": "Bot has been online for {{uptime}}"
+                "description": "Bot has been online for {{uptime}}",
+                "title": "Bot Uptime"
+            },
+            "server": {
+                "description": "Server has been online for {{uptime}}",
+                "title": "Server Uptime"
             }
         },
-        "latency": {
-            "rest": "REST Latency",
-            "ws": "WS Latency"
-        }
+        "user": "Cached User Count"
     },
     "cancel": {
         "confirm": "Confirm Cancellation",
         "deny": "Don't Cancel",
         "description": "Any future attempts to report this score will not work.",
+        "error": "You cannot cancel a match that has already been reported.",
         "match": {
-            "title": "Cancel Match",
             "description": "Click below to cancel match {{id}}",
-            "success": "Match Cancelled"
+            "success": "Match Cancelled",
+            "title": "Cancel Match"
         },
         "moderator": "Ask a mod to cancel this game for you!",
         "reporting": "Cancel Reporting",
-        "title": "Match {{id}} was cancelled.",
-        "error": "You cannot cancel a match that has already been reported."
+        "title": "Match {{id}} was cancelled."
     },
     "clear": {
-        "title": "Queue Cleared!",
-        "description": "The Queue is now empty"
+        "description": "The Queue is now empty",
+        "title": "Queue Cleared!"
     },
     "config": {
         "base": {
-            "title": "Configure the Bot",
             "description": "Select from the dropdown below, if you want to view settings, or update the queue/server settings",
             "guild": {
-                "title": "Server Settings",
-                "description": "Update the server wide settings"
+                "description": "Update the server wide settings",
+                "title": "Server Settings"
             },
             "queue": {
-                "title": "Queue Settings",
-                "description": "Update this queue's settings"
+                "description": "Update this queue's settings",
+                "title": "Queue Settings"
             },
             "settings": {
-                "title": "View Settings",
-                "description": "View the settings for the server and the current queue."
-            }
-        },
-        "guild": {
-            "title": "Server Settings",
-            "description": "Select the element from the dropdown below that you want to update.",
-            "modRole": {
-                "title": "Mod Role",
-                "description": "Users with this role will be allowed to use the moderator commands for the bot",
-                "setting": {
-                    "description": "Select a new **Mod Role** for the server or select reset to remove.",
-                    "reset": "Reset"
-                },
-                "updated": {
-                    "title": "Mod Role Updated",
-                    "new": "Mod role was set to **{{role}}**",
-                    "reset": "Mod role was **reset**"
-                }
+                "description": "View the settings for the server and the current queue.",
+                "title": "View Settings"
             },
-            "singleQueue": {
-                "title": "Single Queue",
-                "description": "When enabled, the server will share one common queue, else each channel will be it's own queue",
-                "setting": {
-                    "enabled": "Enabled",
-                    "disabled": "Single Queue was **Disabled**"
-                },
-                "updated": {
-                    "title": "Single Queue Updated",
-                    "enabled": "Single Queue was **Enabled**",
-                    "disabled": "Single Queue was **Disabled**"
-                }
-            },
-            "matchTimeout": {
-                "title": "Match Timeout",
-                "description": "How long in hours until matches Auto-Cancel themselves",
-                "setting": {
-                    "days": "{{size}} Days"
-                },
-                "updated": {
-                    "title": "Match Timeout Updated",
-                    "description": "Match Timeout was set to **{{size}}** days"
-                }
-            },
-            "bestOf": {
-                "title": "Best Of Size",
-                "description": "How many games should be played per series?",
-                "options": {
-                    "disabled": "Disabled",
-                    "pick": "Pick on match create",
-                    "random": "Random",
-                    "bo_count": "Best of {{size}}"
-                }
-            },
-            "vcCategory": {
-                "title": "VC Category",
-                "description": "Which category should the bot create voice channels in for the match? This can be Disabled",
-                "setting": {
-                    "description": "Select a new **VC Category** or select reset to remove.",
-                    "reset": "Don't create VCs on match creation."
-                },
-                "updated": {
-                    "title": "VC Category Updated",
-                    "new": "VC Category was set to **{{category}}**",
-                    "reset": "VC Category was **reset**"
-                }
-            },
-            "language": {
-                "title": "Language",
-                "description": "Which language should the bot speak in your server?",
-                "updated": {
-                    "title": "Language Updated",
-                    "description": "Language was set to **{{language}}**"
-                }
-            },
-            "mentionRole": {
-                "title": "Mention Role",
-                "description": "What role should be mentioned on queue start? This is used in queues that don't have a Mention Role set",
-                "setting": {
-                    "description": "Select a new **Guild Mention Role** for the server or select reset to remove.",
-                    "reset": "Reset"
-                },
-                "updated": {
-                    "title": "Guild Mention Role Updated",
-                    "new": "Guild Mention role was set to **{{role}}**",
-                    "reset": "Guild Mention role was **reset**"
-                }
-            },
-            "requiredRole": {
-                "title": "Required Role",
-                "description": "What role is required to join the queue? This is used in queues that don't have a Required Role set",
-                "setting": {
-                    "description": "Select a new **Guild Required Role** for the server or select reset to remove.",
-                    "reset": "Reset"
-                },
-                "updated": {
-                    "title": "Guild Required Role Updated",
-                    "new": "Guild Required role was set to **{{role}}**",
-                    "reset": "Guild Required role was **reset**"
-                }
-            }
-        },
-        "queue": {
-            "title": "Queue Settings",
-            "description": "Select the element from the dropdown below that you want to update.",
-            "teamSize": {
-                "title": "Team Size",
-                "description": "How many people should be on each team?"
-            },
-            "randomCaptains": {
-                "title": "Random Captains",
-                "description": "Should captains be random, or the top rated in the lobby?",
-                "setting": {
-                    "enabled": "Enabled",
-                    "disabled": "Disabled"
-                },
-                "updated": {
-                    "title": "Random Captains Updated",
-                    "enabled": "Random Captains was **Enabled**",
-                    "disabled": "Random Captains was **Disabled**"
-                }
-            },
-            "queueTimeout": {
-                "title": "Queue Timeout",
-                "description": "How long until a player is removed from the queue for inactivity.",
-                "setting": {
-                    "minutes": "{{size}} Minutes"
-                }
-            },
-            "showRoom": {
-                "title": "Show Room",
-                "description": "Should this room be shown on the leaderboard?",
-                "setting": {
-                    "enabled": "Public",
-                    "disable": "Private"
-                },
-                "updated": {
-                    "title": "Show Room Updated",
-                    "enabled": "Show Room set to **Public**",
-                    "disabled": "Show Room set to **Private**"
-                }
-            },
-            "mentionRole": {
-                "title": "Mention Role",
-                "description": "What role should be mentioned on queue start?",
-                "setting": {
-                    "description": "Select a new **Guild Mention Role** for the server or select reset to remove.",
-                    "reset": "Reset"
-                },
-                "updated": {
-                    "title": "Guild Mention Role Updated",
-                    "new": "Guild Mention role was set to **{{role}}**",
-                    "reset": "Guild Mention role was **reset**"
-                }
-            },
-            "requiredRole": {
-                "title": "Required Role",
-                "description": "What role is required to join the queue?",
-                "setting": {
-                    "description": "Select a new **Required Role** for the server or select reset to remove.",
-                    "reset": "Reset"
-                },
-                "updated": {
-                    "title": "Required Role Updated",
-                    "new": "Required role was set to **{{role}}**",
-                    "reset": "Required role was **reset**"
-                }
-            }
+            "title": "Configure the Bot"
         },
         "common": {
             "languages": {
-                "guildLanguage": "Guild Language Setting",
+                "bg": "Bulgarian",
+                "cs": "Czech",
+                "da": "Danish",
+                "de": "German",
+                "el": "Greek",
                 "en": "English",
                 "es": "Spanish",
-                "fr": "French",
-                "de": "German",
-                "bg": "Bulgarian",
-                "hr": "Croatian",
-                "da": "Danish",
-                "cs": "Czech",
-                "zh-CN": "Chinese (Simplified)",
-                "zh-TW": "Taiwanese",
-                "nl": "Dutch",
                 "fi": "Finnish",
-                "el": "Greek",
+                "fr": "French",
+                "guildLanguage": "Guild Language Setting",
                 "hi": "Hindi",
+                "hr": "Croatian",
                 "hu": "Hungarian",
                 "it": "Italian",
                 "ja": "Japanese",
                 "ko": "Korean",
                 "lt": "Latvian",
+                "nl": "Dutch",
                 "no": "Norwegian",
                 "pl": "Polish",
                 "pt-BR": "Portuguese (Brazil)",
@@ -284,57 +117,224 @@
                 "th": "Thai",
                 "tr": "Turkish",
                 "uk": "Ukrainian",
-                "vi": "Vietnamese"
+                "vi": "Vietnamese",
+                "zh-CN": "Chinese (Simplified)",
+                "zh-TW": "Taiwanese"
             }
         },
         "current": "Current Setting: {{setting}}",
-        "update": "Update to: {{setting}}",
-        "toggle": "Toggle to: {{setting}}"
+        "guild": {
+            "bestOf": {
+                "description": "How many games should be played per series?",
+                "options": {
+                    "bo_count": "Best of {{size}}",
+                    "disabled": "Disabled",
+                    "pick": "Pick on match create",
+                    "random": "Random"
+                },
+                "title": "Best Of Size"
+            },
+            "description": "Select the element from the dropdown below that you want to update.",
+            "language": {
+                "description": "Which language should the bot speak in your server?",
+                "title": "Language",
+                "updated": {
+                    "description": "Language was set to **{{language}}**",
+                    "title": "Language Updated"
+                }
+            },
+            "matchTimeout": {
+                "description": "How long in hours until matches Auto-Cancel themselves",
+                "setting": {
+                    "days": "{{size}} Days"
+                },
+                "title": "Match Timeout",
+                "updated": {
+                    "description": "Match Timeout was set to **{{size}}** days",
+                    "title": "Match Timeout Updated"
+                }
+            },
+            "mentionRole": {
+                "description": "What role should be mentioned on queue start? This is used in queues that don't have a Mention Role set",
+                "setting": {
+                    "description": "Select a new **Guild Mention Role** for the server or select reset to remove.",
+                    "reset": "Reset"
+                },
+                "title": "Mention Role",
+                "updated": {
+                    "new": "Guild Mention role was set to **{{role}}**",
+                    "reset": "Guild Mention role was **reset**",
+                    "title": "Guild Mention Role Updated"
+                }
+            },
+            "modRole": {
+                "description": "Users with this role will be allowed to use the moderator commands for the bot",
+                "setting": {
+                    "description": "Select a new **Mod Role** for the server or select reset to remove.",
+                    "reset": "Reset"
+                },
+                "title": "Mod Role",
+                "updated": {
+                    "new": "Mod role was set to **{{role}}**",
+                    "reset": "Mod role was **reset**",
+                    "title": "Mod Role Updated"
+                }
+            },
+            "requiredRole": {
+                "description": "What role is required to join the queue? This is used in queues that don't have a Required Role set",
+                "setting": {
+                    "description": "Select a new **Guild Required Role** for the server or select reset to remove.",
+                    "reset": "Reset"
+                },
+                "title": "Required Role",
+                "updated": {
+                    "new": "Guild Required role was set to **{{role}}**",
+                    "reset": "Guild Required role was **reset**",
+                    "title": "Guild Required Role Updated"
+                }
+            },
+            "singleQueue": {
+                "description": "When enabled, the server will share one common queue, else each channel will be it's own queue",
+                "setting": {
+                    "disabled": "Single Queue was **Disabled**",
+                    "enabled": "Enabled"
+                },
+                "title": "Single Queue",
+                "updated": {
+                    "disabled": "Single Queue was **Disabled**",
+                    "enabled": "Single Queue was **Enabled**",
+                    "title": "Single Queue Updated"
+                }
+            },
+            "title": "Server Settings",
+            "vcCategory": {
+                "description": "Which category should the bot create voice channels in for the match? This can be Disabled",
+                "setting": {
+                    "description": "Select a new **VC Category** or select reset to remove.",
+                    "reset": "Don't create VCs on match creation."
+                },
+                "title": "VC Category",
+                "updated": {
+                    "new": "VC Category was set to **{{category}}**",
+                    "reset": "VC Category was **reset**",
+                    "title": "VC Category Updated"
+                }
+            }
+        },
+        "queue": {
+            "description": "Select the element from the dropdown below that you want to update.",
+            "mentionRole": {
+                "description": "What role should be mentioned on queue start?",
+                "setting": {
+                    "description": "Select a new **Guild Mention Role** for the server or select reset to remove.",
+                    "reset": "Reset"
+                },
+                "title": "Mention Role",
+                "updated": {
+                    "new": "Guild Mention role was set to **{{role}}**",
+                    "reset": "Guild Mention role was **reset**",
+                    "title": "Guild Mention Role Updated"
+                }
+            },
+            "queueTimeout": {
+                "description": "How long until a player is removed from the queue for inactivity.",
+                "setting": {
+                    "minutes": "{{size}} Minutes"
+                },
+                "title": "Queue Timeout"
+            },
+            "randomCaptains": {
+                "description": "Should captains be random, or the top rated in the lobby?",
+                "setting": {
+                    "disabled": "Disabled",
+                    "enabled": "Enabled"
+                },
+                "title": "Random Captains",
+                "updated": {
+                    "disabled": "Random Captains was **Disabled**",
+                    "enabled": "Random Captains was **Enabled**",
+                    "title": "Random Captains Updated"
+                }
+            },
+            "requiredRole": {
+                "description": "What role is required to join the queue?",
+                "setting": {
+                    "description": "Select a new **Required Role** for the server or select reset to remove.",
+                    "reset": "Reset"
+                },
+                "title": "Required Role",
+                "updated": {
+                    "new": "Required role was set to **{{role}}**",
+                    "reset": "Required role was **reset**",
+                    "title": "Required Role Updated"
+                }
+            },
+            "showRoom": {
+                "description": "Should this room be shown on the leaderboard?",
+                "setting": {
+                    "disable": "Private",
+                    "enabled": "Public"
+                },
+                "title": "Show Room",
+                "updated": {
+                    "disabled": "Show Room set to **Private**",
+                    "enabled": "Show Room set to **Public**",
+                    "title": "Show Room Updated"
+                }
+            },
+            "teamSize": {
+                "description": "How many people should be on each team?",
+                "title": "Team Size"
+            },
+            "title": "Queue Settings"
+        },
+        "toggle": "Toggle to: {{setting}}",
+        "update": "Update to: {{setting}}"
     },
     "createMatch": {
-        "captain": {
-            "singular": "Captain {{number}}",
-            "plural": "Captains"
-        },
         "balanced": "Balanced Teams",
-        "random": "Random Teams",
-        "pick": {
-            "button": "Pick {{player}}",
-            "player": "\n{{index}}. {{player}} ({{nickname}}) (Rating: {{rating}})",
-            "invalid": "Invalid Selection, Please pick again.",
-            "captain": "{{captain}} is now picking",
-            "complete": "{{player}} Chosen! Team Selection Complete.",
-            "ongoing": "{{player}} Chosen! ({{count}}/{{total}})"
+        "captain": {
+            "plural": "Captains",
+            "singular": "Captain {{number}}"
         },
         "embed": {
             "author": "This will time out in 2 minutes.",
             "description": "Click below to pick players for your team.",
-            "pick_one": "Pick {{count}} player:",
+            "id": "Match ID (use this when reporting the score)",
             "pick_multiple": "Pick {{count}} players:",
-            "title": "Team Selection",
-            "id": "Match ID (use this when reporting the score)"
-        },
-        "vote": {
-            "cast": "Vote Cast! {{type}} Chosen.",
-            "starter": {
-                "title": "You have 2 minutes to vote. Vote by clicking the buttons below.",
-                "description": "This message needs to have **{{count}}** player interactions to proceed!"
-            },
-            "return": {
-                "title": "Voting complete!",
-                "description": "The vote has been completed. The results are:"
-            }
+            "pick_one": "Pick {{count}} player:",
+            "title": "Team Selection"
         },
         "mode": {
             "balanced": "Balanced mode was selected!",
             "captains": {
-                "title": "captains mode was selected!",
                 "picking": {
-                    "title": "Picking Teams",
-                    "description": "Captains will now pick their team members!"
-                }
+                    "description": "Captains will now pick their team members!",
+                    "title": "Picking Teams"
+                },
+                "title": "captains mode was selected!"
             },
             "random": "Random mode was selected!"
+        },
+        "pick": {
+            "button": "Pick {{player}}",
+            "captain": "{{captain}} is now picking",
+            "complete": "{{player}} Chosen! Team Selection Complete.",
+            "invalid": "Invalid Selection, Please pick again.",
+            "ongoing": "{{player}} Chosen! ({{count}}/{{total}})",
+            "player": "\n{{index}}. {{player}} ({{nickname}}) (Rating: {{rating}})"
+        },
+        "random": "Random Teams",
+        "vote": {
+            "cast": "Vote Cast! {{type}} Chosen.",
+            "return": {
+                "description": "The vote has been completed. The results are:",
+                "title": "Voting complete!"
+            },
+            "starter": {
+                "description": "This message needs to have **{{count}}** player interactions to proceed!",
+                "title": "You have 2 minutes to vote. Vote by clicking the buttons below."
+            }
         }
     },
     "cron": {
@@ -346,6 +346,7 @@
         }
     },
     "deleteData": {
+        "error": "This command can only be run in the #data-deletion-request channel in the Private 6 Mans support server.\nType /invite for an invite link to that server.",
         "prompt": {
             "description": "Are you sure you want to delete your data? This cannot be undone.",
             "title": "Delete Data"
@@ -353,15 +354,10 @@
         "success": {
             "description": "Your data has been removed from our databases.",
             "title": "Data Deleted"
-        },
-        "error": "This command can only be run in the #data-deletion-request channel in the Private 6 Mans support server.\nType /invite for an invite link to that server."
+        }
     },
     "error": {
         "blacklisted": "Player already blacklisted",
-        "queued": {
-            "title": "Player Already Queued",
-            "description": "The Selected player is already in the current queue."
-        },
         "cancelled": "You cancelled the operation!",
         "captain": {
             "dm": "I can't send a DM to {{captain}}, are you allowing DMs? (Team Picking Cancelled)",
@@ -372,26 +368,30 @@
         },
         "interactionCreate": {
             "embed": "I can't create an embed, please fix that!",
-            "time": "You ran out of time!",
             "generic": "Something went wrong!",
+            "permissions": {
+                "bot": "I am missing Permissions!",
+                "content": "Missing bot permissions",
+                "footer": "I need the permissions listed above to allow me to run smoothly!",
+                "premium": "You need to be a premium player to use this feature.",
+                "title": "Missing Permissions:",
+                "user": "You don't have permission to use this command"
+            },
+            "time": "You ran out of time!",
             "unknown": {
                 "description": "Post this code in the #error-report channel in the Private 6 Mans Support Server so that we can look into it.",
                 "id": "ERROR ID: {{error}}"
-            },
-            "permissions": {
-                "content": "Missing bot permissions",
-                "footer": "I need the permissions listed above to allow me to run smoothly!",
-                "title": "Missing Permissions:",
-                "bot": "I am missing Permissions!",
-                "user": "You don't have permission to use this command",
-                "premium": "You need to be a premium player to use this feature."
             }
         },
         "match": {
+            "cancelled": "Match {{id}} has been cancelled!",
             "found": "No match found with that ID.",
             "id": "No ID provided, please provide a match ID.",
-            "cancelled": "Match {{id}} has been cancelled!",
             "reported": "Match {{id}} has already been reported!"
+        },
+        "queued": {
+            "description": "The Selected player is already in the current queue.",
+            "title": "Player Already Queued"
         },
         "unknown": {
             "change": "Unknown Change",
@@ -399,57 +399,57 @@
         }
     },
     "generic": {
-        "queue": "Current Queue Members: {{size}}",
         "match": "Match {{id}}",
         "negative": "Cancel",
         "positive": "Confirm",
+        "queue": "Current Queue Members: {{size}}",
         "team": "Team {{number}}",
         "time": "Time"
     },
     "help": {
-        "word": "Help",
         "command": {
-            "short": "For more information about a command, run `/help command [command name]`",
             "long": "For more information about a command, run `/help command [command name]`. \nRun `/help all` to see a list of all commands.",
             "name": {
                 "error": "Cannot find command with name `{{name}}`",
                 "invalid": "Invalid Command name given",
                 "title": "Help for {{name}}:"
-            }
+            },
+            "short": "For more information about a command, run `/help command [command name]`"
         },
         "data": {
-            "title": "Want to make a request to delete your match and player data?",
-            "description": "In the Support server linked, go to the #data-deletion-request channel. In that channel, type /deletedata."
+            "description": "In the Support server linked, go to the #data-deletion-request channel. In that channel, type /deletedata.",
+            "title": "Want to make a request to delete your match and player data?"
+        },
+        "invite": {
+            "description": "[Private6Mans Invite]({{link}})",
+            "title": "Want to use the bot in your own server?"
+        },
+        "issues": {
+            "description": "Make sure the bot has Read Messages, Send Messages, Embed Links and Add Reactions permissions. Also make sure everyone in the lobby can receive DMs from the bot.",
+            "title": "Having issues?"
+        },
+        "support": {
+            "description": "[Private6Mans Support Server]({{link}})",
+            "title": "Still having issues?"
         },
         "types": {
             "developer": {
-                "title": "This is a **developer** command",
                 "description": "Only the bot developers can run this command.",
-                "list": "List of developer commands"
+                "list": "List of developer commands",
+                "title": "This is a **developer** command"
             },
             "moderator": {
-                "title": "This is a **moderator** command",
                 "description": "Only users with the designated Private 6 Mans Moderator role, users with Administrator, or Manage Server permissions can run this command.",
-                "list": "List of moderator commands"
+                "list": "List of moderator commands",
+                "title": "This is a **moderator** command"
             },
             "public": {
-                "title": "This is a **public** command",
                 "description": "All users can run this command, unless they are blacklisted.",
-                "list": "List of public commands"
+                "list": "List of public commands",
+                "title": "This is a **public** command"
             }
         },
-        "issues": {
-            "title": "Having issues?",
-            "description": "Make sure the bot has Read Messages, Send Messages, Embed Links and Add Reactions permissions. Also make sure everyone in the lobby can receive DMs from the bot."
-        },
-        "invite": {
-            "title": "Want to use the bot in your own server?",
-            "description": "[Private6Mans Invite]({{link}})"
-        },
-        "support": {
-            "title": "Still having issues?",
-            "description": "[Private6Mans Support Server]({{link}})"
-        }
+        "word": "Help"
     },
     "interactionCreate": {
         "queued": "You have been re-queued."
@@ -464,37 +464,37 @@
     "match": {
         "progress": "Match in Progress",
         "rating": "{{team}} Rating Change",
-        "stopped": "Match Selection Stopped",
         "status": "Status",
+        "stopped": "Match Selection Stopped",
         "summary": "Match {{matchId}} has been reported!\nTeam {{teamId}} won, the scores have been reported. Happy Playing! \n\nRating breakdown for match given below.",
         "winner": "Winner"
     },
     "queue": {
         "added": {
-            "title": "Player added to queue.",
-            "description": "{{player}} added to queue."
+            "description": "{{player}} added to queue.",
+            "title": "Player added to queue."
         },
-        "removed": {
-            "title": "Player removed from queue.",
-            "description": "{{player}} removed from queue."
-        },
-        "invalid": "Valid player not provided! Are they blacklisted or a bot account?",
-        "notPermitted": {
-            "title": "Player not able to join Queue",
-            "description": "{{player}} is not allowed to join the current queue."
-        },
-        "notFound": {
-            "title": "Player not in queue.",
-            "description": "{{player}} is not present in the current queue."
-        },
-        "join": "{{player}} has joined the queue!",
-        "leave": "{{player}} has left the queue!",
-        "start": "{{player}} has started a new queue!",
         "error": {
             "join": "You're already queued!",
             "leave": "You're not currently queued!",
             "role": "You don't have the required role to Queue!"
-        }
+        },
+        "invalid": "Valid player not provided! Are they blacklisted or a bot account?",
+        "join": "{{player}} has joined the queue!",
+        "leave": "{{player}} has left the queue!",
+        "notFound": {
+            "description": "{{player}} is not present in the current queue.",
+            "title": "Player not in queue."
+        },
+        "notPermitted": {
+            "description": "{{player}} is not allowed to join the current queue.",
+            "title": "Player not able to join Queue"
+        },
+        "removed": {
+            "description": "{{player}} removed from queue.",
+            "title": "Player removed from queue."
+        },
+        "start": "{{player}} has started a new queue!"
     },
     "report": {
         "error": {
@@ -514,23 +514,23 @@
         "success": "Server Reset"
     },
     "stats": {
-        "title": "Stats for {{player}}",
+        "error": "Member not found",
         "losses": "Losses",
         "rating": "Rating",
+        "title": "Stats for {{player}}",
         "unknown": "Unknown",
-        "wins": "Wins",
-        "error": "Member not found"
+        "wins": "Wins"
     },
     "substitute": {
+        "description": "{{player}} has been substituted for {{replacement}} in match {{id}}!",
         "invalid": {
             "queued": "Valid player not provided! Are they a part of the match?",
             "replacement": "Valid player not provided! Are they a part of the match already, a bot, or blacklisted?"
-        },
-        "description": "{{player}} has been substituted for {{replacement}} in match {{id}}!"
+        }
     },
     "undo": {
         "description": "You can now report the score correctly.",
-        "title": "Match {{id}} was undone.",
-        "error": "You can only undo a match that has been reported or cancelled."
+        "error": "You can only undo a match that has been reported or cancelled.",
+        "title": "Match {{id}} was undone."
     }
 }
