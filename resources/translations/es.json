@@ -524,7 +524,7 @@
         "wins": "Victorias"
     },
     "substitute": {
-        "description": "{{replacement}} sustituyó a {{player}}  en la partida {{id}}!",
+        "description": "{{replacement}} sustituyó a {{player}} en la partida {{id}}!",
         "invalid": {
             "queued": "Usuario inválido, ¿es miembro de una partida?",
             "replacement": "Usuario inválido, ¿es parte de una partida, un bot o un usuario bloqueado?"
