@@ -74,222 +74,222 @@
     },
     "config": {
         "base": {
-            "description": "Select from the dropdown below, if you want to view settings, or update the queue/server settings",
+            "description": "Elige de la lista desplegable inferior si quieres ver o actualizar los ajustes del servidor o de la lista de espera.",
             "guild": {
-                "description": "Update the server wide settings",
+                "description": "Actualizar la configuración del servidor.",
             },
             "queue": {
-                "description": "Update this queue's settings",
+                "description": "Actualizar la configuración de la lista de espera",
             },
             "settings": {
-                "description": "View the settings for the server and the current queue.",
-                "title": "View Settings"
+                "description": "Ver ajustes para el servidor y la lista de espera actual.",
+                "title": "Ver ajustes"
             },
-            "title": "Configure the Bot"
+            "title": "Configuración del bot"
         },
         "common": {
             "languages": {
-                "bg": "Bulgarian",
-                "cs": "Czech",
-                "da": "Danish",
-                "de": "German",
-                "el": "Greek",
-                "en": "English",
-                "es": "Spanish",
-                "fi": "Finnish",
-                "fr": "French",
-                "guildLanguage": "Guild Language Setting",
+                "bg": "Búlgaro",
+                "cs": "Checo",
+                "da": "Danés",
+                "de": "Alemán",
+                "el": "Greco",
+                "en": "Inglés",
+                "es": "Español",
+                "fi": "Finés",
+                "fr": "Francés",
+                "guildLanguage": "Configuración de idioma del servidor",
                 "hi": "Hindi",
-                "hr": "Croatian",
-                "hu": "Hungarian",
-                "it": "Italian",
-                "ja": "Japanese",
-                "ko": "Korean",
-                "lt": "Latvian",
-                "nl": "Dutch",
-                "no": "Norwegian",
-                "pl": "Polish",
-                "pt-BR": "Portuguese (Brazil)",
-                "ro": "Romanian",
-                "ru": "Russian",
-                "th": "Thai",
-                "tr": "Turkish",
-                "uk": "Ukrainian",
-                "vi": "Vietnamese",
-                "zh-CN": "Chinese (Simplified)",
-                "zh-TW": "Taiwanese"
+                "hr": "Croata",
+                "hu": "Húngaro",
+                "it": "Italiano",
+                "ja": "Japonés",
+                "ko": "Coreano",
+                "lt": "Letón",
+                "nl": "Neerlandés",
+                "no": "Noruego",
+                "pl": "Polaco",
+                "pt-BR": "Portugués (Brazil)",
+                "ro": "Rumano",
+                "ru": "Ruso",
+                "th": "Tailandés",
+                "tr": "Turco",
+                "uk": "Ucraniano",
+                "vi": "Vietnamita",
+                "zh-CN": "Chino (Simplificado)",
+                "zh-TW": "Taiwanés"
             },
-            "role": "Role not set"
+            "role": "Rol no configurado"
 
         },
-        "current": "Current Setting: {{setting}}",
+        "current": "Configuración actual: {{setting}}",
         "guild": {
             "bestOf": {
-                "description": "How many games should be played per series?",
+                "description": "¿Cuántas partidas deben ser jugadas por serie?",
                 "options": {
-                    "bo_count": "Best of {{size}}",
-                    "disabled": "Disabled",
-                    "pick": "Pick on match create",
-                    "random": "Random"
+                    "bo_count": "Mejor de {{size}}",
+                    "disabled": "Desactivado",
+                    "pick": "Elegir número de partidas",
+                    "random": "Aleatorio"
                 },
-                "title": "Best Of Size"
+                "title": "Tamaño de partida"
             },
-            "description": "Select the element from the dropdown below that you want to update.",
+            "description": "Elige el elemento de la lista desplegable inferior que quieras actualizar.",
             "language": {
-                "description": "Which language should the bot speak in your server?",
-                "title": "Language",
+                "description": "¿Qué idioma debe utilizar el bot?",
+                "title": "Idioma",
                 "updated": {
-                    "description": "Language was set to **{{language}}**",
-                    "title": "Language Updated"
+                    "description": "Idioma configurado en **{{language}}**",
+                    "title": "Idioma actualizado"
                 }
             },
             "matchTimeout": {
-                "description": "How long in hours until matches Auto-Cancel themselves",
+                "description": "Tiempo en que las partidas sin reportar se cancelen automáticamente",
                 "setting": {
-                    "days": "{{size}} Days"
+                    "days": "{{size}} Días"
                 },
-                "title": "Match Timeout",
+                "title": "Tiempo de espera de partida sin reportar",
                 "updated": {
-                    "description": "Match Timeout was set to **{{size}}** days",
-                    "title": "Match Timeout Updated"
+                    "description": "El tiempo de espera de partida sin reportar fue configurado en **{{size}}** días",
+                    "title": "Tiempo de espera de partida sin reportar actualizado"
                 }
             },
             "mentionRole": {
-                "description": "What role should be mentioned on queue start? This is used in queues that don't have a Mention Role set",
+                "description": "¿Qué rol debería etiquetar cuando se inicie una lista de espera? Esto se usará en las listas de espera que no tienen un rol de mención configurado",
                 "setting": {
-                    "description": "Select a new **Guild Mention Role** for the server or select reset to remove.",
-                    "reset": "Reset"
+                    "description": "Selecciona un nuevo **Rol de Mención del servidor** para el servidor o elige **reiniciar** para eliminar.",
+                    "reset": "Reiniciar"
                 },
-                "title": "Mention Role",
+                "title": "Rol de mención",
                 "updated": {
-                    "new": "Guild Mention role was set to **{{role}}**",
-                    "reset": "Guild Mention role was **reset**",
-                    "title": "Guild Mention Role Updated"
+                    "new": "Rol de mención del servidor configurado en **{{role}}**",
+                    "reset": "El rol de mención del servidor fue **reiniciado**",
+                    "title": "Rol de mención del servidor actualizado"
                 }
             },
             "modRole": {
-                "description": "Users with this role will be allowed to use the moderator commands for the bot",
+                "description": "Los usuarios con este rol podrán usar los comandos de modrador del bot",
                 "setting": {
-                    "description": "Select a new **Mod Role** for the server or select reset to remove.",
-                    "reset": "Reset"
+                    "description": " Selecciona un nuevo **Rol de moderador** para el servidor o elige reiniciar para eliminar.",
+                    "reset": "Reiniciar"
                 },
-                "title": "Mod Role",
+                "title": "Rol de moderador",
                 "updated": {
-                    "new": "Mod role was set to **{{role}}**",
-                    "reset": "Mod role was **reset**",
-                    "title": "Mod Role Updated"
+                    "new": "El rol de moderador fue configurado en **{{role}}**",
+                    "reset": "El rol de moderado fue **reiniciado**",
+                    "title": "Rol de moderador actualizado"
                 }
             },
             "requiredRole": {
-                "description": "What role is required to join the queue? This is used in queues that don't have a Required Role set",
+                "description": "¿Qué rol es requerido para unirte a una lista de espera? Esto será usado en listas de espera que no tengan un rol requerido configuradothat",
                 "setting": {
-                    "description": "Select a new **Guild Required Role** for the server or select reset to remove.",
-                    "reset": "Reset"
+                    "description": "Selecciona un nuevo **Rol requerido** para el servidor o selecciona reiniciar para eliminar.",
+                    "reset": "Reiniciar"
                 },
-                "title": "Required Role",
+                "title": "Rol requerido",
                 "updated": {
-                    "new": "Guild Required role was set to **{{role}}**",
-                    "reset": "Guild Required role was **reset**",
-                    "title": "Guild Required Role Updated"
+                    "new": "Rol requerido del servidor configurado en **{{role}}**",
+                    "reset": "El rol requerido del servidor fue **reiniciado**",
+                    "title": "Rol requerido del servidor actualizado"
                 }
             },
             "singleQueue": {
-                "description": "When enabled, the server will share one common queue, else each channel will be it's own queue",
+                "description": "Cuando esté activado, el servidor compartirá una lista de espera en común, de lo contrario, cada uno tendrá su propia lista.",
                 "setting": {
                     "disabled": "Disabled",
                     "enabled": "Enabled"
                 },
-                "title": "Single Queue",
+                "title": "Lista de espera individual",
                 "updated": {
-                    "disabled": "Single Queue was **Disabled**",
-                    "enabled": "Single Queue was **Enabled**",
-                    "title": "Single Queue Updated"
+                    "disabled": "Lista de espera individual **Desactivada**",
+                    "enabled": "Lista de espera individual **Activada**",
+                    "title": "Lista de espera individual actualizada"
                 }
             },
-            "title": "Server Settings",
+            "title": "Ajustes del servidor",
             "vcCategory": {
-                "description": "Which category should the bot create voice channels in for the match? This can be Disabled",
+                "description": "¿En qué categoría se deberían crear los canales de voz? Esto puede ser desactivado",
                 "setting": {
-                    "description": "Select a new **VC Category** or select reset to remove.",
-                    "reset": "Don't create VCs on match creation."
+                    "description": "Selecciona una nueva **Categoría de canales de voz** o elige reiniciar para eliminar.",
+                    "reset": "No crear canales de voz en las partidas."
                 },
-                "title": "VC Category",
+                "title": "Categoría de canales de voz",
                 "updated": {
-                    "new": "VC Category was set to **{{category}}**",
-                    "reset": "VC Category was **reset**",
-                    "title": "VC Category Updated"
+                    "new": "La categoría de canales de voz fue configurada en **{{category}}**",
+                    "reset": "La categoia de canales de voz fue **reiniciada**",
+                    "title": "Categoría de canales de voz actualizada"
                 }
             }
         },
         "queue": {
-            "description": "Select the element from the dropdown below that you want to update.",
+            "description": "Elige el elemento de la lista desplegable inferior que quieres actualizar",
             "mentionRole": {
-                "description": "What role should be mentioned on queue start?",
+                "description": "¿Qué rol debería mencionar cuando inicie una partida?",
                 "setting": {
                     "description": "Select a new **Guild Mention Role** for the server or select reset to remove.",
                     "reset": "Reset"
                 },
-                "title": "Mention Role",
+                "title": "Rol de mención del servidor",
                 "updated": {
-                    "new": "Guild Mention role was set to **{{role}}**",
-                    "reset": "Guild Mention role was **reset**",
-                    "title": "Guild Mention Role Updated"
+                    "new": "El rol de mención del servidor fue cambiado a **{{role}}**",
+                    "reset": "El rol de mención del servidor fue **reiniciado**",
+                    "title": "Rol de mención del servidor actualizado"
                 }
             },
             "queueTimeout": {
-                "description": "How long until a player is removed from the queue for inactivity.",
+                "description": "¿Cuánto tiempo debe pasar para que un jugador sea expulsado por inactividad de la lista de espera?.",
                 "setting": {
-                    "minutes": "{{size}} Minutes"
+                    "minutes": "{{size}} Minutos"
                 },
                 "title": "Queue Timeout"
             },
             "randomCaptains": {
-                "description": "Should captains be random, or the top rated in the lobby?",
+                "description": "¿El capitán debería ser elegido de manera aleatoria o por la mejor puntuación en el ranking? ",
                 "setting": {
-                    "disabled": "Disabled",
-                    "enabled": "Enabled"
+                    "disabled": "Activado",
+                    "enabled": "Desactivado"
                 },
-                "title": "Random Captains",
+                "title": "Capitanes aleatorios",
                 "updated": {
-                    "disabled": "Random Captains was **Disabled**",
-                    "enabled": "Random Captains was **Enabled**",
-                    "title": "Random Captains Updated"
+                    "disabled": "El modo de capitanes aleatorios fue **Desactivado**",
+                    "enabled": "El modo de capitanes aleatorios fue **Activado**",
+                    "title": "Capitanes aleatorios actualizados"
                 }
             },
             "requiredRole": {
-                "description": "What role is required to join the queue?",
+                "description": "¿Qué rol es requerido para unirse a la sala de espera?",
                 "setting": {
-                    "description": "Select a new **Required Role** for the server or select reset to remove.",
-                    "reset": "Reset"
+                    "description": "Seleccionar un nuevo **Rol Requerido** para la sala de espera o elige reiniciar para eliminarlo.",
+                    "reset": "Reiniciar"
                 },
-                "title": "Required Role",
+                "title": "Rol requerido",
                 "updated": {
-                    "new": "Required role was set to **{{role}}**",
-                    "reset": "Required role was **reset**",
-                    "title": "Required Role Updated"
+                    "new": "El rol requerido fue cambiado a **{{role}}**",
+                    "reset": "El rol requerido fue **reiniciado**",
+                    "title": "Rol requerido actualizado"
                 }
             },
             "showRoom": {
-                "description": "Should this room be shown on the leaderboard?",
+                "description": "¿Esta lista de espera debería ser mostrada en la página web?",
                 "setting": {
-                    "disable": "Private",
-                    "enabled": "Public"
+                    "disable": "Privado",
+                    "enabled": "Público"
                 },
-                "title": "Show Room",
+                "title": "Mostrar lista de espera en la página web",
                 "updated": {
-                    "disabled": "Show Room set to **Private**",
-                    "enabled": "Show Room set to **Public**",
-                    "title": "Show Room Updated"
+                    "disabled": "Visualización de lista de espera configurado en **Privado**",
+                    "enabled": "Visualización de lista de espera configurado en **Público**",
+                    "title": "Vista de lista de espera actualizada"
                 }
             },
             "teamSize": {
-                "description": "How many people should be on each team?",
-                "title": "Team Size"
+                "description": "¿Cuántos jugadores debe haber en cada equipo?",
+                "title": "Tamaño de equipo"
             },
-            "title": "Queue Settings"
+            "title": "Configuración de lista de espera"
         },
-        "toggle": "Toggle to: {{setting}}",
-        "update": "Update to: {{setting}}"
+        "toggle": "Cambiar a: {{setting}}",
+        "update": "Actualizar a: {{setting}}"
     },
 
     "createMatch": {
@@ -320,7 +320,7 @@
         "pick": {
             "button": "Escoger {{player}}",
             "captain": "{{captain}} está eligiendo",
-            "complete": "{{player}} elegido! Selección de Equipos Completa.",
+            "complete": "¡{{player}} elegido! Selección de Equipos Completa.",
             "invalid": "Selección inválida, por favor elige nuevamente",
             "ongoing": "{{player}} elegido! ({{count}}/{{total}})",
             "player": "\n{{index}}. {{player}} ({nickname}) (Clasificar: {{rating}})"
@@ -330,7 +330,7 @@
             "cast": "Votación finalizada! {{type}} Elegido.",
             "return": {
                 "description": "La votación ha finalizado. Los resultados son:",
-                "title": "Votación completa!"
+                "title": "¡Votación completa!"
             },
             "starter": {
                 "description": "Este mensaje necesita tener **{{count}}** interacciones de jugadores para continuar!",
@@ -524,7 +524,7 @@
         "wins": "Victorias"
     },
     "substitute": {
-        "description": "{{player}} sustituyó a {{replacement}} en la partida {{id}}!",
+        "description": "{{replacement}} sustituyó a {{player}}  en la partida {{id}}!",
         "invalid": {
             "queued": "Usuario inválido, ¿es miembro de una partida?",
             "replacement": "Usuario inválido, ¿es parte de una partida, un bot o un usuario bloqueado?"
