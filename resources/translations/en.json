@@ -120,7 +120,6 @@
                 "zh-TW": "Taiwanese"
             },
             "role": "Role not set"
-
         },
         "current": "Current Setting: {{setting}}",
         "guild": {
@@ -155,7 +154,7 @@
                 }
             },
             "mentionRole": {
-                "description": "What role should be mentioned on queue start? This is used in queues that don't have a Mention Role set",
+                "description": "If set, this role will be mentioned at new queue start on any channels that are not set separately.",
                 "setting": {
                     "description": "Select a new **Guild Mention Role** for the server or select reset to remove.",
                     "reset": "Reset"
@@ -288,8 +287,6 @@
             },
             "title": "Queue Settings"
         },
-
-
         "toggle": "Toggle to: {{setting}}",
         "update": "Update to: {{setting}}"
     },

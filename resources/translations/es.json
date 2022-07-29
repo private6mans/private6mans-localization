@@ -120,7 +120,6 @@
                 "zh-TW": "Taiwanés"
             },
             "role": "Rol no configurado"
-
         },
         "current": "Configuración actual: {{setting}}",
         "guild": {
@@ -291,7 +290,6 @@
         "toggle": "Cambiar a: {{setting}}",
         "update": "Actualizar a: {{setting}}"
     },
-
     "createMatch": {
         "balanced": "Equipos balanceados",
         "captain": {
