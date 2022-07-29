@@ -287,7 +287,14 @@
             },
             "teamSize": {
                 "description": "¿Cuántos jugadores debe haber en cada equipo?",
-                "title": "Tamaño de equipo"
+                "setting": {
+                    "team": "{{size}}v{{size}}"
+                },
+                "title": "Tamaño de equipo",
+                "updated": {
+                    "description": "Tamaño de equipo configurado en **{{size}}**",
+                    "title": "Tamaño de equipo actualizado"
+                }
             },
             "title": "Configuración de lista de espera"
         },

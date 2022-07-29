@@ -287,7 +287,14 @@
             },
             "teamSize": {
                 "description": "How many people should be on each team?",
-                "title": "Team Size"
+                "setting": {
+                    "team": "{{size}}v{{size}}"
+                },
+                "title": "Team Size",
+                "updated": {
+                    "description": "Team Size was set to **{{size}}**",
+                    "title": "Team Size Updated"
+                }
             },
             "title": "Queue Settings"
         },
