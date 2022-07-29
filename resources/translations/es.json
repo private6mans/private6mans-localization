@@ -19,10 +19,10 @@
     "blacklist": {
         "add": "Agregado a la lista de bloqueados:",
         "current": "Lista de jugadores bloqueados:",
-        "empty": "Ningún jugador en la lista de bloqueados",
+        "empty": "Ningún jugador en la lista actual",
         "invalid": "Usuario no válido, ¿Es la cuenta de un bot?",
         "limit": "Limitado a 4096 caracteres",
-        "notFound": "El usuario no se encuentra en la lista de bloqueados",
+        "notFound": "El usuario no se encuentra en la lista.",
         "remove": "Eliminado de la lista de bloqueados:",
         "status": "❯ {{player}}\nAdded: {{time}}\n"
     },
@@ -74,7 +74,7 @@
     },
     "config": {
         "base": {
-            "description": "Elige de la lista desplegable inferior si quieres ver o actualizar los ajustes del servidor o de la lista de espera.",
+            "description": "Elige de la lista debajo si quieres ver los ajustes del servidor o de la lista de espera.",
             "guild": {
                 "description": "Actualizar la configuración del servidor.",
             },
@@ -125,7 +125,7 @@
         "current": "Configuración actual: {{setting}}",
         "guild": {
             "bestOf": {
-                "description": "¿Cuántas partidas deben ser jugadas por serie?",
+                "description": "¿Cuántos partidos deben ser jugados por serie?",
                 "options": {
                     "bo_count": "Mejor de {{size}}",
                     "disabled": "Desactivado",
@@ -155,9 +155,9 @@
                 }
             },
             "mentionRole": {
-                "description": "¿Qué rol debería etiquetar cuando se inicie una lista de espera? Esto se usará en las listas de espera que no tienen un rol de mención configurado",
+                "description": "¿Qué rol se debe mencionar al iniciar la queue? Este rol se usará mientras no haya uno configurado",
                 "setting": {
-                    "description": "Selecciona un nuevo **Rol de Mención del servidor** para el servidor o elige **reiniciar** para eliminar.",
+                    "description": "Selecciona un nuevo **Rol de Mención** para el servidor o elige **reiniciar** para eliminar.",
                     "reset": "Reiniciar"
                 },
                 "title": "Rol de mención",
@@ -181,7 +181,7 @@
                 }
             },
             "requiredRole": {
-                "description": "¿Qué rol es requerido para unirte a una lista de espera? Esto será usado en listas de espera que no tengan un rol requerido configuradothat",
+                "description": "¿Qué rol es necesario para unirse? Esto será usado mientras no haya uno configurado previamente",
                 "setting": {
                     "description": "Selecciona un nuevo **Rol requerido** para el servidor o selecciona reiniciar para eliminar.",
                     "reset": "Reiniciar"
@@ -194,7 +194,7 @@
                 }
             },
             "singleQueue": {
-                "description": "Cuando esté activado, el servidor compartirá una lista de espera en común, de lo contrario, cada uno tendrá su propia lista.",
+                "description": "Cuando esté activo, se compartirá una lista de espera común, de lo contrario, serán independientes.",
                 "setting": {
                     "disabled": "Disabled",
                     "enabled": "Enabled"
@@ -329,11 +329,11 @@
         "vote": {
             "cast": "Votación finalizada! {{type}} Elegido.",
             "return": {
-                "description": "La votación ha finalizado. Los resultados son:",
-                "title": "¡Votación completa!"
+                "description": "La votación ha finalizado. En resultado es:",
+                "title": "¡Votación finalizada!"
             },
             "starter": {
-                "description": "Este mensaje necesita tener **{{count}}** interacciones de jugadores para continuar!",
+                "description": "Se necesitan **{{count}}** interacciones para continuar!",
                 "title": "Tienes 2 minutos para votar. Elige dando click en los botones inferiores"
             }
         }
@@ -347,7 +347,7 @@
         }
     },
     "deleteData": {
-        "error": "Este comando sólo está disponible en el canal #data-deletion-request dentro del servidor Private 6 Mans.\nEscribe /invite para la invitación al servidor.",
+        "error": "Comando disponible en #data-deletion-request en Private 6 Mans.\n Digita /invite para la invitación.",
         "prompt": {
             "description": "¿Estás seguro que quieres eliminar tu información? Esta acción no se puede deshacer posteriormente.",
             "title": "Eliminar información"
@@ -409,7 +409,7 @@
     },
     "help": {
         "command": {
-            "long": "Para más información acerca del comando escribe `/help command [nombre del comando]`. \nEscribe `/help all` para ver la lista de comandos.",
+            "long": "Más info: `/help command [nombre del comando]`. \nEscribe `/help all` para ver la lista de comandos.",
             "name": {
                 "error": "Comando con el nombre `{{name}}` no encontrado",
                 "invalid": "Nombre de comando inválido",
@@ -426,7 +426,7 @@
             "title": "¿Quieres usar el bot en tu servidor?"
         },
         "issues": {
-            "description": "Asegúrate de que el bot tenga permisos de leer y enviar mensajes, enviar links y agregar reacciones. Además, asegúrate de que todos en la sala puedan recibir mensajes privados del bot.",
+            "description": "Asegúrate de que el bot tenga todos los permisos y que todos puedan recibir mensajes privados.",
             "title": "¿Tienes problemas?"
         },
         "support": {
@@ -440,7 +440,7 @@
                 "title": "Este es un comando para **desarrollador**"
             },
             "moderator": {
-                "description": "Sólo usuarios con el rol de moderador designado por Private 6 Mans, o usuarios con los permisos de creador y administrador del servidor pueden usar este comando.",
+                "description": "Sólo usuarios con el rol de moderador pueden usar este comando.",
                 "list": "Lista de comandos del moderador",
                 "title": "Este es un comando de **moderador**"
             },
@@ -467,7 +467,7 @@
         "rating": "{{team}} Cambio de calificación",
         "status": "Estado",
         "stopped": "Selección de partida detenida.",
-        "summary": "La partida {{matchId}} ha sido reportada!\nEquipo {{teamId}} ganó, los resultados han sido reportados. ¡Que disfrutes tus partidas! \n\nRepartición de puntos mostrados debajo.",
+        "summary": "La partida {{matchId}} ha sido reportada!\nEquipo {{teamId}} ganó, los resultados han sido reportados. ¡Que disfrutes tus partidas! \n\nLa distribución de puntos se muestra debajo:",
         "winner": "Ganador"
     },
     "queue": {
@@ -532,7 +532,7 @@
     },
     "undo": {
         "description": "Ahora puedes reportar el marcador de manera correcta.",
-        "error": "Sólo puedes deshacer una artida que ha sido reportada o cancelada",
+        "error": "Sólo puedes deshacer una partida que ha sido reportada o cancelada",
         "title": "Partida {{id}} eliminada."
     }
 }
