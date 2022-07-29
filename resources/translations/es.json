@@ -131,6 +131,10 @@
                     "pick": "Elegir número de partidas",
                     "random": "Aleatorio"
                 },
+                "updated": {
+                    "description": "Tamaño de partida configurado en **{{bestOf}}**",
+                    "title": "Tamaño de partida actualizado"
+                },
                 "title": "Tamaño de partida"
             },
             "description": "Elige el elemento de la lista desplegable inferior que quieras actualizar.",

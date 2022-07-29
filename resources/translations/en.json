@@ -131,6 +131,10 @@
                     "pick": "Pick on match create",
                     "random": "Random"
                 },
+                "updated": {
+                    "description": "Best of size set to **{{bestOf}}**",
+                    "title": "Best of Size Updated"
+                },
                 "title": "Best Of Size"
             },
             "description": "Select the element from the dropdown below that you want to update.",
