@@ -17,13 +17,13 @@
         "win": "Victoria"
     },
     "blacklist": {
-        "add": "Agregado a la lista de bloqueados:",
-        "current": "Lista de jugadores bloqueados:",
+        "add": "Jugador agregado a la blacklist:",
+        "current": "Lista de jugadores en la blacklist:",
         "empty": "Ningún jugador en la lista actual",
         "invalid": "Usuario no válido, ¿Es la cuenta de un bot?",
         "limit": "Limitado a 4096 caracteres",
         "notFound": "El usuario no se encuentra en la lista.",
-        "remove": "Eliminado de la lista de bloqueados:",
+        "remove": "Jugador eliminado de la blacklist:",
         "status": "❯ {{player}}\nAdded: {{time}}\n"
     },
     "botStats": {
@@ -35,7 +35,7 @@
         },
         "member": "Conteo de miembros totales",
         "memory": {
-            "free": "Memoria vacía",
+            "free": "Memoria restante",
             "process": "Uso de memoria",
             "system": "Memoria total",
             "used": "Memoria total usada"
@@ -57,7 +57,7 @@
     "cancel": {
         "confirm": "Confirmar cancelación",
         "deny": "No cancelar",
-        "description": "Cualquier intento de reportar este marcador será inválido.",
+        "description": "Cualquier intento de reportar ésta partida será invalidado.",
         "error": "No puedes cancelar una partida que ya ha sido reportada.",
         "match": {
             "description": "Click debajo para cancelar la partida {{id}}",
@@ -69,12 +69,12 @@
         "title": "Partida {{id}} cancelada."
     },
     "clear": {
-        "description": "La lista de espera está vacía",
-        "title": "¡Lista de espera limpia!"
+        "description": "Lista de espera vacía",
+        "title": "¡La lista de espera ha sido vaciada!"
     },
     "config": {
         "base": {
-            "description": "Elige de la lista debajo si quieres ver los ajustes del servidor o de la lista de espera.",
+            "description": "Selecciona una opción de la lista inferior.",
             "guild": {
                 "description": "Actualizar la configuración del servidor."
             },
@@ -132,14 +132,14 @@
                     "random": "Aleatorio"
                 },
                 "updated": {
-                    "description": "Tamaño de partida configurado en **{{bestOf}}**",
-                    "title": "Tamaño de partida actualizado"
+                    "description": "Configuración de tamaño de serie:  **{{A votación de jugadores}}**",
+                    "title": "Tamaño de serie actualizado"
                 },
-                "title": "Tamaño de partida"
+                "title": "Tamaño de serie"
             },
-            "description": "Elige el elemento de la lista desplegable inferior que quieras actualizar.",
+            "description": " Selecciona una opción de la lista inferior.",
             "language": {
-                "description": "¿Qué idioma debe utilizar el bot?",
+                "description": "Idioma del bot en el servidor",
                 "title": "Idioma",
                 "updated": {
                     "description": "Idioma configurado en **{{language}}**",
@@ -147,20 +147,20 @@
                 }
             },
             "matchTimeout": {
-                "description": "Tiempo en que las partidas sin reportar se cancelen automáticamente",
+                "description": "Tiempo en que las partidas sin reportar se cancelan automáticamente",
                 "setting": {
-                    "days": "{{size}} Días"
+                    "days": "{{size}} Día(s)"
                 },
-                "title": "Tiempo de espera de partida sin reportar",
+                "title": "Tiempo de espera de partida no reportada.",
                 "updated": {
-                    "description": "El tiempo de espera de partida sin reportar fue configurado en **{{size}}** días",
+                    "description": "El tiempo de espera de partida no reportada fue configurado en {{size}} días ",
                     "title": "Tiempo de espera de partida sin reportar actualizado"
                 }
             },
             "mentionRole": {
-                "description": "¿Qué rol se debe mencionar al iniciar la queue? Este rol se usará mientras no haya uno configurado",
+                "description": " Rol mencionado al iniciar la lista de espera",
                 "setting": {
-                    "description": "Selecciona un nuevo **Rol de Mención** para el servidor o elige **reiniciar** para eliminar.",
+                    "description": "Elige debajo un **rol de mención** de la lista de espera o selecciona **reiniciar** para eliminar.",
                     "reset": "Reiniciar"
                 },
                 "title": "Rol de mención",
@@ -171,9 +171,9 @@
                 }
             },
             "modRole": {
-                "description": "Los usuarios con este rol podrán usar los comandos de modrador del bot",
+                "description": "Los usuarios con este rol usarán los comandos administrativos del bot.",
                 "setting": {
-                    "description": " Selecciona un nuevo **Rol de moderador** para el servidor o elige reiniciar para eliminar.",
+                    "description": " Selecciona un nuevo **rol de moderador** para el servidor o elige reiniciar para eliminar.",
                     "reset": "Reiniciar"
                 },
                 "title": "Rol de moderador",
@@ -184,9 +184,9 @@
                 }
             },
             "requiredRole": {
-                "description": "¿Qué rol es necesario para unirse? Esto será usado mientras no haya uno configurado previamente",
+                "description": "Rol requerido para unirse a la lista de espera",
                 "setting": {
-                    "description": "Selecciona un nuevo **Rol requerido** para el servidor o selecciona reiniciar para eliminar.",
+                    "description": "Elige debajo un **rol requerido** de la lista de espera o selecciona **reiniciar** para eliminar.",
                     "reset": "Reiniciar"
                 },
                 "title": "Rol requerido",
@@ -199,8 +199,8 @@
             "singleQueue": {
                 "description": "Cuando esté activo, se compartirá una lista de espera común, de lo contrario, serán independientes.",
                 "setting": {
-                    "disabled": "Disabled",
-                    "enabled": "Enabled"
+                    "disabled": "Desactivado",
+                    "enabled": "Activado"
                 },
                 "title": "Lista de espera individual",
                 "updated": {
@@ -209,12 +209,12 @@
                     "title": "Lista de espera individual actualizada"
                 }
             },
-            "title": "Ajustes del servidor",
+            "title": "Configuración del servidor.",
             "vcCategory": {
-                "description": "¿En qué categoría se deberían crear los canales de voz? Esto puede ser desactivado",
+                "description": "Categoría donde serán creados los canales de voz automáticos",
                 "setting": {
-                    "description": "Selecciona una nueva **Categoría de canales de voz** o elige reiniciar para eliminar.",
-                    "reset": "No crear canales de voz en las partidas."
+                    "description": "Selecciona debajo la categoría donde se crearán los canales de voz. Elige reiniciar para eliminar.",
+                    "reset": "Desactivar la creación de canales de voz."
                 },
                 "title": "Categoría de canales de voz",
                 "updated": {
@@ -229,8 +229,8 @@
             "mentionRole": {
                 "description": "¿Qué rol debería mencionar cuando inicie una partida?",
                 "setting": {
-                    "description": "Select a new **Guild Mention Role** for the server or select reset to remove.",
-                    "reset": "Reset"
+                    "description": "Elige un nuevo **rol de mención** para todo el servidor. Elige **reiniciar** para eliminar",
+                    "reset": "Reiniciar"
                 },
                 "title": "Rol de mención del servidor",
                 "updated": {
@@ -244,7 +244,7 @@
                 "setting": {
                     "minutes": "{{size}} Minutos"
                 },
-                "title": "Queue Timeout"
+                "title": "Tiempo máximo en la queue"
             },
             "randomCaptains": {
                 "description": "¿El capitán debería ser elegido de manera aleatoria o por la mejor puntuación en el ranking? ",
@@ -254,9 +254,9 @@
                 },
                 "title": "Capitanes aleatorios",
                 "updated": {
-                    "disabled": "El modo de capitanes aleatorios fue **Desactivado**",
-                    "enabled": "El modo de capitanes aleatorios fue **Activado**",
-                    "title": "Capitanes aleatorios actualizados"
+                    "disabled": "Elección de capitanes aleatorios **Desactivado**",
+                    "enabled": "Elección de capitanes aleatorios **Activado**",
+                    "title": "Elección de capitanes aleatorios actualizado"
                 }
             },
             "requiredRole": {
@@ -275,10 +275,10 @@
             "showRoom": {
                 "description": "¿Esta lista de espera debería ser mostrada en la página web?",
                 "setting": {
-                    "disable": "Privado",
-                    "enabled": "Público"
+                    "disable": "Lista de espera privada.",
+                    "enabled": "Lista de espera pública"
                 },
-                "title": "Mostrar lista de espera en la página web",
+                "title": "Visibilidad de lista de espera en la página web.",
                 "updated": {
                     "disabled": "Visualización de lista de espera configurado en **Privado**",
                     "enabled": "Visualización de lista de espera configurado en **Público**",
@@ -286,7 +286,7 @@
                 }
             },
             "teamSize": {
-                "description": "¿Cuántos jugadores debe haber en cada equipo?",
+                "description": "Número de jugadores por equipo",
                 "setting": {
                     "team": "{{size}}v{{size}}"
                 },
@@ -296,7 +296,7 @@
                     "title": "Tamaño de equipo actualizado"
                 }
             },
-            "title": "Configuración de lista de espera"
+            "title": "Configuración de lista de espera actual."
         },
         "toggle": "Cambiar a: {{setting}}",
         "update": "Actualizar a: {{setting}}"
@@ -310,7 +310,7 @@
         "embed": {
             "author": "El tiempo límite es de 2 minutos.",
             "description": "Click debajo para elegir jugadores para tu equipo.",
-            "id": "ID de la partida (Usa esto para reportar el marcador)",
+            "id": "ID de la partida (Usa este número para reportar)",
             "pick_multiple": "Elegir {{count}} jugadores:",
             "pick_one": "Elegir {{count}} jugador:",
             "title": "Elección de Equipo"
@@ -342,8 +342,8 @@
                 "title": "¡Votación finalizada!"
             },
             "starter": {
-                "description": "Se necesitan **{{count}}** interacciones para continuar!",
-                "title": "Tienes 2 minutos para votar. Elige dando click en los botones inferiores"
+                "description": "¡Se necesita(n) **{{count}}** votacion(es) para continuar!",
+                "title": "Tienes 2 minutos para elegir. Selecciona tu opción en los botones debajo."
             }
         }
     },
@@ -368,7 +368,7 @@
     },
     "error": {
         "blacklisted": "Este usuario ya ha sido agregado a la lista de bloqueados",
-        "cancelled": "¡Operación cancelada!",
+        "cancelled": "La operación ha sido cancelada por el moderador",
         "captain": {
             "dm": "No puedo enviar mensaje privado a {{captain}}, ¿tienes activada esta opción? (Elección de equipos cancelada)",
             "time": "{{captain}} excedió el límite de tiempo para elegir miembros. (Elección de equipos cancelada)"
@@ -378,7 +378,7 @@
         },
         "interactionCreate": {
             "embed": "¡No puedo insertar nada, por favor arregla eso!",
-            "generic": "¡Algo salió mal!",
+            "generic": "Operación cancelada",
             "permissions": {
                 "bot": "¡Me faltan permisos!",
                 "content": "Permisos del bot insuficientes",
@@ -412,7 +412,7 @@
         "match": "Partida {{id}}",
         "negative": "Cancelar",
         "positive": "Confirmar",
-        "queue": "Miembros en lista de espera: {{size}}",
+        "queue": "Miembros en lista de espera actual:",
         "team": "Equipo {{number}}",
         "time": "Hora"
     },
@@ -465,18 +465,18 @@
         "queued": "Has reingresado a la lista de espera."
     },
     "invite": {
-        "bot": "Private6Mans link de invitación:",
-        "server": "Private6Mans link de invitación al servidor:"
+        "bot": "Link de invitación del bot Private 6mans",
+        "server": "Discord del bot Private 6mans"
     },
     "leaderboard": {
-        "title": "Tabla de posiciones del servidor"
+        "title": "Tabla de posiciones"
     },
     "match": {
-        "progress": "Partida en progreso",
-        "rating": "{{team}} Cambio de calificación",
+        "progress": "En progreso",
+        "rating": "{{equipo}} Puntos asignados:",
         "status": "Estado",
         "stopped": "Selección de partida detenida.",
-        "summary": "La partida {{matchId}} ha sido reportada!\nEquipo {{teamId}} ganó, los resultados han sido reportados. ¡Que disfrutes tus partidas! \n\nLa distribución de puntos se muestra debajo:",
+        "summary": "La partida {{matchId}} ha sido reportada!\nEquipo {{teamId}} ganador, los resultados han sido reportados. ¡Que disfrutes tus partidas! \n\nDistribución de puntos a continuación:",
         "winner": "Ganador"
     },
     "queue": {
@@ -484,7 +484,7 @@
             "description": "{{player}} agregado a la lista de espera.",
             "title": "Jugador agregado a la lista de espera."
         },
-        "empty": "Lista de espera está vacía",
+        "empty": "Lista de espera vacía.",
         "error": {
             "join": "¡Ya estás en la lista de espera!",
             "leave": "¡No estás en lista de espera!",
@@ -527,7 +527,7 @@
     "stats": {
         "error": "Miembro no encontrado",
         "losses": "Derrotas",
-        "rating": "Clasificar",
+        "rating": "Clasificación",
         "title": "Estadístcas de {{player}}",
         "unknown": "Desconocido",
         "wins": "Victorias"
@@ -540,8 +540,8 @@
         }
     },
     "undo": {
-        "description": "Ahora puedes reportar el marcador de manera correcta.",
+        "description": "Ahora puedes volver a introducir el resultado de la partida.",
         "error": "Sólo puedes deshacer una partida que ha sido reportada o cancelada",
-        "title": "Partida {{id}} eliminada."
+        "title": "Reporte de la partida {{id}} eliminado"
     }
 }
