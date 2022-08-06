@@ -132,7 +132,7 @@
                     "random": "Random"
                 },
                 "updated": {
-                    "description": "Best of size set to **{{bestOf}}**",
+                    "description": "Best of size set to **{{series}}**",
                     "title": "Best of Size Updated"
                 },
                 "title": "Best Of Size"

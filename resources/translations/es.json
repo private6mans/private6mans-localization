@@ -132,7 +132,7 @@
                     "random": "Aleatorio"
                 },
                 "updated": {
-                    "description": "Configuración de tamaño de serie:  **{{A votación de jugadores}}**",
+                    "description": "Configuración de tamaño de serie:  **{{series}}**",
                     "title": "Tamaño de serie actualizado"
                 },
                 "title": "Tamaño de serie"
@@ -153,7 +153,7 @@
                 },
                 "title": "Tiempo de espera de partida no reportada.",
                 "updated": {
-                    "description": "El tiempo de espera de partida no reportada fue configurado en {{size}} días ",
+                    "description": "El tiempo de espera de partida no reportada fue configurado en **{{size}}** días ",
                     "title": "Tiempo de espera de partida sin reportar actualizado"
                 }
             },
@@ -412,7 +412,7 @@
         "match": "Partida {{id}}",
         "negative": "Cancelar",
         "positive": "Confirmar",
-        "queue": "Miembros en lista de espera actual:",
+        "queue": "Miembros en lista de espera actual: {{size}}",
         "team": "Equipo {{number}}",
         "time": "Hora"
     },
@@ -473,7 +473,7 @@
     },
     "match": {
         "progress": "En progreso",
-        "rating": "{{equipo}} Puntos asignados:",
+        "rating": "{{team}} Puntos asignados:",
         "status": "Estado",
         "stopped": "Selección de partida detenida.",
         "summary": "La partida {{matchId}} ha sido reportada!\nEquipo {{teamId}} ganador, los resultados han sido reportados. ¡Que disfrutes tus partidas! \n\nDistribución de puntos a continuación:",
