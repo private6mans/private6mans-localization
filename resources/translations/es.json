@@ -332,7 +332,7 @@
             "complete": "¡{{player}} elegido! Selección de Equipos Completa.",
             "invalid": "Selección inválida, por favor elige nuevamente",
             "ongoing": "{{player}} elegido! ({{count}}/{{total}})",
-            "player": "\n{{index}}. {{player}} ({nickname}) (Clasificar: {{rating}})"
+            "player": "\n{{index}}. {{player}} ({{nickname}}) (Clasificar: {{rating}})"
         },
         "random": "Equipos aleatorios",
         "vote": {
