@@ -76,10 +76,10 @@
         "base": {
             "description": "Elige de la lista debajo si quieres ver los ajustes del servidor o de la lista de espera.",
             "guild": {
-                "description": "Actualizar la configuración del servidor.",
+                "description": "Actualizar la configuración del servidor."
             },
             "queue": {
-                "description": "Actualizar la configuración de la lista de espera",
+                "description": "Actualizar la configuración de la lista de espera"
             },
             "settings": {
                 "description": "Ver ajustes para el servidor y la lista de espera actual.",
