@@ -275,7 +275,7 @@
             "showRoom": {
                 "description": "Should this room be shown on the leaderboard?",
                 "setting": {
-                    "disable": "Private",
+                    "disabled": "Private",
                     "enabled": "Public"
                 },
                 "title": "Show Room",

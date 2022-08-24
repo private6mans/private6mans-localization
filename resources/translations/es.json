@@ -275,7 +275,7 @@
             "showRoom": {
                 "description": "¿Esta lista de espera debería ser mostrada en la página web?",
                 "setting": {
-                    "disable": "Lista de espera privada.",
+                    "disabled": "Lista de espera privada.",
                     "enabled": "Lista de espera pública"
                 },
                 "title": "Visibilidad de lista de espera en la página web.",
