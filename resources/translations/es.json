@@ -165,9 +165,9 @@
                 },
                 "title": "Rol de mención",
                 "updated": {
-                    "new": "Rol de mención del servidor configurado en **{{role}}**",
+                    "new": "Rol de mención del configurado en **{{role}}**",
                     "reset": "El rol de mención del servidor fue **reiniciado**",
-                    "title": "Rol de mención del servidor actualizado"
+                    "title": "Rol de mención del actualizado"
                 }
             },
             "modRole": {
