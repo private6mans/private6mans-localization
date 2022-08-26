@@ -337,6 +337,7 @@
         "random": "Random Teams",
         "vote": {
             "cast": "Vote Cast! {{type}} Chosen.",
+            "error": "You have already voted for this!",
             "return": {
                 "description": "The vote has been completed. The results are:",
                 "title": "Voting complete!"
