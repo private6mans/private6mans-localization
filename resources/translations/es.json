@@ -337,6 +337,7 @@
         "random": "Equipos aleatorios",
         "vote": {
             "cast": "Votación finalizada! {{type}} Elegido.",
+            "error": "¡Ya votaste por esto!",
             "return": {
                 "description": "La votación ha finalizado. En resultado es:",
                 "title": "¡Votación finalizada!"
