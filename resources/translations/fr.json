@@ -1,0 +1,547 @@
+{
+    "active": {
+        "cancelled": "Commande active annulée",
+        "description": "Cliquez sur le bouton pour afficher le match correspondant.",
+        "home": "Retour à l'Accueil",
+        "invalid": "Match invalide sélectionné, veuillez réessayer.",
+        "lose": "Perdre",
+        "none": "Aucun match actif que vous pouvez gérer.",
+        "report": {
+            "mod": "Quelle équipe a gagné ce match ?",
+            "player": "Avez-vous gagné ou perdu ce match ?",
+            "text": "Report le Match"
+        },
+        "reported": "Match Report.",
+        "stop": "Arrêtez ce menu",
+        "title": "Matches actifs",
+        "win": "Gagner"
+    },
+    "blacklist": {
+        "add": "Ajouté avec succès à la blacklist:",
+        "current": "Blacklist actuelle",
+        "empty": "Aucun joueur Blacklisted",
+        "invalid": "Joueur invalide détecté ! S'agit-il d'un compte bot ?",
+        "limit": "Limité à 4096 caractères",
+        "notFound": "Le joueur ne figure pas sur la blacklist",
+        "remove": "Suppression réussie de la blacklist:",
+        "status": "❯ {{player}}\nAdded: {{time}}\n"
+    },
+    "botStats": {
+        "cpu": "Utilisation du CPU",
+        "guild": "Nombre de serveurs",
+        "latency": {
+            "rest": "Latence REST",
+            "ws": "Latence WS"
+        },
+        "member": "Nombre de membres",
+        "memory": {
+            "free": "Mémoire libre",
+            "process": "Utilisation de la mémoire du processus",
+            "system": "Mémoire totale",
+            "used": "Mémoire système totale utilisée"
+        },
+        "ping": "Obtention du Ping!",
+        "title": "Bot Stats",
+        "uptime": {
+            "bot": {
+                "description": "Le Bot est en ligne depuis {{uptime}}",
+                "title": "Temps de fonctionnement du Bot"
+            },
+            "server": {
+                "description": "Le serveur est en ligne depuis {{uptime}}",
+                "title": "Temps de fonctionnement du serveur"
+            }
+        },
+        "user": "Nombre d'utilisateurs caché"
+    },
+    "cancel": {
+        "confirm": "Confirmer l'annulation",
+        "deny": "N'annulez pas",
+        "description": "Toute tentative future de rapporter ce score ne fonctionnera pas.",
+        "error": "Vous ne pouvez pas annuler un match qui a déjà été signalé.",
+        "match": {
+            "description": "Cliquez ci-dessous pour annuler le match {{id}}",
+            "success": "Match annulé",
+            "title": "Annuler le match"
+        },
+        "moderator": "Demandez à un modérateur d'annuler cette game pour vous !",
+        "reporting": "Annuler le report",
+        "title": "Match {{id}} a été annulée."
+    },
+    "clear": {
+        "description": "La file d'attente est maintenant vide",
+        "title": "La file d'attente a été éliminée !"
+    },
+    "config": {
+        "base": {
+            "description": "Sélectionnez dans la liste déroulante ci-dessous si vous souhaitez afficher les paramètres ou mettre à jour les paramètres de la file d'attente/du serveur.",
+            "guild": {
+                "description": "Mettre à jour les paramètres du serveur"
+            },
+            "queue": {
+                "description": "Mettre à jour les paramètres de cette file d'attente"
+            },
+            "settings": {
+                "description": "Affichez les paramètres du serveur et de la file d'attente actuelle.",
+                "title": "Afficher les paramètres"
+            },
+            "title": "Configurer le Bot"
+        },
+        "common": {
+            "languages": {
+                "bg": "Bulgare",
+                "cs": "Tchèque",
+                "da": "Danois",
+                "de": "Allemand",
+                "el": "Grec",
+                "en": "Anglais",
+                "es": "Espagnol",
+                "fi": "Finlandais",
+                "fr": "Français",
+                "guildLanguage": "Réglage de la langue",
+                "hi": "Hindou",
+                "hr": "Croate",
+                "hu": "Hongrois",
+                "it": "Italien",
+                "ja": "Japonais",
+                "ko": "Coréen",
+                "lt": "Lettonais",
+                "nl": "Néerlandais",
+                "no": "Norvégien",
+                "pl": "Polonais",
+                "pt-BR": "Portugais (Brésil)",
+                "ro": "Roumain",
+                "ru": "Russe",
+                "th": "Thaïlandais",
+                "tr": "Turc",
+                "uk": "Ukrainien",
+                "vi": "Vietnamien",
+                "zh-CN": "Chinois (simplifié)",
+                "zh-TW": "Taïwanais"
+            },
+            "role": "Rôle non défini"
+        },
+        "current": "Réglage actuel : {{setting}}",
+        "guild": {
+            "bestOf": {
+                "description": "Combien de matchs doivent être joués par série ?",
+                "options": {
+                    "bo_count": "Best of {{size}}",
+                    "disabled": "Désactivé",
+                    "pick": "Choisir le match créé",
+                    "random": "Random"
+                },
+                "updated": {
+                    "description": "Best of size set à **{{series}}**",
+                    "title": "Best of Size Mis à jour"
+                },
+                "title": "Best Of Size"
+            },
+            "description": "Sélectionnez dans la liste déroulante ci-dessous l'élément que vous souhaitez mettre à jour.",
+            "language": {
+                "description": "Quelle langue le bot doit-il parler dans votre serveur ?",
+                "title": "Langage",
+                "updated": {
+                    "description": "Le langage a été réglée sur **{{language}}**",
+                    "title": "Mise à jour du langage"
+                }
+            },
+            "matchTimeout": {
+                "description": "Combien de temps en heures avant que les matchs ne s'annulent automatiquement ?",
+                "setting": {
+                    "days": "{{size}} Jours"
+                },
+                "title": "Temps mort du match",
+                "updated": {
+                    "description": "Le temps mort du match a été fixé à **{{size}}** Jours",
+                    "title": "Temps mort du match mis à jour !"
+                }
+            },
+            "mentionRole": {
+                "description": "S'il est défini, ce rôle sera mentionné au début de la nouvelle file d'attente sur tous les canaux qui ne sont pas définis séparément.",
+                "setting": {
+                    "description": "Sélectionnez un nouveau **Rôle de mention** pour le serveur ou sélectionnez réinitialiser pour supprimer.",
+                    "reset": "Réinitialiser"
+                },
+                "title": "Mentionner le rôle",
+                "updated": {
+                    "new": "Le rôle de la mention a été fixé à **{{role}}**",
+                    "reset": "Le rôle de la mention était **réinitialiser**",
+                    "title": "Rôle de la mention mis à jour"
+                }
+            },
+            "modRole": {
+                "description": "Les utilisateurs ayant ce rôle seront autorisés à utiliser les commandes de modération pour le Bot.",
+                "setting": {
+                    "description": "Sélectionnez un nouveau **Rôle Mod** pour le serveur ou sélectionnez réinitialiser pour supprimer.",
+                    "reset": "Réinitialiser"
+                },
+                "title": "Rôle Mod",
+                "updated": {
+                    "new": "Le rôle de modérateur a été fixé à **{{role}}**",
+                    "reset": "Le rôle de modérateur a été **réinitialiser**",
+                    "title": "Mise à jour du rôle de modérateur"
+                }
+            },
+            "requiredRole": {
+                "description": "Quel rôle est requis pour rejoindre la file d'attente ? Ceci est utilisé dans les files d'attente qui n'ont pas de rôle requis.",
+                "setting": {
+                    "description": "Sélectionnez un nouveau **Rôle requis** pour le serveur ou sélectionnez réinitialiser pour supprimer.",
+                    "reset": "Réinitialiser"
+                },
+                "title": "Rôle requis",
+                "updated": {
+                    "new": "Le rôle requis a été fixé à **{{role}}**",
+                    "reset": "Le rôle requis a été **réinitialiser**",
+                    "title": "Rôle requis mis à jour"
+                }
+            },
+            "singleQueue": {
+                "description": "Si cette option est activée, le serveur partagera une file d'attente commune, sinon chaque canal sera sa propre file d'attente.",
+                "setting": {
+                    "disabled": "Désactivé",
+                    "enabled": "Activé"
+                },
+                "title": "File d'attente unique",
+                "updated": {
+                    "disabled": "La file d'attente unique a été **désactivée**.",
+                    "enabled": "La file d'attente unique a été **activée**.",
+                    "title": "File d'attente unique mise à jour"
+                }
+            },
+            "title": "Paramètres du serveur",
+            "vcCategory": {
+                "description": "Dans quelle catégorie le bot doit-il créer des canaux vocaux pour le match ? Cela peut être désactivé",
+                "setting": {
+                    "description": "Sélectionnez une nouvelle **Catégorie VC** ou choisissez de réinitialiser pour supprimer.",
+                    "reset": "Ne créez pas de vocaux sur la création de match."
+                },
+                "title": "Catégorie VC",
+                "updated": {
+                    "new": "La catégorie VC a été fixée à **{{category}}**",
+                    "reset": "La catégorie VC a été **réinitialiser**",
+                    "title": "Mise à jour de la catégorie VC"
+                }
+            }
+        },
+        "queue": {
+            "description": "Sélectionnez dans la liste déroulante ci-dessous l'élément que vous souhaitez mettre à jour.",
+            "mentionRole": {
+                "description": "Quel rôle doit être mentionné au début de la file d'attente ?",
+                "setting": {
+                    "description": "Sélectionnez un nouveau **Rôle de mention** pour le serveur ou sélectionnez réinitialiser pour supprimer.",
+                    "reset": "Réinitialiser"
+                },
+                "title": "Rôle de mention",
+                "updated": {
+                    "new": "Le rôle de la mention a été fixé à **{{role}}**",
+                    "reset": "Le rôle de la mention a été **réinitialiser**",
+                    "title": "Rôle de mention mis à jour"
+                }
+            },
+            "queueTimeout": {
+                "description": "Combien de temps avant qu'un joueur soit retiré de la file d'attente pour inactivité.",
+                "setting": {
+                    "minutes": "{{size}} Minutes"
+                },
+                "title": "Délai d'attente de la queue"
+            },
+            "randomCaptains": {
+                "description": "Les capitaines doivent-ils être choisis au hasard ou être les mieux notés dans le hall ?",
+                "setting": {
+                    "disabled": "Désactivé",
+                    "enabled": "Activé"
+                },
+                "title": "Capitaines aléatoires",
+                "updated": {
+                    "disabled": "Capitaines aléatoires a été **desactivés**",
+                    "enabled": "Capitaines aléatoires a été **activés**",
+                    "title": "Capitaines aléatoiress mis à jour"
+                }
+            },
+            "requiredRole": {
+                "description": "Quel rôle est requis pour rejoindre la file d'attente ?",
+                "setting": {
+                    "description": "Sélectionnez un nouveau **Rôle requis** pour le serveur ou sélectionnez réinitialiser pour supprimer.",
+                    "reset": "Réinitialiser"
+                },
+                "title": "Rôle requis",
+                "updated": {
+                    "new": "Rôle requis a été fixé à **{{role}}**",
+                    "reset": "Rôle requis a été **reset**",
+                    "title": "Rôle requis mis à jour"
+                }
+            },
+            "showRoom": {
+                "description": "Ce chanel doit-elle figurer au classement ?",
+                "setting": {
+                    "disabled": "Privé",
+                    "enabled": "Public"
+                },
+                "title": "Chanel",
+                "updated": {
+                    "disabled": "Ce chanel est réglé sur **Privé**",
+                    "enabled": "Ce chanel est réglé sur **Public**",
+                    "title": "Ce chanel est mis à jour"
+                }
+            },
+            "teamSize": {
+                "description": "Combien de personnes doivent faire partie de chaque équipe ?",
+                "setting": {
+                    "team": "{{size}}v{{size}}"
+                },
+                "title": "Taille de l'équipe",
+                "updated": {
+                    "description": "La taille de l'équipe a été fixée à **{{size}}**",
+                    "title": "Taille de l'équipe mise à jour"
+                }
+            },
+            "title": "Paramètres de la file d'attente"
+        },
+        "toggle": "Basculer vers: {{setting}}",
+        "update": "Mise à jour vers: {{setting}}"
+    },
+    "createMatch": {
+        "balanced": "Équipes équilibrées",
+        "captain": {
+            "plural": "Capitaines",
+            "singular": "Capitaine {{number}}"
+        },
+        "embed": {
+            "author": "Le délai sera écoulé dans 2 minutes.",
+            "description": "Cliquez ci-dessous pour choisir les joueurs de votre équipe.",
+            "id": "ID du match (à utiliser lors de la communication du score)",
+            "pick_multiple": "Choisissez {{count}} joueurs:",
+            "pick_one": "Choisissez {{count}} joueurs:",
+            "title": "Sélection des équipes"
+        },
+        "mode": {
+            "balanced": "Le mode équilibré a été sélectionné !",
+            "captains": {
+                "picking": {
+                    "description": "Les capitaines vont maintenant choisir les membres de leur équipe !",
+                    "title": "Choisir les équipes"
+                },
+                "title": "le mode capitaine a été sélectionné !"
+            },
+            "random": "Le mode aléatoire a été sélectionné !"
+        },
+        "pick": {
+            "button": "Choisissez {{player}}",
+            "captain": "{{captain}} est en train de choisir",
+            "complete": "{{player}} Choisi ! Sélection de l'équipe terminée.",
+            "invalid": "Sélection invalide, veuillez choisir à nouveau.",
+            "ongoing": "{{player}} Choisi ! ({{count}}/{{total}})",
+            "player": "\n{{index}}. {{player}} ({{nickname}}) (Rating: {{rating}})"
+        },
+        "random": "Équipes aléatoires",
+        "vote": {
+            "cast": "Votez ! {{type}} Choisi.",
+            "return": {
+                "description": "Le vote est terminé. Les résultats sont les suivants:",
+                "title": "Le vote est terminé !"
+            },
+            "starter": {
+                "description": "Ce message doit avoir un **{{count}}** d'interactions avec les joueurs pour être traité !",
+                "title": "Vous avez 2 minutes pour voter. Votez en cliquant sur les boutons ci-dessous."
+            }
+        }
+    },
+    "cron": {
+        "remove": "Joueurs retirés de la file d'attente après inactivité",
+        "warning": {
+            "button": "Prolonger le temps d'attente",
+            "description": "Cliquez ci-dessous pour prolonger le temps que vous avez dans la file d'attente !",
+            "title": "Les joueurs sont retirés de la file d'attente en moins de 5 minutes !"
+        }
+    },
+    "deleteData": {
+        "error": "Cette commande ne peut être exécutée que dans le canal #data-deletion-request channel du serveur Private 6 Mans support..\nTapez /invite pour obtenir un lien d'invitation vers ce serveur.",
+        "prompt": {
+            "description": "Êtes-vous sûr de vouloir supprimer vos données ? Cette opération ne peut être annulée.",
+            "title": "Supprimer les données"
+        },
+        "success": {
+            "description": "Vos données ont été supprimées de nos bases de données.",
+            "title": "Données supprimées"
+        }
+    },
+    "error": {
+        "blacklisted": "Joueur déjà sur la blacklist",
+        "cancelled": "Vous avez annulé l'opération!",
+        "captain": {
+            "dm": "Je ne peux pas envoyer un DM à {{captain}}, autorisez-vous les DM ? (Sélection d'équipe annulée)",
+            "time": "{{captain}} Il n'y a plus de temps pour choisir les joueurs. (La sélection des équipes est annulée)"
+        },
+        "config": {
+            "player": "Vous ne pouvez pas interagir avec ça !"
+        },
+        "interactionCreate": {
+            "embed": "Je n'arrive pas à créer un embed, merci de corriger cela !",
+            "generic": "Quelque chose a mal tourné !",
+            "permissions": {
+                "bot": "Il me manque des permissions !",
+                "content": "Permissions manquantes pour le Bot",
+                "footer": "J'ai besoin des permissions énumérées ci-dessus pour me permettre de fonctionner sans problème !",
+                "premium": "Vous devez être un joueur premium pour utiliser cette fonction.",
+                "title": "Permissions manquantes:",
+                "user": "Vous n'avez pas la permission d'utiliser cette commande."
+            },
+            "time": "Tu n'as pas eu le temps!",
+            "unknown": {
+                "description": "Postez ce code dans le canal #error-report du serveur privé 6 Mans Support afin que nous puissions l'examiner..",
+                "id": "ERREUR ID: {{error}}"
+            }
+        },
+        "match": {
+            "cancelled": "Match {{id}} a été annulé !",
+            "found": "Aucun match trouvé avec cet identifiant.",
+            "id": "Pas d'ID' fourni, veuillez fournir l'ID correspondant.",
+            "reported": "Le match {{id}} a déjà été signalé !"
+        },
+        "queued": {
+            "description": "Le joueur sélectionné est déjà dans la file d'attente actuelle.",
+            "title": "Joueur déjà en attente"
+        },
+        "unknown": {
+            "change": "Changement inconnu",
+            "player": "{{id}} (Joueur inconnu)"
+        }
+    },
+    "generic": {
+        "match": "Match {{id}}",
+        "negative": "Annuler",
+        "positive": "Confirmer",
+        "queue": "Membres actuels de la file d'attente: {{size}}",
+        "team": "Equipe {{number}}",
+        "time": "Temps"
+    },
+    "help": {
+        "command": {
+            "long": "Pour plus d'informations sur une commande, exécutez `/help command [nom de la commande]`. \nLancez `/help all` pour obtenir la liste de toutes les commandes.",
+            "name": {
+                "error": "Impossible de trouver la commande avec le nom `{{name}}`",
+                "invalid": "Nom de commande non valide",
+                "title": "Aide pour {{name}}:"
+            },
+            "short": "Pour plus d'informations sur une commande, exécutez `/help command [nom de la commande]`."
+        },
+        "data": {
+            "description": "Dans le serveur de support lié, allez dans le canal #data-deletion-request. Dans ce canal, tapez /deletedata.",
+            "title": "Vous voulez faire une demande de suppression de vos données de match et de joueur ?"
+        },
+        "invite": {
+            "description": "[Private6Mans Invite]({{link}})",
+            "title": "Vous voulez utiliser le bot sur votre propre serveur ?"
+        },
+        "issues": {
+            "description": "Assurez-vous que le robot dispose des autorisations Lire les messages, Envoyer des messages, Intégrer des liens et Ajouter des réactions. Vérifiez également que toutes les personnes présentes dans le lobby peuvent recevoir des DM de la part du robot.",
+            "title": "Avez-vous des problèmes ?"
+        },
+        "support": {
+            "description": "[Private6Mans Support Server]({{link}})",
+            "title": "Toujours des problèmes ?"
+        },
+        "types": {
+            "developer": {
+                "description": "Seuls les développeurs du bot peuvent exécuter cette commande.",
+                "list": "Liste des commandes du développeur",
+                "title": "Il s'agit d'une commande **développeur**."
+            },
+            "moderator": {
+                "description": "Seuls les utilisateurs ayant le rôle désigné de modérateur de Private 6 Mans, les utilisateurs ayant les droits d'administrateur ou de gestionnaire de serveur peuvent exécuter cette commande.",
+                "list": "Liste des commandes du modérateur",
+                "title": "Il s'agit d'une commande **modérateur**."
+            },
+            "public": {
+                "description": "Tous les utilisateurs peuvent exécuter cette commande, sauf s'ils sont blacklist.",
+                "list": "Liste des commandes publiques",
+                "title": "Il s'agit d'une commande **public**."
+            }
+        },
+        "word": "Aide"
+    },
+    "interactionCreate": {
+        "queued": "Vous avez été remis en file d'attente."
+    },
+    "invite": {
+        "bot": "Lien d'invitation Private6Mans:",
+        "server": "Lien vers le serveur de soutien de Private6Mans:"
+    },
+    "leaderboard": {
+        "title": "Classement des serveurs"
+    },
+    "match": {
+        "progress": "Match en cours",
+        "rating": "{{team}} Changement de notation",
+        "status": "Statut",
+        "stopped": "Arrêt de la sélection du match",
+        "summary": "Le match {{matchId}} a été signalé!\nL'équipe {{teamId}} a gagné, les scores ont été signalés. Bon jeu ! \n\nLa répartition des scores du match est indiquée ci-dessous.",
+        "winner": "Gagnant"
+    },
+    "queue": {
+        "added": {
+            "description": "{{player}} ajouté à la file d'attente.",
+            "title": "Joueur ajouté à la file d'attente."
+        },
+        "empty": "La file d'attente est vide.",
+        "error": {
+            "join": "Vous êtes déjà en file d'attente!",
+            "leave": "Vous n'êtes pas actuellement dans une file d'attente!",
+            "role": "Vous n'avez pas le rôle requis pour faire la queue !"
+        },
+        "invalid": "Joueur invalide fourni ! Sont-ils sur la blacklist ou un compte bot ?",
+        "join": "{{player}} a rejoint la file d'attente !",
+        "leave": "{{player}} a quitté la file d'attente !",
+        "notFound": {
+            "description": "{{player}} n'est pas présent dans la file d'attente actuelle.",
+            "title": "Le joueur n'est pas dans la file d'attente."
+        },
+        "notPermitted": {
+            "description": "{{player}} n'est pas autorisé à rejoindre la file d'attente actuelle.",
+            "title": "Le joueur ne peut pas rejoindre la file d'attente"
+        },
+        "removed": {
+            "description": "{{player}} retiré de la file d'attente.",
+            "title": "Joueur retiré de la file d'attente."
+        },
+        "start": "{{player}} a commencé une nouvelle file d'attente !"
+    },
+    "report": {
+        "error": {
+            "matchResult": "Aucun résultat fourni, veuillez fournir un résultat.",
+            "report": "Vous ne pouvez pas signaler un match auquel vous ne participez pas."
+        }
+    },
+    "reset": {
+        "confirm": "Êtes-vous sûr de vouloir réinitialiser les statistiques ? Cela ne peut pas être annulé.",
+        "matches": "Remise à zéro des matchs",
+        "matchResults": "Réinitialisation des résultats du match",
+        "mode": "Veuillez spécifier un mode",
+        "players": "Réinitialisation des joueurs",
+        "queues": "Réinitialisation des files d'attente",
+        "rooms": "Placez les pièces à réinitialiser",
+        "stats": "Réinitialisation des statistiques",
+        "success": "Réinitialisation du serveur"
+    },
+    "stats": {
+        "error": "Membre non trouvé",
+        "losses": "Pertes",
+        "rating": "Classement",
+        "title": "Stats pour {{player}}",
+        "unknown": "Inconnu",
+        "wins": "Victoires"
+    },
+    "substitute": {
+        "description": "{{player}} a été remplacé par {{replacement}} dans le match {{id}}!",
+        "invalid": {
+            "queued": "Joueur valide non fourni ! Font-ils partie du match ?",
+            "replacement": "Joueur valide non fourni ! Fait-il déjà partie du match, est-il un bot ou est-il sur la blacklist ?"
+        }
+    },
+    "undo": {
+        "description": "Vous pouvez maintenant rapporter le score correctement.",
+        "error": "Vous pouvez uniquement annuler un match qui a été signalé ou annulé.",
+        "title": "Le match {{id}} a été annulée."
+    }
+}
