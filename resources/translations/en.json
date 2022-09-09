@@ -147,7 +147,7 @@
                 }
             },
             "matchTimeout": {
-                "description": "How long in hours until matches Auto-Cancel themselves",
+                "description": "How long in days until matches Auto-Cancel themselves",
                 "setting": {
                     "days": "{{size}} Days"
                 },
@@ -242,11 +242,13 @@
             "queueTimeout": {
                 "description": "How long until a player is removed from the queue for inactivity.",
                 "setting": {
-                    "minutes": "{{size}} Minutes"
+                    "minutes": "{{size}} Minutes",
+                    "hours": "{{size}} Hours"
                 },
                 "title": "Queue Timeout",
                 "updated": {
-                    "description": "Queue Timeout was set to **{{size}}** Minutes",
+                    "minutes": "Queue Timeout was set to **{{size}}** Minutes",
+                    "hours": "Queue Timeout was set to **{{size}}** Hours",
                     "title": "Queue Timeout Updated"
                 }
             },
