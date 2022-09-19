@@ -242,9 +242,15 @@
             "queueTimeout": {
                 "description": "Combien de temps avant qu'un joueur soit retiré de la file d'attente pour inactivité.",
                 "setting": {
-                    "minutes": "{{size}} Minutes"
+                    "minutes": "{{size}} Minutes",
+                    "days": "{{size}} Jours"
                 },
-                "title": "Délai d'attente de la queue"
+                "title": "Délai d'attente de la queue",
+                "updated": {
+                    "minutes": "Queue Timeout was set to **{{size}}** Minutes",
+                    "hours": "Queue Timeout was set to **{{size}}** Hours",
+                    "title": "Queue Timeout Updated"
+                }
             },
             "randomCaptains": {
                 "description": "Les capitaines doivent-ils être choisis au hasard ou être les mieux notés dans le hall ?",
