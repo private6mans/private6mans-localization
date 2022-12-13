@@ -386,6 +386,12 @@
         "config": {
             "player": "¡No puedes interactuar con esto!"
         },
+        "createMatch": {
+            "VC": {
+                "title": "Error de creación de VC:",
+                "description": "No es posible crear canales de voz, asegúrate de que el bot tenga los permisos correspondientes"
+            }
+        },
         "interactionCreate": {
             "discord": {
                 "MANAGE_CHANNELS": "Gestionar canales",

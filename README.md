@@ -4,8 +4,9 @@ Public translation files for the [Private 6 Mans](https://beta.private6mans.xyz/
 
 ## Community Contributions
 
-- English - [Coolcal](https://github.com/coolcalcacol) [Coolcal#8459]
-- Spanish - [Blacki](https://github.com/Blacker2911) [Blacki#6844]
+- English - [Coolcal#8459](https://github.com/coolcalcacol) [TheBeardedB#1186](https://github.com/TheBeardedB)
+- Spanish - [Blacki#6844](https://github.com/Blacker2911)
+- French  - [! Slayz#7365](https://steamcommunity.com/profiles/76561198322608921) [AcroTic#3489](https://steamcommunity.com/id/AcroTicRL/)
 
 ## Contributing your translations
 
