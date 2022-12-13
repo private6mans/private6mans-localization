@@ -386,6 +386,12 @@
         "config": {
             "player": "You can't interact with this!"
         },
+        "createMatch": {
+            "VC": {
+                "title": "VC Creation Error:",
+                "description": "I can't create Voice Channels, do I have the correct permissions?"
+            }
+        },
         "interactionCreate": {
             "discord": {
                 "MANAGE_CHANNELS": "Manage Channels",
