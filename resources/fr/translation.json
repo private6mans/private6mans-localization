@@ -243,7 +243,7 @@
                 "description": "Combien de temps avant qu'un joueur soit retiré de la file d'attente pour inactivité.",
                 "setting": {
                     "minutes": "{{size}} Minutes",
-                    "days": "{{size}} Jours"
+                    "hours": "{{size}} Heures"
                 },
                 "title": "Délai d'attente de la queue",
                 "updated": {
