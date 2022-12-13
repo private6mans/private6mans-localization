@@ -160,7 +160,7 @@
             "mentionRole": {
                 "description": "S'il est défini, ce rôle sera mentionné au début de la nouvelle file d'attente sur tous les canaux qui ne sont pas définis séparément.",
                 "setting": {
-                    "description": "Sélectionnez un nouveau **Rôle de mention** pour le serveur ou sélectionnez réinitialiser pour supprimer.",
+                    "description": "Sélectionnez un nouveau **Rôle de mention**, ou sélectionnez réinitialiser pour supprimer.",
                     "reset": "Réinitialiser"
                 },
                 "title": "Mentionner le rôle",
@@ -173,7 +173,7 @@
             "modRole": {
                 "description": "Les utilisateurs ayant ce rôle seront autorisés à utiliser les commandes de modération pour le Bot.",
                 "setting": {
-                    "description": "Sélectionnez un nouveau **Rôle Mod** pour le serveur ou sélectionnez réinitialiser pour supprimer.",
+                    "description": "Sélectionnez un nouveau **Rôle Mod**, ou sélectionnez réinitialiser pour supprimer.",
                     "reset": "Réinitialiser"
                 },
                 "title": "Rôle Mod",
@@ -186,7 +186,7 @@
             "requiredRole": {
                 "description": "Quel rôle est requis pour rejoindre la file d'attente ? Ceci est utilisé dans les files d'attente qui n'ont pas de rôle requis.",
                 "setting": {
-                    "description": "Sélectionnez un nouveau **Rôle requis** pour le serveur ou sélectionnez réinitialiser pour supprimer.",
+                    "description": "Sélectionnez un nouveau **Rôle requis**, ou sélectionnez réinitialiser pour supprimer.",
                     "reset": "Réinitialiser"
                 },
                 "title": "Rôle requis",
@@ -229,7 +229,7 @@
             "mentionRole": {
                 "description": "Quel rôle doit être mentionné au début de la file d'attente ?",
                 "setting": {
-                    "description": "Sélectionnez un nouveau **Rôle de mention** pour le serveur ou sélectionnez réinitialiser pour supprimer.",
+                    "description": "Sélectionnez un nouveau **Rôle de mention**, ou sélectionnez réinitialiser pour supprimer.",
                     "reset": "Réinitialiser"
                 },
                 "title": "Rôle de mention",
@@ -268,7 +268,7 @@
             "requiredRole": {
                 "description": "Quel rôle est requis pour rejoindre la file d'attente ?",
                 "setting": {
-                    "description": "Sélectionnez un nouveau **Rôle requis** pour le serveur ou sélectionnez réinitialiser pour supprimer.",
+                    "description": "Sélectionnez un nouveau **Rôle requis** ou sélectionnez réinitialiser pour supprimer.",
                     "reset": "Réinitialiser"
                 },
                 "title": "Rôle requis",
