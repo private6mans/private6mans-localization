@@ -32,4 +32,4 @@ Public translation files for the [Private 6 Mans](https://beta.private6mans.xyz/
 
 ## Need help?
 
-### If you need help with translating, or have any questions feel free to reach out in our **[support discord](https://beta.private6mans.xyz/discord)**!
+### If you need help with translating, or have any questions feel free to reach out in our **[support discord](https://private6mans.xyz/discord)**!

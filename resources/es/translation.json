@@ -137,7 +137,7 @@
                 },
                 "title": "Tamaño de serie"
             },
-            "description": " Selecciona una opción de la lista inferior.",
+            "description": "Selecciona una opción de la lista inferior.",
             "language": {
                 "description": "Idioma del bot en el servidor",
                 "title": "Idioma",
@@ -158,7 +158,7 @@
                 }
             },
             "mentionRole": {
-                "description": " Rol mencionado al iniciar la lista de espera",
+                "description": "Rol mencionado al iniciar la lista de espera",
                 "setting": {
                     "description": "Elige debajo un **rol de mención** de la lista de espera o selecciona **reiniciar** para eliminar.",
                     "reset": "Reiniciar"
@@ -173,7 +173,7 @@
             "modRole": {
                 "description": "Los usuarios con este rol usarán los comandos administrativos del bot.",
                 "setting": {
-                    "description": " Selecciona un nuevo **rol de moderador** para el servidor o elige reiniciar para eliminar.",
+                    "description": "Selecciona un nuevo **rol de moderador** para el servidor o elige reiniciar para eliminar.",
                     "reset": "Reiniciar"
                 },
                 "title": "Rol de moderador",
@@ -388,7 +388,7 @@
         },
         "createMatch": {
             "VC": {
-                "title": "Error de creación de VC:",
+                "title": "Error en la creación de canales de voz:",
                 "description": "No es posible crear canales de voz, asegúrate de que el bot tenga los permisos correspondientes"
             }
         },
