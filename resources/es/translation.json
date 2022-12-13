@@ -242,9 +242,15 @@
             "queueTimeout": {
                 "description": "¿Cuánto tiempo debe pasar para que un jugador sea expulsado por inactividad de la lista de espera?.",
                 "setting": {
-                    "minutes": "{{size}} Minutos"
+                    "minutes": "{{size}} Minutos",
+                    "hours": "{{size}} Horas"
                 },
-                "title": "Tiempo máximo en la queue"
+                "title": "Tiempo máximo en la queue",
+                "updated": {
+                    "minutes": "El tiempo límite de lista de espera fue configurado en **{{size}}** Minutos",
+                    "hours": "El tiempo límite de lista de espera fue configurado en **{{size}}** Horas",
+                    "title": "Tiempo límite de lista de espera actualizado"
+                }
             },
             "randomCaptains": {
                 "description": "¿El capitán debería ser elegido de manera aleatoria o por la mejor puntuación en el ranking? ",
@@ -356,6 +362,9 @@
             "title": "¡Los jugadores serán eliminados de lista en menos de 5 minutos!"
         }
     },
+    "dashboard": {
+        "title": "Enlace del Gestor de Ajustes"
+    },
     "deleteData": {
         "error": "Comando disponible en #data-deletion-request en Private 6 Mans.\n Digita /invite para la invitación.",
         "prompt": {
@@ -375,9 +384,14 @@
             "time": "{{captain}} excedió el límite de tiempo para elegir miembros. (Elección de equipos cancelada)"
         },
         "config": {
-            "player": ""
+            "player": "¡No puedes interactuar con esto!"
         },
         "interactionCreate": {
+            "discord": {
+                "MANAGE_CHANNELS": "Gestionar canales",
+                "SEND_MESSAGES": "Enviar mensajes",
+                "EMBED_LINKS": "Enlaces insertados"
+            },
             "embed": "¡No puedo insertar nada, por favor arregla eso!",
             "generic": "Operación cancelada",
             "permissions": {
