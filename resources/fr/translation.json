@@ -343,6 +343,7 @@
         "random": "Équipes aléatoires",
         "vote": {
             "cast": "Votez ! {{type}} Choisi.",
+            "error": "Vous avez déjà voté pour ça!",
             "return": {
                 "description": "Le vote est terminé. Les résultats sont les suivants:",
                 "title": "Le vote est terminé !"
@@ -360,6 +361,9 @@
             "description": "Cliquez ci-dessous pour prolonger le temps que vous avez dans la file d'attente !",
             "title": "Les joueurs sont retirés de la file d'attente en moins de 5 minutes !"
         }
+    },
+    "dashboard": {
+        "title": "Lien du Tableau"
     },
     "deleteData": {
         "error": "Cette commande ne peut être exécutée que dans le canal #data-deletion-request channel du serveur Private 6 Mans support..\nTapez /invite pour obtenir un lien d'invitation vers ce serveur.",
@@ -382,7 +386,18 @@
         "config": {
             "player": "Vous ne pouvez pas interagir avec ça !"
         },
+        "createMatch": {
+            "VC": {
+                "title": "Erreur Création VC:",
+                "description": "Je peux pas créer un Salon Vocal, est-que j'ai les permissions correctes?"
+            }
+        },
         "interactionCreate": {
+            "discord": {
+                "MANAGE_CHANNELS": "Gérer les salons",
+                "SEND_MESSAGES": "Envoyez des Messages",
+                "EMBED_LINKS": "Intégrer des liens"
+            },
             "embed": "Je n'arrive pas à créer un embed, merci de corriger cela !",
             "generic": "Quelque chose a mal tourné !",
             "permissions": {
