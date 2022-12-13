@@ -362,6 +362,9 @@
             "title": "Players to be removed from queue in under 5 minutes!"
         }
     },
+    "dashboard": {
+        "title": "Dashboard Link"
+    },
     "deleteData": {
         "error": "This command can only be run in the #data-deletion-request channel in the Private 6 Mans support server.\nType /invite for an invite link to that server.",
         "prompt": {
