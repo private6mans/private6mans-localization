@@ -239,6 +239,18 @@
                     "title": "Guild Mention Role Updated"
                 }
             },
+            "queueName": {
+                "description": "What should the name of the queue be?",
+                "setting": {
+                    "description": "Enter a new **Queue Name** for the queue or leave blank to remove.",
+                },
+                "title": "Queue Name",
+                "updated": {
+                    "new": "Queue Name was set to **{{name}}**",
+                    "reset": "Queue Name was **reset**",
+                    "title": "Queue Name Updated"
+                }
+            },
             "queueTimeout": {
                 "description": "How long until a player is removed from the queue for inactivity.",
                 "setting": {
