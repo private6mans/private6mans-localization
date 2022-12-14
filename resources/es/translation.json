@@ -239,6 +239,15 @@
                     "title": "Rol de mención del servidor actualizado"
                 }
             },
+            "queueName": {
+                "description": "Ingresa un nuevo **Nombre** para la lista de espera o déjalo en blanco para eliminarlo.",
+                "title": "Nombre de lista de espera",
+                "updated": {
+                    "new": "El nombre de la lista de espera fue configurado como **{{nombre}}**",
+                    "reset": "El nombre de la lista de espera fue **reiniciado**",
+                    "title": "Nombre de lista de espera actualizado"
+                }
+            },
             "queueTimeout": {
                 "description": "¿Cuánto tiempo debe pasar para que un jugador sea expulsado por inactividad de la lista de espera?.",
                 "setting": {

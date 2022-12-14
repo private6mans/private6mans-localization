@@ -240,10 +240,7 @@
                 }
             },
             "queueName": {
-                "description": "What should the name of the queue be?",
-                "setting": {
-                    "description": "Enter a new **Queue Name** for the queue or leave blank to remove.",
-                },
+                "description": "Enter a new **Queue Name** for the queue or leave blank to remove.",
                 "title": "Queue Name",
                 "updated": {
                     "new": "Queue Name was set to **{{name}}**",

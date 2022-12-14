@@ -239,6 +239,15 @@
                     "title": "Rôle de mention mis à jour"
                 }
             },
+            "queueName": {
+                "description": "Entrez un nouveau **Nom de File** pour la file d'attente ou laissez vide pour supprimer.",
+                "title": "Nom de File",
+                "updated": {
+                    "new": "Nom de File a été changé à **{{name}}**",
+                    "reset": "Nom de File a été **réinitialisé**",
+                    "title": "Nom de File actualisé"
+                }
+            },
             "queueTimeout": {
                 "description": "Combien de temps avant qu'un joueur soit retiré de la file d'attente pour inactivité.",
                 "setting": {
