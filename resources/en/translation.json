@@ -240,7 +240,7 @@
                 }
             },
             "queueName": {
-                "description": "Enter a new name or leave blank to remove.",
+                "description": "Enter a new name or \"reset\" to remove.",
                 "title": "Queue Name",
                 "updated": {
                     "new": "Queue Name was set to **{{name}}**",
