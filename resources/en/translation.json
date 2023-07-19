@@ -555,6 +555,7 @@
         "success": "Server Reset"
     },
     "stats": {
+        "record": "Match Record",
         "error": "Member not found",
         "losses": "Losses",
         "rating": "Rating",
