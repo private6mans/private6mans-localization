@@ -558,6 +558,7 @@
         "error": "Member not found",
         "losses": "Losses",
         "rating": "Rating",
+        "record": "Match Record",
         "title": "Stats for {{player}}",
         "unknown": "Unknown",
         "wins": "Wins"
