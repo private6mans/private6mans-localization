@@ -555,6 +555,7 @@
         "success": "Reinicio del servidor"
     },
     "stats": {
+        "record": "",
         "error": "Miembro no encontrado",
         "losses": "Derrotas",
         "rating": "Clasificación",
