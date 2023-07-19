@@ -555,6 +555,7 @@
         "success": "Réinitialisation du serveur"
     },
     "stats": {
+        "record": "",
         "error": "Membre non trouvé",
         "losses": "Pertes",
         "rating": "Classement",
