@@ -555,10 +555,10 @@
         "success": "Réinitialisation du serveur"
     },
     "stats": {
-        "record": "",
         "error": "Membre non trouvé",
         "losses": "Pertes",
         "rating": "Classement",
+        "record": "",
         "title": "Stats pour {{player}}",
         "unknown": "Inconnu",
         "wins": "Victoires"
