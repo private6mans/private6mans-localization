@@ -577,7 +577,7 @@
     "fixTeams": { 
         "description": "The teams for match {{id}} have been updated.",
         "invalid": {
-            "lobbyMismatch": "Members mentioned in the command must match the members mentioned in the command!"
+            "lobbyMismatch": "Members mentioned in the command must match the members in the lobby!"
         }
     }
 }
