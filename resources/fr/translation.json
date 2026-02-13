@@ -74,7 +74,7 @@
     },
     "config": {
         "base": {
-            "description": "Sélectionnez dans la liste déroulante ci-dessous si vous souhaitez afficher les paramètres ou mettre à jour les paramètres de la file d'attente/du serveur.",
+            "description": "Choisissez ci-dessous pour voir ou modifier les paramètres du serveur/file d'attente.",
             "guild": {
                 "description": "Mettre à jour les paramètres du serveur"
             },
@@ -158,7 +158,7 @@
                 }
             },
             "mentionRole": {
-                "description": "S'il est défini, ce rôle sera mentionné au début de la nouvelle file d'attente sur tous les canaux qui ne sont pas définis séparément.",
+                "description": "Ce rôle sera mentionné au début de la file d'attente sur les canaux non définis.",
                 "setting": {
                     "description": "Sélectionnez un nouveau **Rôle de mention**, ou sélectionnez réinitialiser pour supprimer.",
                     "reset": "Réinitialiser"
@@ -184,7 +184,7 @@
                 }
             },
             "requiredRole": {
-                "description": "Quel rôle est requis pour rejoindre la file d'attente ? Ceci est utilisé dans les files d'attente qui n'ont pas de rôle requis.",
+                "description": "Rôle requis pour rejoindre la file d'attente si aucun rôle spécifique n'est défini.",
                 "setting": {
                     "description": "Sélectionnez un nouveau **Rôle requis**, ou sélectionnez réinitialiser pour supprimer.",
                     "reset": "Réinitialiser"
@@ -197,7 +197,7 @@
                 }
             },
             "singleQueue": {
-                "description": "Si cette option est activée, le serveur partagera une file d'attente commune, sinon chaque canal sera sa propre file d'attente.",
+                "description": "Si activé, une file d'attente commune sera partagée, sinon chaque canal aura la sienne.",
                 "setting": {
                     "disabled": "Désactivé",
                     "enabled": "Activé"
@@ -211,7 +211,7 @@
             },
             "title": "Paramètres du serveur",
             "vcCategory": {
-                "description": "Dans quelle catégorie le bot doit-il créer des canaux vocaux pour le match ? Cela peut être désactivé",
+                "description": "Catégorie pour créer les canaux vocaux du match. Peut être désactivé.",
                 "setting": {
                     "description": "Sélectionnez une nouvelle **Catégorie VC** ou choisissez de réinitialiser pour supprimer.",
                     "reset": "Ne créez pas de vocaux sur la création de match."
