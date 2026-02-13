@@ -573,5 +573,11 @@
         "description": "You can now report the score correctly.",
         "error": "You can only undo a match that has been reported or cancelled.",
         "title": "Match {{id}} was undone."
+    },
+    "fixTeams": { 
+        "description": "The teams for match {{id}} have been updated.",
+        "invalid": {
+            "lobbyMismatch": "Members mentioned in the command must match the members in the lobby!"
+        }
     }
 }
