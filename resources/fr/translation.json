@@ -405,7 +405,15 @@
             "discord": {
                 "MANAGE_CHANNELS": "Gérer les salons",
                 "SEND_MESSAGES": "Envoyez des Messages",
-                "EMBED_LINKS": "Intégrer des liens"
+                "EMBED_LINKS": "Intégrer des liens",
+                "title": "Erreur Discord",
+                "missingAccess": {
+                    "channels": "The bot is missing access to one or more channels. Please ensure the bot has the **Manage Channels** permission in the relevant category, and that no channel or category permission overrides are denying access.",
+                    "generic": "The bot is missing access to perform this action. Please check the bot's role permissions and ensure no permission overrides are blocking access."
+                },
+                "forbidden": "The bot does not have permission to perform this action. Please check the bot's role position and permissions in the server settings.",
+                "notFound": "A resource required for this action could not be found. It may have been deleted or the bot may not have access to it.",
+                "rateLimit": "The bot is being rate limited by Discord. Please wait a moment and try again."
             },
             "embed": "Je n'arrive pas à créer un embed, merci de corriger cela !",
             "generic": "Quelque chose a mal tourné !",
@@ -419,8 +427,9 @@
             },
             "time": "Tu n'as pas eu le temps!",
             "unknown": {
-                "description": "Postez ce code dans le canal #error-report du serveur privé 6 Mans Support afin que nous puissions l'examiner..",
-                "id": "ERREUR ID: {{error}}"
+                "description": "Une erreur inattendue s'est produite lors du traitement de votre commande. Veuillez la signaler dans le canal #error-report du serveur de support Private 6 Mans.",
+                "id": "ID d'erreur : `{{error}}`",
+                "reference": "Référence d'erreur"
             }
         },
         "match": {
