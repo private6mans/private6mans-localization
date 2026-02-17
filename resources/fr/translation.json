@@ -222,6 +222,22 @@
                     "reset": "La catégorie VC a été **réinitialiser**",
                     "title": "Mise à jour de la catégorie VC"
                 }
+            },
+            "vcMode": {
+                "description": "Comment les canaux vocaux doivent être créés pour les matchs",
+                "setting": {
+                    "description": "Sélectionnez un nouveau **Mode VC**"
+                },
+                "title": "Mode VC",
+                "options": {
+                    "disabled": "Désactivé",
+                    "on_demand": "À la demande",
+                    "automatic": "Automatique"
+                },
+                "updated": {
+                    "description": "Le mode VC a été défini sur **{{mode}}**",
+                    "title": "Mode VC mis à jour"
+                }
             }
         },
         "queue": {
@@ -318,6 +334,7 @@
     },
     "createMatch": {
         "balanced": "Équipes équilibrées",
+        "vcButton": "Créer des VCs",
         "captain": {
             "plural": "Capitaines",
             "singular": "Capitaine {{number}}"
