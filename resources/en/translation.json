@@ -222,6 +222,22 @@
                     "reset": "VC Category was **reset**",
                     "title": "VC Category Updated"
                 }
+            },
+            "vcMode": {
+                "description": "How voice channels should be created for matches",
+                "setting": {
+                    "description": "Select a new **VC Mode**"
+                },
+                "title": "VC Mode",
+                "options": {
+                    "disabled": "Disabled",
+                    "on_demand": "On-Demand",
+                    "automatic": "Automatic"
+                },
+                "updated": {
+                    "description": "VC Mode was set to **{{mode}}**",
+                    "title": "VC Mode Updated"
+                }
             }
         },
         "queue": {
@@ -318,6 +334,7 @@
     },
     "createMatch": {
         "balanced": "Balanced Teams",
+        "vcButton": "Create VCs",
         "captain": {
             "plural": "Captains",
             "singular": "Captain {{number}}"

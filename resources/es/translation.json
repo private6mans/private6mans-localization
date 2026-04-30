@@ -222,6 +222,22 @@
                     "reset": "La categoia de canales de voz fue **reiniciada**",
                     "title": "Categoría de canales de voz actualizada"
                 }
+            },
+            "vcMode": {
+                "description": "Cómo se deben crear los canales de voz para las partidas",
+                "setting": {
+                    "description": "Selecciona un nuevo **Modo de VC**"
+                },
+                "title": "Modo de VC",
+                "options": {
+                    "disabled": "Desactivado",
+                    "on_demand": "Bajo demanda",
+                    "automatic": "Automático"
+                },
+                "updated": {
+                    "description": "El modo de VC fue configurado en **{{mode}}**",
+                    "title": "Modo de VC actualizado"
+                }
             }
         },
         "queue": {
@@ -318,6 +334,7 @@
     },
     "createMatch": {
         "balanced": "Equipos balanceados",
+        "vcButton": "Crear VCs",
         "captain": {
             "plural": "Capitanes",
             "singular": "Capitán {{number}}"
