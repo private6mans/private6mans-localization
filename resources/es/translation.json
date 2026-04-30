@@ -389,7 +389,41 @@
         }
     },
     "dashboard": {
-        "title": "Enlace del Gestor de Ajustes"
+        "title": "Enlace del Gestor de Ajustes",
+        "forms": {
+            "guild": {
+                "title": "Configuracion del Servidor",
+                "subtitle": "Estos son los ajustes para todo el servidor.",
+                "sections": {
+                    "permissionsRoles": {
+                        "title": "Permisos y Roles",
+                        "subtitle": "Acceso y requisitos de menciones para administrar colas."
+                    },
+                    "queueBehavior": {
+                        "title": "Comportamiento de Cola",
+                        "subtitle": "Estructura global de cola, tiempos y formato de serie."
+                    },
+                    "voiceLocalization": {
+                        "title": "Voz y Localizacion",
+                        "subtitle": "Comportamiento de canales de voz e idioma de mensajes."
+                    }
+                }
+            },
+            "queue": {
+                "title": "Configuracion de Cola",
+                "subtitle": "Estos son los ajustes de una cola especifica.",
+                "sections": {
+                    "queueRules": {
+                        "title": "Reglas de Cola",
+                        "subtitle": "Comportamiento base y valores de lobby para este canal."
+                    },
+                    "roles": {
+                        "title": "Roles",
+                        "subtitle": "Controla quien recibe menciones y quien puede entrar en cola."
+                    }
+                }
+            }
+        }
     },
     "deleteData": {
         "error": "Comando disponible en #data-deletion-request en Private 6 Mans.\n Digita /invite para la invitación.",

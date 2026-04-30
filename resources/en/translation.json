@@ -389,7 +389,41 @@
         }
     },
     "dashboard": {
-        "title": "Dashboard Link"
+        "title": "Dashboard Link",
+        "forms": {
+            "guild": {
+                "title": "Guild Settings",
+                "subtitle": "These are the settings for the whole server.",
+                "sections": {
+                    "permissionsRoles": {
+                        "title": "Permissions & Roles",
+                        "subtitle": "Access and mention requirements for running and managing queues."
+                    },
+                    "queueBehavior": {
+                        "title": "Queue Behavior",
+                        "subtitle": "Global queue structure, match timing, and bracket format."
+                    },
+                    "voiceLocalization": {
+                        "title": "Voice & Localization",
+                        "subtitle": "Voice channel creation behavior and message language."
+                    }
+                }
+            },
+            "queue": {
+                "title": "Room Settings",
+                "subtitle": "These are the settings for a single queue.",
+                "sections": {
+                    "queueRules": {
+                        "title": "Queue Rules",
+                        "subtitle": "Core queue behavior and lobby defaults for this channel."
+                    },
+                    "roles": {
+                        "title": "Roles",
+                        "subtitle": "Control who gets pinged and who can queue in this room."
+                    }
+                }
+            }
+        }
     },
     "deleteData": {
         "error": "This command can only be run in the #data-deletion-request channel in the Private 6 Mans support server.\nType /invite for an invite link to that server.",

@@ -389,7 +389,41 @@
         }
     },
     "dashboard": {
-        "title": "Lien du Tableau"
+        "title": "Lien du Tableau",
+        "forms": {
+            "guild": {
+                "title": "Parametres du Serveur",
+                "subtitle": "Voici les parametres pour tout le serveur.",
+                "sections": {
+                    "permissionsRoles": {
+                        "title": "Permissions et Roles",
+                        "subtitle": "Acces et exigences de mention pour gerer les files."
+                    },
+                    "queueBehavior": {
+                        "title": "Comportement de File",
+                        "subtitle": "Structure globale, delais et format de serie."
+                    },
+                    "voiceLocalization": {
+                        "title": "Voix et Localisation",
+                        "subtitle": "Comportement des salons vocaux et langue des messages."
+                    }
+                }
+            },
+            "queue": {
+                "title": "Parametres de File",
+                "subtitle": "Voici les parametres pour une file specifique.",
+                "sections": {
+                    "queueRules": {
+                        "title": "Regles de File",
+                        "subtitle": "Comportement principal et valeurs de lobby pour ce salon."
+                    },
+                    "roles": {
+                        "title": "Roles",
+                        "subtitle": "Controle qui est mentionne et qui peut rejoindre cette file."
+                    }
+                }
+            }
+        }
     },
     "deleteData": {
         "error": "Cette commande ne peut être exécutée que dans le canal #data-deletion-request channel du serveur Private 6 Mans support..\nTapez /invite pour obtenir un lien d'invitation vers ce serveur.",
