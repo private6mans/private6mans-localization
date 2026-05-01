@@ -127,9 +127,13 @@
                 "description": "¿Cuántos partidos deben ser jugados por serie?",
                 "options": {
                     "bo_count": "Mejor de {{size}}",
+                    "bo_countDescription": "Siempre use mejor de {{size}}.",
                     "disabled": "Desactivado",
+                    "disabledDescription": "No se aplicará ningún tamaño de serie al lobby.",
                     "pick": "Elegir número de partidas",
-                    "random": "Aleatorio"
+                    "pickDescription": "Elige el tamaño de serie manualmente al crear una partida.",
+                    "random": "Aleatorio",
+                    "randomDescription": "Elige aleatoriamente un tamaño de serie al crear la partida."
                 },
                 "updated": {
                     "description": "Configuración de tamaño de serie:  **{{series}}**",
@@ -200,7 +204,9 @@
                 "description": "Cuando esté activo, se compartirá una lista de espera común, de lo contrario, serán independientes.",
                 "setting": {
                     "disabled": "Desactivado",
-                    "enabled": "Activado"
+                    "enabled": "Activado",
+                    "disabledDescription": "Cada canal conserva su propia cola independiente.",
+                    "enabledDescription": "Usa una cola compartida en todos los canales para que los jugadores permanezcan en el mismo lobby."
                 },
                 "title": "Lista de espera individual",
                 "updated": {
@@ -283,6 +289,10 @@
                     "disabled": "Activado",
                     "enabled": "Desactivado"
                 },
+                "options": {
+                    "enabledDescription": "Los capitanes serán seleccionados aleatoriamente para cada partida",
+                    "disabledDescription": "Los jugadores mejor clasificados serán capitanes"
+                },
                 "title": "Capitanes aleatorios",
                 "updated": {
                     "disabled": "Elección de capitanes aleatorios **Desactivado**",
@@ -308,6 +318,10 @@
                 "setting": {
                     "disabled": "Lista de espera privada.",
                     "enabled": "Lista de espera pública"
+                },
+                "options": {
+                    "enabledDescription": "Mostrar la sala en la clasificación",
+                    "disabledDescription": "No mostrar la sala en la clasificación"
                 },
                 "title": "Visibilidad de lista de espera en la página web.",
                 "updated": {

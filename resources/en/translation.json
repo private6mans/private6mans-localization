@@ -127,9 +127,14 @@
                 "description": "How many games should be played per series?",
                 "options": {
                     "bo_count": "Best of {{size}}",
+                    "bo_count": "Best of {{size}}",
+                    "bo_countDescription": "Always use a best-of {{size}} match.",
                     "disabled": "Disabled",
+                    "disabledDescription": "No bracket size will be enforced for the lobby.",
                     "pick": "Pick on match create",
-                    "random": "Random"
+                    "pickDescription": "Choose the bracket size manually when creating a match.",
+                    "random": "Random",
+                    "randomDescription": "Randomly choose a bracket size when the match is created."
                 },
                 "updated": {
                     "description": "Best of size set to **{{series}}**",
@@ -200,7 +205,9 @@
                 "description": "When enabled, the server will share one common queue, else each channel will be it's own queue",
                 "setting": {
                     "disabled": "Disabled",
-                    "enabled": "Enabled"
+                    "enabled": "Enabled",
+                    "disabledDescription": "Each channel keeps its own separate queue.",
+                    "enabledDescription": "Use a shared queue across all channels so players stay in the same lobby."
                 },
                 "title": "Single Queue",
                 "updated": {
@@ -283,6 +290,10 @@
                     "disabled": "Disabled",
                     "enabled": "Enabled"
                 },
+                "options": {
+                    "enabledDescription": "Random captains will be selected for each game",
+                    "disabledDescription": "The #1 and #2 rated players in the lobby will be captains"
+                },
                 "title": "Random Captains",
                 "updated": {
                     "disabled": "Random Captains was **Disabled**",
@@ -308,6 +319,10 @@
                 "setting": {
                     "disabled": "Private",
                     "enabled": "Public"
+                },
+                "options": {
+                    "enabledDescription": "Show room in leaderboard",
+                    "disabledDescription": "Do not show room in leaderboard"
                 },
                 "title": "Show Room",
                 "updated": {

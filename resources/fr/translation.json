@@ -127,9 +127,13 @@
                 "description": "Combien de matchs doivent être joués par série ?",
                 "options": {
                     "bo_count": "Best of {{size}}",
+                    "bo_countDescription": "Utilisez toujours un best of {{size}}.",
                     "disabled": "Désactivé",
+                    "disabledDescription": "Aucune taille de série ne sera appliquée au lobby.",
                     "pick": "Choisir le match créé",
-                    "random": "Random"
+                    "pickDescription": "Choisissez la taille de série manuellement lors de la création d'un match.",
+                    "random": "Random",
+                    "randomDescription": "Choisissez aléatoirement une taille de série lors de la création du match."
                 },
                 "updated": {
                     "description": "Best of size set à **{{series}}**",
@@ -200,7 +204,9 @@
                 "description": "Si activé, une file d'attente commune sera partagée, sinon chaque canal aura la sienne.",
                 "setting": {
                     "disabled": "Désactivé",
-                    "enabled": "Activé"
+                    "enabled": "Activé",
+                    "disabledDescription": "Chaque salon conserve sa propre file séparée.",
+                    "enabledDescription": "Utilise une file partagée entre tous les salons pour que les joueurs restent dans le même lobby."
                 },
                 "title": "File d'attente unique",
                 "updated": {
@@ -283,6 +289,10 @@
                     "disabled": "Désactivé",
                     "enabled": "Activé"
                 },
+                "options": {
+                    "enabledDescription": "Les capitaines seront choisis aléatoirement pour chaque match",
+                    "disabledDescription": "Les joueurs les mieux classés seront capitaines"
+                },
                 "title": "Capitaines aléatoires",
                 "updated": {
                     "disabled": "Capitaines aléatoires a été **desactivés**",
@@ -308,6 +318,10 @@
                 "setting": {
                     "disabled": "Privé",
                     "enabled": "Public"
+                },
+                "options": {
+                    "enabledDescription": "Afficher la salle au classement",
+                    "disabledDescription": "Ne pas afficher la salle au classement"
                 },
                 "title": "Chanel",
                 "updated": {
