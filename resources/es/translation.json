@@ -209,6 +209,14 @@
                     "enabledDescription": "Usa una cola compartida en todos los canales para que los jugadores permanezcan en el mismo lobby."
                 },
                 "title": "Lista de espera individual",
+                "transfer": {
+                    "none": "Ninguno",
+                    "enterDescription": "Selecciona un canal para transferir resultados de partidas cuando accedas al modo de cola individual:",
+                    "exitDescription": "Selecciona un canal para transferir resultados de partidas cuando salgas del modo de cola individual:",
+                    "overwritePrompt": "El destino seleccionado ya tiene resultados de partidas. ¿Deseas sobrescribirlos?",
+                    "overwrite": "Sobrescribir",
+                    "error": "No se pudieron transferir los resultados de las partidas: {{error}}"
+                },
                 "updated": {
                     "disabled": "Lista de espera individual **Desactivada**",
                     "enabled": "Lista de espera individual **Activada**",
@@ -344,6 +352,7 @@
             "title": "Configuración de lista de espera actual."
         },
         "toggle": "Cambiar a: {{setting}}",
+        "cancel": "Cancelar",
         "update": "Actualizar a: {{setting}}"
     },
     "createMatch": {

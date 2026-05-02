@@ -209,6 +209,14 @@
                     "enabledDescription": "Utilise une file partagée entre tous les salons pour que les joueurs restent dans le même lobby."
                 },
                 "title": "File d'attente unique",
+                "transfer": {
+                    "none": "Aucun",
+                    "enterDescription": "Sélectionnez un salon pour transférer les résultats des matchs lors de l'activation du mode file unique:",
+                    "exitDescription": "Sélectionnez un salon pour transférer les résultats des matchs lors de la désactivation du mode file unique:",
+                    "overwritePrompt": "La destination sélectionnée contient déjà des résultats de matchs. Voulez-vous les remplacer?",
+                    "overwrite": "Remplacer",
+                    "error": "Impossible de transférer les résultats des matchs: {{error}}"
+                },
                 "updated": {
                     "disabled": "La file d'attente unique a été **désactivée**.",
                     "enabled": "La file d'attente unique a été **activée**.",
@@ -343,8 +351,7 @@
             },
             "title": "Paramètres de la file d'attente"
         },
-        "toggle": "Basculer vers: {{setting}}",
-        "update": "Mise à jour vers: {{setting}}"
+        "toggle": "Basculer vers: {{setting}}",        "cancel": "Annuler",        "update": "Mise à jour vers: {{setting}}"
     },
     "createMatch": {
         "balanced": "Équipes équilibrées",

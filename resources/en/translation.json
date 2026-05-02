@@ -210,6 +210,14 @@
                     "enabledDescription": "Use a shared queue across all channels so players stay in the same lobby."
                 },
                 "title": "Single Queue",
+                "transfer": {
+                    "none": "None",
+                    "enterDescription": "Select a channel to transfer match results from when entering single queue mode:",
+                    "exitDescription": "Select a channel to transfer match results to when exiting single queue mode:",
+                    "overwritePrompt": "The selected destination already has match results. Do you want to overwrite them?",
+                    "overwrite": "Overwrite",
+                    "error": "Failed to transfer match results: {{error}}"
+                },
                 "updated": {
                     "disabled": "Single Queue was **Disabled**",
                     "enabled": "Single Queue was **Enabled**",
@@ -345,6 +353,7 @@
             "title": "Queue Settings"
         },
         "toggle": "Toggle to: {{setting}}",
+        "cancel": "Cancel",
         "update": "Update to: {{setting}}"
     },
     "createMatch": {
