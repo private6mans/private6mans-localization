@@ -427,6 +427,15 @@
                     "voiceLocalization": {
                         "title": "Voix et Localisation",
                         "subtitle": "Comportement des salons vocaux et langue des messages."
+                    },
+                    "staleRooms": {
+                        "title": "Configurations de salons obsolètes",
+                        "subtitle": "Supprimez les configurations de salons pour les canaux qui n existent plus.",
+                        "detected": "{{count}} configuration(s) de salon obsolète(s) détectée(s).",
+                        "remove": "Supprimer les configurations obsolètes",
+                        "removing": "Suppression en cours...",
+                        "confirm": "Supprimer {{count}} configuration(s) de salon obsolète(s)?",
+                        "error": "Impossible de supprimer les configurations de salons obsolètes."
                     }
                 }
             },

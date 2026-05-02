@@ -430,6 +430,15 @@
                     "voiceLocalization": {
                         "title": "Voice & Localization",
                         "subtitle": "Voice channel creation behavior and message language."
+                    },
+                    "staleRooms": {
+                        "title": "Stale Room Configs",
+                        "subtitle": "Remove room configs for channels that no longer exist.",
+                        "detected": "Detected {{count}} stale room config(s).",
+                        "remove": "Remove Stale Room Configs",
+                        "removing": "Removing stale configs...",
+                        "confirm": "Remove {{count}} stale room config(s)?",
+                        "error": "Failed to remove stale room configs."
                     }
                 }
             },

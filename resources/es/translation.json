@@ -429,6 +429,15 @@
                     "voiceLocalization": {
                         "title": "Voz y Localizacion",
                         "subtitle": "Comportamiento de canales de voz e idioma de mensajes."
+                    },
+                    "staleRooms": {
+                        "title": "Configuraciones de salas obsoletas",
+                        "subtitle": "Elimina las configuraciones de salas para canales que ya no existen.",
+                        "detected": "Se detectaron {{count}} configuración(es) de sala obsoleta(s).",
+                        "remove": "Eliminar configuraciones obsoletas",
+                        "removing": "Eliminando configuraciones...",
+                        "confirm": "¿Eliminar {{count}} configuración(es) de sala obsoleta(s)?",
+                        "error": "Error al eliminar las configuraciones de salas obsoletas."
                     }
                 }
             },
