@@ -361,7 +361,8 @@
         "vcButton": "Create VCs",
         "captain": {
             "plural": "Captains",
-            "singular": "Captain {{number}}"
+            "singular": "Captain {{number}}",
+            "draftChannelName": "Draft"
         },
         "embed": {
             "author": "This will time out in 2 minutes.",
@@ -387,6 +388,7 @@
             "captain": "{{captain}} is now picking",
             "complete": "{{player}} Chosen! Team Selection Complete.",
             "invalid": "Invalid Selection, Please pick again.",
+            "launchDraft": "Launch Draft",
             "ongoing": "{{player}} Chosen! ({{count}}/{{total}})",
             "player": "\n{{index}}. {{player}} ({{nickname}}) (Rating: {{rating}})"
         },
